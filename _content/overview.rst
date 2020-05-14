@@ -15,25 +15,25 @@ The primary goal of this guide is to codify and record decisions the Agora techn
 
 Our technical documentation is aimed primarily at programmers working with our SDKs to create apps. The programmers visiting our website have all levels of experience, ranging from domain experts to junior programmers working on their first project. Keep in mind that most programmers visiting our website have a specific goal in mind: to find the information they need to get their app working. While we cannot write our content to cater to all levels of programmers, we can best serve them all by ensuring our content is concise, clear, and correct.
 
--------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 2.2.1 Concise
--------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Keep your writing short and to the point.
 
 Most readers will be scanning rather than reading our content, seeking only the information they need to do their job. You need to get your ideas across to our audience quickly. Concise writing does not always mean fewer words but enough to convey an idea effectively.
 
--------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 2.2.2 Clear
--------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Think about what you are trying to communicate to the reader. Then use plain language to convey the information to our audience.
 
 If you do not fully understand what you are writing about, that will come across to the reader. 
 
--------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 2.2.3 Correct
--------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Our content must be technically and grammatically correct.
 
