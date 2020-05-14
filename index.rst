@@ -9,7 +9,7 @@ Agora Documentation Style Guide
 
 
 .. toctree::
-   :hidden:
+   :maxdepth: 4
 
    _content/introduction.rst
    _content/overview.rst
