@@ -1,39 +1,39 @@
-2. Overview
+Overview
 ===============================
 
 This chapter describes the purpose of the Agora documentation and the top editing principles for our team.
 
 -------------------------------------
-2.1 Purpose
+Purpose
 -------------------------------------
 
 The primary goal of this guide is to codify and record decisions the Agora technical communication team make about style. The guide can help you avoid making decisions about the same issue over and over again, provide editorial assistance on structuring and writing your documentation, and help you keep your documentation consistent with our other documentation.
 
 -------------------------------------
-2.2 Our audience
+Our audience
 -------------------------------------
 
 Our technical documentation is aimed primarily at programmers working with our SDKs to create apps. The programmers visiting our website have all levels of experience, ranging from domain experts to junior programmers working on their first project. Keep in mind that most programmers visiting our website have a specific goal in mind: to find the information they need to get their app working. While we cannot write our content to cater to all levels of programmers, we can best serve them all by ensuring our content is concise, clear, and correct.
 
--------------------------------------
-2.2.1 Concise
--------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Concise
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Keep your writing short and to the point.
 
 Most readers will be scanning rather than reading our content, seeking only the information they need to do their job. You need to get your ideas across to our audience quickly. Concise writing does not always mean fewer words but enough to convey an idea effectively.
 
--------------------------------------
-2.2.2 Clear
--------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Clear
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Think about what you are trying to communicate to the reader. Then use plain language to convey the information to our audience.
 
 If you do not fully understand what you are writing about, that will come across to the reader. 
 
--------------------------------------
-2.2.3 Correct
--------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Correct
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Our content must be technically and grammatically correct.
 
@@ -42,11 +42,11 @@ Incorrect content causes our audience to lose trust in our content and brand. If
 Grammatically incorrect writing confuses our readers and reflects poorly on our professionalism. If you are questioning the wording of your content, speak to another writer, or contact a technical editor for help.
 
 -------------------------------------
-2.3 General principles
+General principles
 -------------------------------------
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-2.3.1 Style and tone
+Style and tone
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Best practices to adopt:
@@ -83,7 +83,7 @@ Avoid the following:
 * Do not use dangling modifiers. A modifier "dangles" when the sentence is not clear about what is being modified.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-2.3.2 Accessible content
+Accessible content
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Our audience is comprised of people who come to our website with different abilities. Some might have issues with their eyesight and magnify the content on their screen. Others may use a screen reader that speaks the text on a web page. Some people come to the Agora website for whom English is a second language, and their reading comprehension level may be low. Content aimed at U.S. readers should be in line with the Americans with Disabilities Act (ADA) and use the W3C Web Content Accessibility Guidelines as a guide. By following the best practices outlined previously, you will already be doing most of what is required, but also keep the following in mind when you write:
@@ -97,7 +97,7 @@ Our audience is comprised of people who come to our website with different abili
 * Tables are particularly challenging for screen readers. Do not use table unless it is the best method to present your information. Also, do not merge cells within a table.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-2.3.3 Writing for a global audience
+Writing for a global audience
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 While Agora has a sizable Chinese audience, it is important to remember that the company's growth depends on having an international focus. It is essential that as Agora expands its operations worldwide, that writers keep in mind techniques that will help when we begin to translate to languages other than English.

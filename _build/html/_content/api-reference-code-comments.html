@@ -1,0 +1,315 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>6. API Reference code comments &mdash; Agora Developer Document Style Guide  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="7. References" href="references.html" />
+    <link rel="prev" title="5. Formatting and organization" href="formatting-and-organization.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: white" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Agora Developer Document Style Guide
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">1. Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="overview.html">2. Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="language-and-grammar.html">3. Language and grammar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="punctuations.html">4. Punctuations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="formatting-and-organization.html">5. Formatting and organization</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">6. API Reference code comments</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#classes-interfaces-structs">6.1. <strong>Classes, interfaces, structs</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#enumerates">6.2. Enumerates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#methods-callbacks">6.3. Methods/Callbacks</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#description">6.3.1. Description</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#parameters">6.3.2. Parameters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#return-values">6.3.3. Return values</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#exceptions">6.3.4. Exceptions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#deprecations">6.3.5. Deprecations</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#inline-code-comments">6.4. Inline code comments</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="references.html">7. References</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Agora Developer Document Style Guide</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li><span class="section-number">6. </span>API Reference code comments</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/_content/api-reference-code-comments.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="api-reference-code-comments">
+<h1><span class="section-number">6. </span>API Reference code comments<a class="headerlink" href="#api-reference-code-comments" title="Permalink to this headline">¶</a></h1>
+<p>When you are documenting an API, provide a complete API reference, which is typically generated from source code using doc comments that describe all public classes, methods, constants, and other members.</p>
+<p>The API reference <strong>must</strong> provide a description for each of the following:</p>
+<ul class="simple">
+<li><p>Every class, interface, struct, and any other similar member of the API (such as union types in C++).</p></li>
+<li><p>Every constant, field, enum, typedef, and so on.</p></li>
+<li><p>Every method, with a description for each parameter, the return value, and any exceptions thrown.</p></li>
+</ul>
+<p>The following are <strong>extremely strong suggestions</strong>. In some cases, they may not make sense for a particular API or in a specific language, but in general, follow these guidelines:</p>
+<ul class="simple">
+<li><p>Put <strong>all</strong> API names, classes, methods, constants, etc. in code font, and link each name to the corresponding reference page. Most document generators do this automatically for you. If you need to mention the same API several times in the description for one method or callback, only link to the API at the first mention.</p></li>
+<li><p>Put string literals in code font, and enclose them in double quotation marks. For example, XML attribute values might be <code class="docutils literal notranslate"><span class="pre">&quot;wrap_content&quot;</span></code> or <code class="docutils literal notranslate"><span class="pre">&quot;true&quot;</span></code>.</p></li>
+<li><p>Make sure that the spelling of a class name in documentation matches the spelling in code, with capital letters and no spaces (for example, <code class="docutils literal notranslate"><span class="pre">ActionBar</span></code>).</p></li>
+<li><p>Check for typos in the code and raise them to development to get fixed.</p></li>
+</ul>
+<p><em>An example from Dev-portal:</em></p>
+<p><strong><img alt="img" src="https://confluence.agora.io/download/attachments/628994963/image2019-1-10_15-32-7.png?version=1&amp;modificationDate=1547105527595&amp;api=v2" /></strong></p>
+<div class="section" id="classes-interfaces-structs">
+<h2><span class="section-number">6.1. </span><strong>Classes, interfaces, structs</strong><a class="headerlink" href="#classes-interfaces-structs" title="Permalink to this headline">¶</a></h2>
+<p>In the first sentence of a class description, briefly state the intended purpose or function of the class or interface with information that cannot be deduced from the class name and signature. In additional documentation, elaborate on how to use the API, including how to invoke or instantiate it, what some of the key features are, and any best practices or pitfalls.</p>
+<p>Many doc tools automatically extract the first sentence of each class description for use in a list of all classes, so make the first sentence unique and descriptive, yet short. Additionally:</p>
+<ul class="simple">
+<li><p>Do not repeat the class name in the first sentence.</p></li>
+<li><p>Do not say “this class will/does ….” in the first sentence.</p></li>
+<li><p>Do not use a period before the actual end of the description (keep the description in one sentence), because some doc generators naively terminate the “short description” at the first period. For example, some generators terminate the sentence if they see “e.g.”, so use “for example” instead.</p></li>
+</ul>
+</div>
+<div class="section" id="enumerates">
+<h2><span class="section-number">6.2. </span>Enumerates<a class="headerlink" href="#enumerates" title="Permalink to this headline">¶</a></h2>
+<p>Make descriptions for enumerates as brief as possible. Be sure to link to relevant methods that use the enumerate.</p>
+</div>
+<div class="section" id="methods-callbacks">
+<h2><span class="section-number">6.3. </span>Methods/Callbacks<a class="headerlink" href="#methods-callbacks" title="Permalink to this headline">¶</a></h2>
+<p>In the first sentence for a method/callback description, briefly state what action the method/callback performs.</p>
+<p>In subsequent sentences, explain why and how to use the method/callback, state any prerequisites that must be met before calling/triggering it, give details about exceptions that may occur, and specify any related APIs. For a method, describe which callback it triggers. For a callback, describe which method triggers it.</p>
+<p>Use present tense for all descriptions.</p>
+<div class="section" id="description">
+<h3><span class="section-number">6.3.1. </span>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>If a method performs an operation and returns some data, start the description with a verb describing the operation.</p></li>
+<li><p>If it is a “getter” method and it returns a Boolean, start with “Checks whether ….”</p></li>
+<li><p>If it is a “getter” method and it returns something other than a Boolean, start with “Gets the ….”</p></li>
+<li><p>If it has no return value, start with a verb like one of the following:</p>
+<ul>
+<li><p>Turning on an ability or setting: “Sets the…”</p></li>
+<li><p>Updating a property: “Updates the…”</p></li>
+<li><p>Deleting something: “Deletes the…”</p></li>
+<li><p>Registering a callback or other element for later reference: “Registers…”</p></li>
+</ul>
+</li>
+<li><p>If it is a convenience method that constructs the class object, start with “Creates a…”</p></li>
+<li><p>If a callback occurs when a method triggers it, start with “Occurs when…”</p></li>
+<li><p>If a callback reports an error or statistics, start with “Reports…”</p></li>
+</ul>
+</div>
+<div class="section" id="parameters">
+<h3><span class="section-number">6.3.2. </span>Parameters<a class="headerlink" href="#parameters" title="Permalink to this headline">¶</a></h3>
+<p>For parameter descriptions, follow these guidelines:</p>
+<ul class="simple">
+<li><p>Capitalize the first word, and end the sentence or phrase with a period.</p></li>
+<li><p>Begin descriptions of non-Boolean parameters with “The” or “A” if possible.</p></li>
+<li><p>For Boolean parameters use a list that includes “true” and “false”, followed by corresponding functions. Do not put the words “true” and “false” in code font or quotation marks. Notice the capitalization difference across different platforms.</p></li>
+<li><p>For Optional or Default parameters, put (Optional) or (Default) as the first word of the description.</p></li>
+</ul>
+</div>
+<div class="section" id="return-values">
+<h3><span class="section-number">6.3.3. </span>Return values<a class="headerlink" href="#return-values" title="Permalink to this headline">¶</a></h3>
+<p>Be as brief as possible in the return value’s description; put any detailed information in the class description.</p>
+<ul class="simple">
+<li><p>If the return value is anything other than a Boolean, start with “The…”</p></li>
+<li><p>If the return value is a Boolean, describe the Boolean and use a list that includes “true” and “false”, followed by corresponding indications.</p></li>
+</ul>
+</div>
+<div class="section" id="exceptions">
+<h3><span class="section-number">6.3.4. </span>Exceptions<a class="headerlink" href="#exceptions" title="Permalink to this headline">¶</a></h3>
+<p>In languages where the reference generator automatically inserts the word “Throws”, begin your description with “If…” Otherwise, begin with “Thrown when…”</p>
+</div>
+<div class="section" id="deprecations">
+<h3><span class="section-number">6.3.5. </span>Deprecations<a class="headerlink" href="#deprecations" title="Permalink to this headline">¶</a></h3>
+<p>When something is deprecated, tell the user what to use as a replacement.</p>
+<p>If you track your API with version numbers, mention which version it was first deprecated in.</p>
+<p>Only the first sentence of a description appears in the summary section and index, so put the most important information there. Subsequent sentences can explain why it was deprecated, along with any other information that is useful for a developer using your API.</p>
+<p><em>An example from Dev-portal:</em></p>
+<p><img alt="img" src="https://confluence.agora.io/download/attachments/628994963/image2019-1-10_16-14-24.png?version=1&amp;modificationDate=1547108064403&amp;api=v2" /></p>
+</div>
+</div>
+<div class="section" id="inline-code-comments">
+<h2><span class="section-number">6.4. </span>Inline code comments<a class="headerlink" href="#inline-code-comments" title="Permalink to this headline">¶</a></h2>
+<p>Inline code comments are comments not included in API header files, and usually appear in the sample code.</p>
+<ul class="simple">
+<li><p>Comments should be one line above the code they refer to and start with “// “.</p></li>
+<li><p>Comments should use the same indenting as the succeeding code.</p></li>
+<li><p>Only use periods for complete sentences.</p></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="references.html" class="btn btn-neutral float-right" title="7. References" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="formatting-and-organization.html" class="btn btn-neutral float-left" title="5. Formatting and organization" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Agora.io
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

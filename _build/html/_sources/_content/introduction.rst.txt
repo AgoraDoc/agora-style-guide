@@ -1,10 +1,10 @@
-1. Introduction
+Introduction
 ================================
 
 The Agora Technical Document Style Guide is a reference for Technical Writers to improve the writing and consistency of the Agora documentation. This document only provides important guidelines targeting Agora's technical writers. You can find detailed style, usage, and grammar in the following references.
 
 --------------------------------------
-1.1 English style guide references
+English style guide references
 --------------------------------------
 
 * `Apple Style Guide <https://help.apple.com/applestyleguide/>`_
@@ -20,7 +20,7 @@ The Agora Technical Document Style Guide is a reference for Technical Writers to
 * *The Transitive Vampire: A Handbook of Grammar for the Innocent, the Eager, and the Doomed*, by Karen Elizabeth Gordon (Times Books, 1984).
 
 --------------------------------------
-1.2 Chinese style guide references
+Chinese style guide references
 --------------------------------------
 
 * `泛化智能文风规范 <https://github.com/generalized-intelligence/gi-Chinese-Style-Guide/blob/master/%E6%B3%9B%E5%8C%96%E6%99%BA%E8%83%BD%EF%BC%88gi%EF%BC%89%E6%96%87%E9%A3%8E%E6%8C%87%E5%8D%97.md>`_

@@ -10,8 +10,15 @@ Agora Documentation Style Guide
 
 .. toctree::
    :maxdepth: 4
+   :hidden:
+   :numbered:
 
-   _content/introduction.rst
-   _content/overview.rst
+   _content/introduction
+   _content/overview
+   _content/language-and-grammar
+   _content/punctuations
+   _content/formatting-and-organization
+   _content/api-reference-code-comments
+   _content/references
 
 
