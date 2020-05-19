@@ -18,9 +18,9 @@ import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
-project = 'Agora Documentation Style Guide'
-copyright = '2020, Lutkin Wang'
-author = 'Lutkin Wang'
+project = 'Agora Developer Document Style Guide'
+copyright = '2020, Agora.io'
+author = 'Agora Tech Comm'
 
 
 # -- General configuration ---------------------------------------------------
