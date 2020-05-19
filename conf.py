@@ -19,7 +19,6 @@ import recommonmark
 from recommonmark.transform import AutoStructify
 
 
-
 # -- Project information -----------------------------------------------------
 
 project = 'Agora Developer Document Style Guide'
