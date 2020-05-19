@@ -14,6 +14,8 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 import sphinx_rtd_theme
+import recommonmark
+from recommonmark.transform import AutoStructify
 
 
 # -- Project information -----------------------------------------------------
@@ -28,7 +30,11 @@ author = 'Agora Tech Comm'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx_rtd_theme']
+extensions = [
+    'sphinx_rtd_theme',
+    'recommonmark',
+    'sphinx_markdown_tables'
+]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -75,3 +81,12 @@ html_theme_options = {
     'includehidden': True,
     'titles_only': False
 }
+
+# recommonmark advanced options
+github_doc_root = 'https://github.com/AgoraDoc/Agora_style_guide/tree/master/_content/'
+def setup(app):
+    app.add_config_value('recommonmark_config', {
+            'url_resolver': lambda url: github_doc_root + url,
+            'auto_toc_tree_section': 'Contents',
+            }, True)
+    app.add_transform(AutoStructify)
