@@ -11,6 +11,7 @@ Agora Developer Documentation Style Guide
 .. toctree::
    :maxdepth: 2
    :numbered:
+   :hidden:
 
    _content/introduction
    _content/overview
@@ -22,6 +23,7 @@ Agora Developer Documentation Style Guide
 
 .. toctree::
    :maxdepth: 2
+   :hidden:
    :caption: Changelog
 
    _content/changelog
