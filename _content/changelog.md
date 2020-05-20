@@ -42,4 +42,4 @@
 - Added [Commonly used acronyms][] and [Agora related naming conventions](https://confluence.agoralab.co/display/TEKP/Agora+Developer+Document+Style+Guide#AgoraDeveloperDocumentStyleGuide-Agora-relatednamingconventions).
 - Added [Dates](https://confluence.agoralab.co/display/TEKP/Agora+Developer+Document+Style+Guide#AgoraDeveloperDocumentStyleGuide-Dates) conventions.
 
-[Commonly used acronyms]: <references:Commonly used acronyms>
+[Commonly used acronyms]: <_content/references:Commonly used acronyms>
