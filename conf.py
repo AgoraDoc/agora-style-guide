@@ -50,6 +50,8 @@ templates_path = ['_templates']
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
+# try different latex engines
+latex_engine = 'xelatex'
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -76,7 +78,7 @@ html_theme_options = {
     'logo_only': True,
     'display_version': False,
     'prev_next_buttons_location': 'bottom',
-    'style_external_links': False,
+    'style_external_links': True,
     'style_nav_header_background': '#343131',
     # Toc options
     'collapse_navigation': True,
