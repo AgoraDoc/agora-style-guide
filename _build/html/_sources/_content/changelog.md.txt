@@ -39,7 +39,5 @@
 - Link to glossary at the first mention. 
 - Updated: Do not use a colon to separate two sentences. 
 - Adde: Use a comma to separate values in this thousands, hundreds of thousands, millions, and so on. 
-- Added [Commonly used acronyms][] and [Agora related naming conventions](https://confluence.agoralab.co/display/TEKP/Agora+Developer+Document+Style+Guide#AgoraDeveloperDocumentStyleGuide-Agora-relatednamingconventions).
+- Added [Commonly used acronyms](<_content/references:Commonly used acronyms>) and [Agora related naming conventions](https://confluence.agoralab.co/display/TEKP/Agora+Developer+Document+Style+Guide#AgoraDeveloperDocumentStyleGuide-Agora-relatednamingconventions).
 - Added [Dates](https://confluence.agoralab.co/display/TEKP/Agora+Developer+Document+Style+Guide#AgoraDeveloperDocumentStyleGuide-Dates) conventions.
-
-[Commonly used acronyms]: <_content/references:Commonly used acronyms>
