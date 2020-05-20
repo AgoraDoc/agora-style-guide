@@ -4,13 +4,12 @@
    contain the root `toctree` directive.
 
 
-Agora Documentation Style Guide
+Agora Developer Documentation Style Guide
 =============================================
 
 
 .. toctree::
-   :maxdepth: 4
-   :hidden:
+   :maxdepth: 2
    :numbered:
 
    _content/introduction
@@ -21,4 +20,8 @@ Agora Documentation Style Guide
    _content/api-reference-code-comments
    _content/references
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Changelog
 
+   _content/changelog

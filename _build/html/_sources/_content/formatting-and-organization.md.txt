@@ -217,7 +217,7 @@ Some specific items to put in code font:
 
 
 
-### **Code samples**
+### Code samples
 
 In most cases, precede a code sample with an introductory sentence or paragraph. The intro can end with a colon or a period; usually a colon if it immediately precedes the sample, usually a period if there is more material (such as a note paragraph) between the introduction and the sample, or if the introduction paragraph ends in a sentence that is not directly related to the sample.
 

@@ -12,16 +12,16 @@ Agora Developer Documentation Style Guide
    :maxdepth: 2
    :numbered:
 
-   _content/introduction
-   _content/overview
-   _content/language-and-grammar
-   _content/punctuations
-   _content/formatting-and-organization
-   _content/api-reference-code-comments
-   _content/references
+   introduction
+   overview
+   language-and-grammar
+   punctuations
+   formatting-and-organization
+   api-reference-code-comments
+   references
 
 .. toctree::
    :maxdepth: 2
    :caption: Changelog
 
-   _content/changelog
+   changelog

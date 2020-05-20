@@ -19,7 +19,7 @@ The following are **extremely strong suggestions**. In some cases, they may not 
 
 **![img](https://confluence.agora.io/download/attachments/628994963/image2019-1-10_15-32-7.png?version=1&modificationDate=1547105527595&api=v2)**
 
-### **Classes, interfaces, structs**
+### Classes, interfaces, structs
 
 In the first sentence of a class description, briefly state the intended purpose or function of the class or interface with information that cannot be deduced from the class name and signature. In additional documentation, elaborate on how to use the API, including how to invoke or instantiate it, what some of the key features are, and any best practices or pitfalls.
 
