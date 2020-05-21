@@ -7,7 +7,7 @@ version: 2
 # Build documentation in the root directory with Sphinx
 sphinx:
   builder: html
-  configuration: conf.py
+  configuration: _content/conf.py
 
 # Build documentation with MkDocs
 #mkdocs:

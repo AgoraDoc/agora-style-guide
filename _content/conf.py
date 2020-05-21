@@ -51,7 +51,7 @@ templates_path = ['_templates']
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'README']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # try different latex engines
 latex_engine = 'xelatex'
@@ -90,8 +90,8 @@ html_theme_options = {
     'includehidden': True,
     'titles_only': False
 }
-html_logo = '_content/img/logo.png'
-html_favicon = '_content/img/favicon.ico'
+html_logo = 'img/logo.png'
+html_favicon = 'img/favicon.ico'
 
 # recommonmark advanced options
 github_doc_root = 'https://github.com/AgoraDoc/Agora_style_guide/tree/master/_content/'
