@@ -28,12 +28,6 @@ author = 'Agora Tech Comm'
 
 # -- General configuration ---------------------------------------------------
 
-# Add any Sphinx extension module names here, as strings. They can be
-# extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
-# ones.
-needs_sphinx = '2.4.4'
-
-
 extensions = [
     'sphinx.ext.autosectionlabel',
     'sphinx_rtd_theme',
