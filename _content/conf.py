@@ -14,7 +14,6 @@ import os
 import sys
 sys.path.insert(0, os.path.abspath('.'))
 sys.path.insert(1, '/usr/local/lib/python3.7/site-packages/')
-import sphinx_rtd_theme
 import recommonmark
 from recommonmark.transform import AutoStructify
 
@@ -25,12 +24,12 @@ project = 'Agora Developer Document Style Guide'
 copyright = '2020, Agora.io'
 author = 'Agora Tech Comm'
 
+github_doc_root = 'https://github.com/AgoraDoc/Agora_style_guide/tree/master/_content/'
 
 # -- General configuration ---------------------------------------------------
 
 extensions = [
     'sphinx.ext.autosectionlabel',
-    'sphinx_rtd_theme',
     'recommonmark',
     'sphinx_markdown_tables'
 ]
@@ -88,7 +87,6 @@ html_logo = 'img/logo.png'
 html_favicon = 'img/favicon.ico'
 
 # recommonmark advanced options
-github_doc_root = 'https://github.com/AgoraDoc/Agora_style_guide/tree/master/_content/'
 def setup(app):
     app.add_config_value('recommonmark_config', {
             'url_resolver': lambda url: github_doc_root + url,
