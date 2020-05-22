@@ -85,7 +85,7 @@ Do not start a sentence with a numeral. Add a modifier before the number, or spe
 
 In general, spell out the following:
 
-- Numbers from zero through nine. 
+- Numbers from zero through nine. An exception is when a number appears in a title.
 - A number that starts a sentence. In some cases it is better to rearrange the sentence so that the number appears later.
 - A number that is followed by a numeral.
 - Indefinite and casual numbers.
