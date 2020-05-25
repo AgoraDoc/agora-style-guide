@@ -10,14 +10,12 @@ When a colon introduces a list, the phrase before the colon must be a complete s
 
 A colon cannot be placed between a verb and its object or a preposition and its object. See **Lists**.
 
-```eval_rst
-.. admonition:: Incorrect
+``` admonition:: Incorrect
 
    The methods are:
 ```
 
-```eval_rst
-.. admonition:: Correct
+``` admonition:: Correct
 
    The SDK uses the following methods:
 
@@ -40,16 +38,17 @@ General rules to follow:
 
 - In a series of three or more items, use a comma before the final "and" or "or." (This is the house editing style of Oxford Press, hence the term "[Oxford comma](https://www.lexico.com/definition/oxford_comma)").
 
-``` admonition:: Example
+  ``` admonition:: Example
 
-    Adds support for the macOS, Windows x86, and Windows x86_64 platforms.
-```
+      Adds support for the macOS, Windows x86, and Windows x86_64 platforms.
+  ```
   
 - In general, place a comma after an introductory word or phrase like “occasionally”, or “otherwise”. 
 
-  Occasionally, the SDK does not automatically reconnect after being disconnected from the servers for pushing and pulling streams.
+  ``` admonition:: Example
 
-
+      Occasionally, the SDK does not automatically reconnect after being disconnected from the servers for pushing and pulling streams.
+  ```
 - When a coordinating conjunction ("for", "and", "nor", "but", "or", "yet", and "so") separates two independent clauses (where each clause could stand as an independent sentence), insert a comma after the first clause before the conjunction. For example: “The recorded files are stored on your server only, and Agora has no access to them." An exception is when both clauses are very short. For example: "Enables or disables image enhancement and sets the options."
 
 - Commas also enclose the following and similar phrases: "and so forth," "for example," "namely," and "that is,".
@@ -85,7 +84,10 @@ Use a slash to separate the two functions that can be realized with one method, 
 
 Do not use slashes to separate alternatives. For example use "audio or video calls" instead of "audio/video calls".
 
-"a and/or b" is only acceptable when the meaning is a or b or both.
+``` hint::
+
+    "a and/or b" is only acceptable when the meaning is a or b or both.
+```
 
 ### Hyphens
 
@@ -107,21 +109,29 @@ The semicolon has the following uses:
 
 - To unite sentences that are closely associated
 
-  The people on the fourth floor work with product development; those on the fifth work with deployment.
-
+  ``` admonition:: Example
   
+      The people on the fourth floor work with product development; those on the fifth work with deployment.
+  ```
 
 - To create a stronger division in a sentence that already includes divisions using commas
 
-  The people on the fourth floor, who work with product development, are to continue with the project until Friday; but the following Monday, when their equipment has been moved, they resume work on the sixth floor.
+  ``` admonition:: Example
 
-  
+      The people on the fourth floor, who work with product development, are to continue with the project until Friday; but the following Monday, when their equipment has been moved, they resume work on the sixth floor.
+  ```
 
 - To create stronger divisions in a list
 
-  The visitors are to be received by the managing director, Daphne Jones; the head of security, Fred Smith; and the union representative, Howard Brown.
+  ``` admonition:: Example
 
-The previous examples only demonstrate the semicolon usage and are not typical of technical writing style.
+      The visitors are to be received by the managing director, Daphne Jones; the head of security, Fred Smith; and the union representative, Howard Brown.
+  ```
+
+``` caution::
+
+    The previous examples only demonstrate the semicolon usage and are not typical of technical writing style.
+```
 
 ### Spaces
 
@@ -134,4 +144,11 @@ General rules to follow:
 - Use spaces around dimensions. *Example: 3.2 x 3.6 x 0.6 mm.*
 
 
-An exception is that there is no space before a parenthesis when writing a function call. For example:`muteRemoteAudioStream`(true)`enableLocalVideo`(false) `CHANNEL_PROFILE_COMMUNICATION`(0)
+``` admonition:: Exception
+
+    There is no space before a parenthesis when writing a function call. For example:
+    
+    - `muteRemoteAudioStream`(true)
+    - `enableLocalVideo`(false)
+    - `CHANNEL_PROFILE_COMMUNICATION`(0)
+```

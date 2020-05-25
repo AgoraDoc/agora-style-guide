@@ -15,9 +15,10 @@ The following are **extremely strong suggestions**. In some cases, they may not 
 - Make sure that the spelling of a class name in documentation matches the spelling in code, with capital letters and no spaces (for example, `ActionBar`).
 - Check for typos in the code and raise them to development to get fixed.
 
-*An example from Dev-portal:*
+``` admonition:: Example
 
-**![img](https://confluence.agora.io/download/attachments/628994963/image2019-1-10_15-32-7.png?version=1&modificationDate=1547105527595&api=v2)**
+    .. image:: img/api.png
+```
 
 ### Classes, interfaces, structs
 
@@ -83,10 +84,6 @@ When something is deprecated, tell the user what to use as a replacement.
 If you track your API with version numbers, mention which version it was first deprecated in.
 
 Only the first sentence of a description appears in the summary section and index, so put the most important information there. Subsequent sentences can explain why it was deprecated, along with any other information that is useful for a developer using your API.
-
-*An example from Dev-portal:*
-
-![img](https://confluence.agora.io/download/attachments/628994963/image2019-1-10_16-14-24.png?version=1&modificationDate=1547108064403&api=v2)
 
 ### Inline code comments
 

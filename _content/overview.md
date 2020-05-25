@@ -93,7 +93,7 @@ In conjunction with the general principles outlined earlier, the following techn
 - Do not use double negative.
 - Avoid using images with embedded text where possible.
 - Keep paragraphs short. Dense pages full of text are intimidating for readers.
-- Address the reader directly by using “you” instead of “the developer”.
+- Address the reader directly by using "you" instead of "the developer".
 - Put the conditional clause first. Start by mentioning a circumstance or scenario, followed the instruction.
 - Be inclusive in your writing. Use gender-neutral pronouns. Avoid mentioning holidays, sports teams, or other culturally-specific things.
 - Avoid using metaphors, as many are culturally specific.

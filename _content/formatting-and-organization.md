@@ -13,21 +13,20 @@ Use headers to help outline your draft content. Some other points for considerat
 - Focus on what the reader needs to know and what they can accomplish.
 - Use ampersands or other symbols only if they appear in a UI or product name.
 - Do not conclude a heading with a period. (An exception are FAQs whose titles are often phrased as a conversation with the reader).
-- Do not skip levels of the heading hierarchy. For example, put an `` only under an ``.
+- Do not skip levels of the heading hierarchy. For example, put an `<h3>` only under an `<h2>`.
 
 ### Lists
 
 In most cases, the phrase before the list must be a complete sentence, not a partial one that is completed by the list items. The sentence can end with a colon or a period; usually a colon if it immediately precedes the list, or a period if there is more material (such as a note paragraph) between the introduction and the list. 
 
-Never use a semicolon to end a list item.
+``` caution::
 
-![Tech pubs > Agora Developer Document Style Guide > image2020-3-26_18-36-14.png](https://confluence.agoralab.co/download/attachments/629001610/image2020-3-26_18-36-14.png?version=1&modificationDate=1585262178654&api=v2)
+    Never use a semicolon to end a list item.
+```
 
 ### Tables
 
 Always introduce a table with a complete sentence and end it with a full stop, not a partial one that is completed by the table.
-
-![Tech pubs > Agora Developer Document Style Guide > image2020-3-27_15-42-31.png](https://confluence.agoralab.co/download/attachments/629001610/image2020-3-27_15-42-31.png?version=1&modificationDate=1585294951756&api=v2)
 
 #### Table headings
 
@@ -39,7 +38,7 @@ Always introduce a table with a complete sentence and end it with a full stop, n
 
 #### Multi-paragraph table cells
 
-To create multiple paragraphs, use the `` element rather than using the ` ` element.
+To create multiple paragraphs, use the `<p>` element rather than using the `<br>` element.
 
 ### Notes 
 
@@ -47,7 +46,10 @@ A note provides the reader with important or useful information that is not part
 
 Do not use Markdown's native ">" to create a note, as the visual effect it produces is poor. Instead, use HTML code format as outlined below for each note type. 
 
-">" can be used in API Reference (code comments).
+``` admonition:: Exception
+
+    ">" can be used in API Reference (code comments).
+```
 
 Agora has three styles of notes, designed to convey a different level of importance depending on the circumstance.
 
@@ -55,37 +57,49 @@ Agora has three styles of notes, designed to convey a different level of importa
 
 Provides supplemental information that is useful for the reader to know.
 
-In Agora's online editor, wrap the notes in <div class="alert info"></div>.
+In Agora's online editor, wrap the notes in `<div class="alert info"></div>`.
 
-![Tech pubs > Agora Developer Document Style Guide > image2020-3-23_22-38-26.png](https://confluence.agoralab.co/download/attachments/629001610/image2020-3-23_22-38-26.png?version=1&modificationDate=1585017508022&api=v2)
+``` admonition:: Example
+
+    .. image:: img/notes-info.png
+```
 
 #### Note
 
 Provides supplemental information that may not apply to all readers, but is important for those specific readers to know. In the following example, the context for the note only applies to those who have a firewall. 
 
-In Agora's online editor, wrap the notes in <div class="alert note"></div>.
+In Agora's online editor, wrap the notes in `<div class="alert note"></div>`.
 
-![Tech pubs > Agora Developer Document Style Guide > image2020-3-27_15-48-26.png](https://confluence.agoralab.co/download/attachments/629001610/image2020-3-27_15-48-26.png?version=1&modificationDate=1585295307016&api=v2)
+``` admonition:: Example
 
-
+    .. image:: img/notes-note.png
+```
 
 #### Warning
 
 Designed to guide the reader away from a circumstance that poses some form of problem or hazard. 
 
-In Agora's online editor, wrap the notes in <div class="alert warning"></div>.
+In Agora's online editor, wrap the notes in `<div class="alert warning"></div>`.
 
-![Tech pubs > Agora Developer Document Style Guide > image2020-3-23_22-38-52.png](https://confluence.agoralab.co/download/attachments/629001610/image2020-3-23_22-38-52.png?version=1&modificationDate=1585017535146&api=v2)
+``` admonition:: Example
+
+    .. image:: img/notes-warning.png
+```
 
 ### Numbers
 
 Spell out all ordinal numbers in text. For example, first, fifth, twelfth, forty-third.
 
-Do not start a sentence with a numeral. Add a modifier before the number, or spell the number out if you cannot rewrite the sentence. Exception: List items or table cells can start with numerals.
+Do not start a sentence with a numeral. Add a modifier before the number, or spell the number out if you cannot rewrite the sentence. 
+
+``` admonition:: Exception
+
+    List items or table cells can start with numerals.
+```
 
 In general, spell out the following:
 
-- Numbers from zero through nine. 
+- Numbers from zero through nine. An exception is when a number appears in a title.
 - A number that starts a sentence. In some cases it is better to rearrange the sentence so that the number appears later.
 - A number that is followed by a numeral.
 - Indefinite and casual numbers.
@@ -132,11 +146,8 @@ In most cases, introduce a procedure with an introductory sentence. The sentence
 
 | Recommended                                       | Not recommended           |
 | :------------------------------------------------ | :------------------------ |
-| **To customize the buttons, follow these steps:** | To customize the buttons: |
+| To customize the buttons, follow these steps:     | To customize the buttons: |
 
-
-
-![Tech pubs > Agora Developer Document Style Guide > image2019-1-25_16-4-3.png](https://confluence.agoralab.co/download/attachments/629001610/image2019-1-25_16-4-3.png?version=1&modificationDate=1548403443859&api=v2)
 
 Here are more guidelines:
 
@@ -144,7 +155,6 @@ Here are more guidelines:
 - Avoid having more than two levels of steps as this makes it hard for the reader to scan and to understand. 
 - When a step has sub-steps, treat the step like an [introductory sentence](https://developers.google.com/style/procedures#introductory-sentences): put a colon or a period at the end of the step, as appropriate. 
 - Do not make the procedure too long. If it starts to feel too long, consider splitting it into two procedures.
-
 - If the user must press **Enter** or click **OK** after a step, then include that instruction as part of the step.
 - State the purpose of the action before stating the action.
 - State the location of the action before stating the action. If there are multiple headings associated with a set of procedures, restate the location of the action in the first step of each procedure, even if the location is the same as in the previous procedure.
@@ -156,7 +166,7 @@ Here are more guidelines:
 
 ### Units of measurement
 
-When specifying a unit of measurement, use a nonbreaking space (&nbsp;) between the number and the unit. This guidance applies to HTML and Markdown sources.
+When specifying a unit of measurement, use a non-breaking space (&nbsp;) between the number and the unit. This guidance applies to HTML and Markdown sources.
 
 However, when the unit of measure is money, degrees, or percent, do not leave a space.
 
@@ -165,7 +175,7 @@ In some contexts, it may be appropriate to indicate thousands of something by fo
 - Do not put a space between the number and "k".
 - Add a noun to indicate what the number measures, and to make clear that you are not using "k" as an abbreviation for "kilobytes."
 
-See [Commonly used units of measure and their abbreviated form](https://confluence.agoralab.co/display/TEKP/Agora+Developer+Document+Style+Guide?showComments=true#AgoraDeveloperDocumentStyleGuide-Commonlyusedmeasurement).
+See [Commonly used units of measure and their abbreviated form](./references.html#commonly-used-units-of-measure-and-their-abbreviated-form).
 
 ### Linking
 
@@ -177,7 +187,12 @@ Provide links to reference documents except in code comments for the API Referen
 
 In an API Reference, when referring to an advanced guide, do not create a link, just use italics instead. For Chinese, use guillemets《》to indicate the reference.
 
-See *Set the Audio Profile* for details.详见《设置音频属性》。
+``` admonition:: Example
+
+    See *Set the Audio Profile* for details.
+    
+    详见《设置音频属性》。
+```
 
 #### Link text
 
@@ -186,8 +201,6 @@ When you are writing link text, use a phrase that describes what the reader will
 - The exact title of the linked-to page, capitalized the same way the title is capitalized. 
 - A description of the linked-to page, capitalized like ordinary text instead of like a title.
 
-Sometimes you have to rework a sentence to include a phrase that makes good link text.
-
 A couple of specific things not to do in link text:
 
 - Do not use the phrase "click here." (It is bad for accessibility and bad for scannability.)
@@ -195,11 +208,11 @@ A couple of specific things not to do in link text:
 - Do not use a URL as link text. Instead, use the page title or a description of the page.
 - Do not include punctuation in the link text.
 
-**Code in text**
+### Code in text
 
-This chapter applies to all Agora documentation except the automatically generated API Reference.
+This section applies to all Agora documentation except the automatically generated API Reference.
 
-In ordinary text sentences, use code font to mark up most things that have anything to do with code. In HTML, use the `` element; in Markdown, use backticks (```).
+In ordinary text sentences, use code font to mark up most things that have anything to do with code. In HTML, use the `<code>` element; in Markdown, use backticks (```).
 
 Some specific items to put in code font:
 
@@ -211,22 +224,17 @@ Some specific items to put in code font:
 - Filenames and paths. Start the path with a /, for example: `/etc/app/agora.app`.
 - Defined (constant) values for an element or attribute.
 
-
-
-![img](https://confluence.agora.io/download/attachments/628994963/image2019-1-10_15-25-30.png?version=1&modificationDate=1547105130758&api=v2)
-
-
-
 ### Code samples
 
 In most cases, precede a code sample with an introductory sentence or paragraph. The intro can end with a colon or a period; usually a colon if it immediately precedes the sample, usually a period if there is more material (such as a note paragraph) between the introduction and the sample, or if the introduction paragraph ends in a sentence that is not directly related to the sample.
 
-Ensure that all the variants in the code samples are assigned values.
+``` caution::
+
+    Ensure that all the variants in the code samples are assigned values.
+```
 
 ### UI elements and interaction
 
-When referring to any UI element by name, put its name in boldface, using the `` element in HTML or `**` in Markdown. This includes names for buttons, menus, dialogs, windows, list items, or any other feature in the UI that has a visible name.
+When referring to any UI element by name, put its name in boldface, using the `<b>` element in HTML or `**` in Markdown. This includes names for buttons, menus, dialogs, windows, list items, or any other feature in the UI that has a visible name.
 
 Do not make an official feature name or product name bold, except when it directly refers to an element in the UI that uses the name, for example a window title or button name.
-
-![Tech pubs > Agora Developer Document Style Guide > image2020-3-27_16-5-52.png](https://confluence.agoralab.co/download/attachments/629001610/image2020-3-27_16-5-52.png?version=1&modificationDate=1585296352966&api=v2)

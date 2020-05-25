@@ -8,9 +8,10 @@ Acronyms are a type of abbreviation formed from the initial letters of other wor
 
 Abbreviations and acronyms can affect the clarity of Agora content for the reader. While many are understood by our readers and do not need to be spelled out, for new or novel terms always spell out the first mention of an abbreviated term in the text, followed immediately by the abbreviation in parentheses. Use the abbreviated form for all subsequent references of the abbreviation.
 
+``` admonition:: Example
 
-
-![Tech pubs > Agora Developer Document Style Guide > 1.jpeg](https://confluence.agoralab.co/download/attachments/629001610/1.jpeg?version=1&modificationDate=1548398418332&api=v2)
+   The communication between the user and the Agora server is protected by transmission protocols, such as the Agora private transmission protocol, Transport Layer Security (TLS) and Web Socket Secure (WSS). You can also use Advanced Encryption Standard (AES) or a customized encryption algorithm for end-to-end encryption of audio and video data.
+```
 
 #### Latin abbreviations
 
@@ -44,7 +45,10 @@ Do not use a possessive with a product name, or with the company name.
 
 In general, to form a possessive of a singular or a plural noun that doesn't end in "s", add "'s" to the end of the word. For a plural noun that does end in "s", add an apostrophe but no additional "s". 
 
-Combine the teacher's video with each of the students' videos.
+``` admonition:: Example
+
+   Combine the teacher's video with each of the students' videos.
+```
 
 ### Articles (a, an, the)
 
@@ -85,16 +89,14 @@ Use "the" for modes with several options, such as the following:
 - Use sentence case for items in all types of lists.
 - Use sentence case for all the elements in a table: contents, headings, labels, and captions.
 
- For the names of brands, companies, software, products, services, and the like, follow the official capitalization.
+For the names of brands, companies, software, products, services, and the like, follow the official capitalization.
 
 In document titles and page headings, use sentence case. That is, capitalize only the first word. The exceptions are for proper nouns, trademarks, keywords, and other terms that are always capitalized a certain way, use the standard capitalization for the term.
 
+``` admonition:: Example
 
-
-![Tech pubs > Agora Developer Document Style Guide > image2020-3-22_13-57-12.png](https://confluence.agoralab.co/download/attachments/629001610/image2020-3-22_13-57-12.png?version=1&modificationDate=1584899839441&api=v2)
-
-
-
+  .. image:: img/sentence-case.png
+```
 ### Ornamental words
 
 Avoid placeholder phrases such as "current", "currently", "please", "at this time", "now", "still", "most", or "commonly".
@@ -132,10 +134,6 @@ The imperative mood keeps the content concise. The direct address is more person
 | **Download the Agora SDK. (Imperative Mood)**        | The Agora SDK can be downloaded.          |
 | **You can download the Agora SDK. (Direct Address)** | The developer can download the Agora SDK. |
 
-
-
-![Tech pubs > Agora Developer Document Style Guide > image2019-1-25_14-50-39.png](https://confluence.agoralab.co/download/attachments/629001610/image2019-1-25_14-50-39.png?version=1&modificationDate=1548399039757&api=v2)
-
 ### Gender-neutral
 
 - Avoid using "his" or "her", or "he/she".
@@ -157,11 +155,6 @@ The imperative mood keeps the content concise. The direct address is more person
 | **Press Enter, a message appears.**          | When you have pressed Enter, a message will appear. |
 | **When you press Enter, a message appears.** |                                                     |
 
-
-
-![Tech pubs > Agora Developer Document Style Guide > image2020-3-22_14-5-23.png](https://confluence.agoralab.co/download/attachments/629001610/image2020-3-22_14-5-23.png?version=1&modificationDate=1584900328074&api=v2)
-
-
 ### Anthropomorphism
 
 Do not attribute human qualities to software or hardware.
@@ -181,8 +174,6 @@ In glossary terms, avoid using person where possible and use "developer" to refe
 
 When you are writing reference documentation for a method, phrase the main method description in terms of what it does ("Gets," "Lists," "Creates," "Searches"), rather than what the developer would use it to do ("Get," "List," "Create," "Search").
 
-![img](https://confluence.agora.io/download/attachments/628994963/image2019-1-10_14-49-42.png?version=1&modificationDate=1547102983254&api=v2)
-
 In documentation (like step-by-step instructions) that is aimed at *implementors* of an API, it may make more sense to use the imperative form without the "-s" (in other words, "Set" instead of "Sets", or "Initialize" instead of "Initializes").
 
 ### Clause order
@@ -190,5 +181,3 @@ In documentation (like step-by-step instructions) that is aimed at *implementors
 - Put the most important information at the beginning of a sentence, followed by what the user can do with that information. 
 - Provide the context before you provide the instruction; that way, the reader can skip the additional information if it does not apply to their circumstance. 
 - If clauses have a causal relationship, put the cause first, followed by the effect.
-
-![img](https://confluence.agora.io/download/attachments/628994963/image2019-1-10_14-55-40.png?version=1&modificationDate=1547103340949&api=v2)
