@@ -63,6 +63,9 @@ The way a word or acronym is spoken determines whether "a" or "an" precedes it. 
 - There is no need to use "the" or even "method" when describing what a method does, as the reader will understand that it is a method by context. For example: "Call CheckPermission to request access…" and not "Call the CheckPermission method to request access…" 
 - Callbacks must be specified, so when referring to a callback, use a leading "the" followed by "callback". For example "the SDK triggers the Client.on("disable-local-video") callback".
 
+```eval_rst
+.. _the:
+```
 #### Use of "the" before a type of mode
 
 The general trend in technical writing is to drop the use of the article "the" before a type of mode. The Agora style drops the leading article for modes that do not have multiple options, and retains the article for modes that do have multiple options.
