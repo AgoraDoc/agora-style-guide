@@ -121,6 +121,8 @@ In general, use numerals for the following:
 - Measurements.
 - [Numbers in a range](https://developers.google.com/style/numbers#ranges-of-numbers).
 
+#### Commas in numbers
+
 Use a comma to separate values in this thousands, hundreds of thousands, millions, and so on. For example, "Agora gives each Agora account 10,000 charge-free minutes each month."
 
 | Recommended | Not recommended |
@@ -130,7 +132,11 @@ Use a comma to separate values in this thousands, hundreds of thousands, million
 | 100,000     | 100000          |
 | 1,000,000   | 1000000         |
 
-An exception to this is when referring to resolution values, such as "1080p", or "1920 x 1080". For example, "`width` should not exceed 1920, and `width`*`height` should not exceed `1920` x `1080`."
+``` admonition:: Exception
+    
+    - When referring to resolution values, such as "1080p", or "1920 × 1080", only use commas when the number has five or more digits. For example, "`width` should not exceed 1920, and `width` × `height` should not exceed `1920` × `1080`."
+    - Do not use commas in page numbers, phone numbers, addresses, or on the right of decimal points.
+```
 
 ### Dates
 
