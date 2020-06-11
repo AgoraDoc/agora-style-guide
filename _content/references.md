@@ -128,9 +128,7 @@ Examples of commonly used acronyms that do not need to be spelled out, along wit
 
 ### Agora-related naming conventions
 
-When referring to an Agora SDK, use "the". For example, "the Agora Native SDK" or "the Agora Recording SDK", and not "Agora SignalingSDK". 
-
-When not prefaced by "Agora", do not append an SDK with a "the". For example, "RTC SDK". 
+When referring to an Agora SDK, use "the". For example, "the Agora Native SDK" or "the Agora Recording SDK", and not "Agora Signaling SDK". 
 
 Do not use "the" for proper nouns such as "Agora Video Call" or "Agora Recording". Do not use "the Agora Cloud Recording".
 
