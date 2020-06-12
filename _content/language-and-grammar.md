@@ -60,8 +60,12 @@ The way a word or acronym is spoken determines whether "a" or "an" precedes it. 
 
 #### Articles and internal agreement
 
-- There is no need to use "the" or even "method" when describing what a method does, as the reader will understand that it is a method by context. For example: "Call CheckPermission to request access…" and not "Call the CheckPermission method to request access…" 
-- Callbacks must be specified, so when referring to a callback, use a leading "the" followed by "callback". For example "the SDK triggers the Client.on("disable-local-video") callback".
+Methods and callbacks must be specified, so when referring to a method or callback, use a leading "the" followed by "method" or "callback". For example "the SDK triggers the Client.on("disable-local-video") callback".
+
+```admonition: Exception
+
+   Omit "the" and "method" when the reader will understand that it is a method by context. For example: "Call CheckPermission to request access…", not "Call the CheckPermission method to request access…".
+```
 
 ```eval_rst
 .. _the:
