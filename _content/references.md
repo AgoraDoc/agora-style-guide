@@ -64,6 +64,7 @@
 | log onto, login                                     | log in                                 |
 | multi-threaded                                      | multithreaded                          |
 | no. (short for "number")                            | number                                 |
+| on the user interface                               | in the user interface                  |
 | open the camera                                     | turn the camera on                     |
 | packet lost rate                                    | packet loss rate                       |
 | pass in an object as an argument                    | pass an object as an argument          |
@@ -94,7 +95,6 @@
 | web (when referring to the platform/World Wide Web) | Web                                    |
 | webpage, Web page                                   | web page                               |
 | wrong                                               | incorrect or invalid                   |
-| on the user interface                               | in the user interface                   |
 
 
 ### Commonly used acronyms
