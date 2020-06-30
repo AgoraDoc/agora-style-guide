@@ -62,7 +62,7 @@ The way a word or acronym is spoken determines whether "a" or "an" precedes it. 
 
 Methods and callbacks must be specified, so when referring to a method or callback, use a leading "the" followed by "method" or "callback". For example "the SDK triggers the Client.on("disable-local-video") callback".
 
-```admonition: Exception
+``` admonition:: Exception
 
    Omit "the" and "method" when the reader will understand that it is a method by context. For example: "Call CheckPermission to request access…", not "Call the CheckPermission method to request access…".
 ```
