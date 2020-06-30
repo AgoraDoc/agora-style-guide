@@ -94,6 +94,8 @@
 | web (when referring to the platform/World Wide Web) | Web                                    |
 | webpage, Web page                                   | web page                               |
 | wrong                                               | incorrect or invalid                   |
+| on the user interface                               | in the user interface                   |
+
 
 ### Commonly used acronyms
 
