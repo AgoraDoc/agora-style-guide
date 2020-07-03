@@ -34,6 +34,7 @@
 | audio capture                                       | audio sample                           |
 | audio sampling rate                                 | audio sample rate                      |
 | back camera                                         | rear camera                            |
+| back end development                                | back-end development                   |
 | beautification                                      | image enhancement                      |
 | bit rate                                            | bitrate                                |
 | bluetooth                                           | Bluetooth                              |
