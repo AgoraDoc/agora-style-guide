@@ -30,7 +30,7 @@
 | Agora SDK…                                          | The Agora SDK…                         |
 | App, APP                                            | app (exception: "App ID")              |
 | at most                                             | maximum                                |
-| audiences                                           | audience                               |
+| audiences                                           | <li>audience (when referring to the role)</li><li>audience member (when referring to individuals)</li>     |
 | audio capture                                       | audio sample                           |
 | audio sampling rate                                 | audio sample rate                      |
 | back camera                                         | rear camera                            |
