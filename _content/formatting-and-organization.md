@@ -146,13 +146,12 @@ Agora technical documentation rarely mentions currency figures, but they do occa
 
 When referencing US dollars, it is not enough to use the dollar symbol ("\$"), as there are other national currencies that also use the dollar, such as the Australian or Canadian dollars. When referencing US dollars, use "\$US". So long as an article references "\$US" within the article and there are no other currencies referenced, it will be understood that "\$" will mean "\$US".
 
-``` admonition:: Example
+For example:
 
-    | Service type    | Pricing ($US/1,000 minutes)        |
-    | --------------- | ---------------------------------- |
-    | Recording audio | $1.49                              |
-    | Recording video | High-Definition (HD): $5.99        |
-```
+| Service type    | Pricing ($US/1,000 minutes)        |
+| --------------- | ---------------------------------- |
+| Recording audio | $1.49                              |
+| Recording video | High-Definition (HD): $5.99        |
 
 If you are writing about more than one type of currency within the same article, use the official [ISO 4217 three-letter currency code](https://www.thefinancials.com/Default.aspx?SubSectionID=curformat), which is "USD". Use this same ISO standard if you need to refer to other currencies in your documentation. The currency amount immediately follows the three-letter currency code with no intervening space. For large currency amounts, things are typically rounded to the nearest dollar, so there is no need to display the dollar amount to two decimal places.
 
