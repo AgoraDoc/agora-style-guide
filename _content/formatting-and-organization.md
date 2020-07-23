@@ -2,7 +2,7 @@
 
 ### Headings and titles
 
-Headings assist the reader in scanning content, helping them discover exactly what they are seeking. They provide structure and are visual points of reference for the reader. 
+Headings assist the reader in scanning content, helping them discover exactly what they are seeking. They provide structure and are visual points of reference for the reader.
 
 Use headers to help outline your draft content. Some other points for consideration:
 
@@ -17,7 +17,7 @@ Use headers to help outline your draft content. Some other points for considerat
 
 ### Lists
 
-In most cases, the phrase before the list must be a complete sentence, not a partial one that is completed by the list items. The sentence can end with a colon or a period; usually a colon if it immediately precedes the list, or a period if there is more material (such as a note paragraph) between the introduction and the list. 
+In most cases, the phrase before the list must be a complete sentence, not a partial one that is completed by the list items. The sentence can end with a colon or a period; usually a colon if it immediately precedes the list, or a period if there is more material (such as a note paragraph) between the introduction and the list.
 
 ``` caution::
 
@@ -40,11 +40,11 @@ Always introduce a table with a complete sentence and end it with a full stop, n
 
 To create multiple paragraphs, use the `<p>` element rather than using the `<br>` element.
 
-### Notes 
+### Notes
 
 A note provides the reader with important or useful information that is not part of the regular flow of text.
 
-Do not use Markdown's native ">" to create a note, as the visual effect it produces is poor. Instead, use HTML code format as outlined below for each note type. 
+Do not use Markdown's native ">" to create a note, as the visual effect it produces is poor. Instead, use HTML code format as outlined below for each note type.
 
 ``` admonition:: Exception
 
@@ -66,7 +66,7 @@ In Agora's online editor, wrap the notes in `<div class="alert info"></div>`.
 
 #### Note
 
-Provides supplemental information that may not apply to all readers, but is important for those specific readers to know. In the following example, the context for the note only applies to those who have a firewall. 
+Provides supplemental information that may not apply to all readers, but is important for those specific readers to know. In the following example, the context for the note only applies to those who have a firewall.
 
 In Agora's online editor, wrap the notes in `<div class="alert note"></div>`.
 
@@ -77,7 +77,7 @@ In Agora's online editor, wrap the notes in `<div class="alert note"></div>`.
 
 #### Warning
 
-Designed to guide the reader away from a circumstance that poses some form of problem or hazard. 
+Designed to guide the reader away from a circumstance that poses some form of problem or hazard.
 
 In Agora's online editor, wrap the notes in `<div class="alert warning"></div>`.
 
@@ -90,7 +90,7 @@ In Agora's online editor, wrap the notes in `<div class="alert warning"></div>`.
 
 Spell out all ordinal numbers in text. For example, first, fifth, twelfth, forty-third.
 
-Do not start a sentence with a numeral. Add a modifier before the number, or spell the number out if you cannot rewrite the sentence. 
+Do not start a sentence with a numeral. Add a modifier before the number, or spell the number out if you cannot rewrite the sentence.
 
 ``` admonition:: Exception
 
@@ -133,14 +133,49 @@ Use a comma to separate values in this thousands, hundreds of thousands, million
 | 1,000,000   | 1000000         |
 
 ``` admonition:: Exception
-    
+
     - When referring to resolution values, such as "1080p", or "1920 × 1080", only use commas when the number has five or more digits. For example, "`width` should not exceed 1920, and `width` × `height` should not exceed `1920` × `1080`."
     - Do not use commas in page numbers, phone numbers, addresses, or on the right of decimal points.
 ```
 
+### Currency
+
+Agora technical documentation rarely mentions currency figures, but they do occasionally come up in billing-related documentation. In English documentation, the standard currency used is in US dollars. Please keep the following in mind when writing currency information.
+
+#### Referencing the currency
+
+When referencing US dollars, it is not enough to use the dollar symbol ("\$"), as there are other national currencies that also use the dollar, such as the Australian or Canadian dollars. When referencing US dollars, use "\$US". So long as an article references "\$US" within the article and there are no other currencies referenced, it will be understood that "\$" will mean "\$US".
+
+For example:
+
+| Service type    | Pricing ($US/1,000 minutes)        |
+| --------------- | ---------------------------------- |
+| Recording audio | $1.49                              |
+| Recording video | High-Definition (HD): $5.99        |
+
+If you are writing about more than one type of currency within the same article, use the official [ISO 4217 three-letter currency code](https://www.thefinancials.com/Default.aspx?SubSectionID=curformat), which is "USD". Use this same ISO standard if you need to refer to other currencies in your documentation. The currency amount immediately follows the three-letter currency code with no intervening space. For large currency amounts, things are typically rounded to the nearest dollar, so there is no need to display the dollar amount to two decimal places.
+
+``` admonition:: Example
+
+    In Q4 the company posted a net profit of CNY1,234,567 (USD176,297).
+```
+
+If it is understood through context that the currency is in US dollars, there is no need to use the three-letter ISO code.
+
+``` admonition:: Example
+
+    The American division posted a net revenue of $123,456.
+```
+
+#### Using the dollar symbol and amounts
+
+Always place the dollar symbol at the beginning of a currency value, without any intervening space. For example: "$0.99".
+
+If the amount is less than a full dollar, ensure that there is a leading 0 before the decimal point. Also, when referring to the small figures that are used in billing documentation, always use two decimal places for any dollar amount. For example "$9.90", not "​\$9.9".
+
 ### Dates
 
-Writing dates in a clear and unambiguous way helps with reader understanding, and with writing for a global audience. 
+Writing dates in a clear and unambiguous way helps with reader understanding, and with writing for a global audience.
 
 In general, express months as a word rather than an abbreviation, in *month day, year* format. For example, "v.3.0.0 was released on September 3, 2019." When space is tight (such as within a table), use a three-letter abbreviation for the month. When a full date appears in the middle of a sentence, add a comma after the year. For example, "The September 3, 2019, release of..."
 
@@ -158,8 +193,8 @@ In most cases, introduce a procedure with an introductory sentence. The sentence
 Here are more guidelines:
 
 - In general, use one step per action. However, you can combine small actions into one step, using arrows (`>`) for sequential menu selections.
-- Avoid having more than two levels of steps as this makes it hard for the reader to scan and to understand. 
-- When a step has sub-steps, treat the step like an [introductory sentence](https://developers.google.com/style/procedures#introductory-sentences): put a colon or a period at the end of the step, as appropriate. 
+- Avoid having more than two levels of steps as this makes it hard for the reader to scan and to understand.
+- When a step has sub-steps, treat the step like an [introductory sentence](https://developers.google.com/style/procedures#introductory-sentences): put a colon or a period at the end of the step, as appropriate.
 - Do not make the procedure too long. If it starts to feel too long, consider splitting it into two procedures.
 - If the user must press **Enter** or click **OK** after a step, then include that instruction as part of the step.
 - State the purpose of the action before stating the action.
@@ -196,7 +231,7 @@ In an API Reference, when referring to an advanced guide, do not create a link, 
 ``` admonition:: Example
 
     See *Set the Audio Profile* for details.
-    
+
     详见《设置音频属性》。
 ```
 
@@ -204,7 +239,7 @@ In an API Reference, when referring to an advanced guide, do not create a link, 
 
 When you are writing link text, use a phrase that describes what the reader will see after following the link. That can take either of two forms:
 
-- The exact title of the linked-to page, capitalized the same way the title is capitalized. 
+- The exact title of the linked-to page, capitalized the same way the title is capitalized.
 - A description of the linked-to page, capitalized like ordinary text instead of like a title.
 
 A couple of specific things not to do in link text:

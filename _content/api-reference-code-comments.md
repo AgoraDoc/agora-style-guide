@@ -26,7 +26,7 @@ In the first sentence of a class description, briefly state the intended purpose
 
 Many doc tools automatically extract the first sentence of each class description for use in a list of all classes, so make the first sentence unique and descriptive, yet short. Additionally:
 
-- Do not repeat the class name in the first sentence. 
+- Do not repeat the class name in the first sentence.
 - Do not say "this class will/does ...." in the first sentence.
 - Do not use a period before the actual end of the description (keep the description in one sentence), because some doc generators naively terminate the "short description" at the first period. For example, some generators terminate the sentence if they see "e.g.", so use "for example" instead.
 
@@ -36,11 +36,11 @@ Make descriptions for enumerates as brief as possible. Be sure to link to releva
 
 ### Methods/Callbacks
 
-In the first sentence for a method/callback description, briefly state what action the method/callback performs. 
+In the first sentence for a method/callback description, briefly state what action the method/callback performs.
 
 In subsequent sentences, explain why and how to use the method/callback, state any prerequisites that must be met before calling/triggering it, give details about exceptions that may occur, and specify any related APIs. For a method, describe which callback it triggers. For a callback, describe which method triggers it.
 
-Use present tense for all descriptions. 
+Use present tense for all descriptions.
 
 #### Description
 
@@ -70,7 +70,7 @@ For parameter descriptions, follow these guidelines:
 
 Be as brief as possible in the return value's description; put any detailed information in the class description.
 
-- If the return value is anything other than a Boolean, start with "The..." 
+- If the return value is anything other than a Boolean, start with "The..."
 - If the return value is a Boolean, describe the Boolean and use a list that includes "true" and "false", followed by corresponding indications.
 
 #### Exceptions
@@ -79,7 +79,7 @@ In languages where the reference generator automatically inserts the word "Throw
 
 #### Deprecations
 
-When something is deprecated, tell the user what to use as a replacement. 
+When something is deprecated, tell the user what to use as a replacement.
 
 If you track your API with version numbers, mention which version it was first deprecated in.
 

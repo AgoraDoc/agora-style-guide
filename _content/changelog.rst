@@ -1,3 +1,10 @@
+July 2020
+==========
+
+- Added :ref:`formatting-and-organization:Currency`.
+- Added "audience member" in :ref:`references:Common phrasing issues`.
+- Deleted the rule of no periods in Chinese language.
+
 June 2020
 ==========
 
@@ -56,9 +63,9 @@ Added an exception for not using markdown quotes.
 April 6 - April 10
 ---------------------
 
-- Avoid the use of possessives with product names and company names. 
-- Link to glossary at the first mention. 
-- Updated: Do not use a colon to separate two sentences. 
-- Adde: Use a comma to separate values in this thousands, hundreds of thousands, millions, and so on. 
+- Avoid the use of possessives with product names and company names.
+- Link to glossary at the first mention.
+- Updated: Do not use a colon to separate two sentences.
+- Adde: Use a comma to separate values in this thousands, hundreds of thousands, millions, and so on.
 - Added :ref:`references:Commonly used acronyms` and :ref:`references:Agora-related naming conventions`.
 
