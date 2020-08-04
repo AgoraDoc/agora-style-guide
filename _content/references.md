@@ -25,6 +25,7 @@
 
 | **Not Preferred**                                   | **Preferred**                                                |
 | --------------------------------------------------- | ------------------------------------------------------------ |
+| 3D sound effect                                     | 3D sound effects                                             |
 | a higher version of…                                | a later version of…                                          |
 | a lower version of…                                 | an earlier version of…                                       |
 | Agora SDK…                                          | The Agora SDK…                                               |
@@ -99,7 +100,6 @@
 | web (when referring to the platform/World Wide Web) | Web                                                          |
 | webpage, Web page                                   | web page                                                     |
 | wrong                                               | incorrect or invalid                                         |
-| 3D sound effect                                     | 3D sound effects                                             |
 
 
 ### Commonly used acronyms
