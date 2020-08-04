@@ -23,79 +23,83 @@
 
 ### Common phrasing issues
 
-| **Not Preferred**                                   | **Preferred**                          |
-| --------------------------------------------------- | -------------------------------------- |
-| a higher version of…                                | a later version of…                    |
-| a lower version of…                                 | an earlier version of…                 |
-| Agora SDK…                                          | The Agora SDK…                         |
-| App, APP                                            | app (exception: "App ID")              |
-| at most                                             | maximum                                |
-| audiences                                           | <li>audience (when referring to the role)</li><li>audience member (when referring to individuals)</li>     |
-| audio capture                                       | audio sample                           |
-| audio sampling rate                                 | audio sample rate                      |
-| back camera                                         | rear camera                            |
-| back end development                                | back-end development                   |
-| beautification                                      | image enhancement                      |
-| bit rate                                            | bitrate                                |
-| bluetooth                                           | Bluetooth                              |
-| boolean                                             | Boolean                                |
-| bridge header file                                  | bridging header file                   |
-| call the [methodname] method to                     | call [methodname] to                   |
-| camera, main camera                                 | front camera                           |
-| case sensitive                                      | case-sensitive                         |
-| check whether the function is enabled or not        | check whether the function is enabled  |
-| choose either of the following three formats        | choose one of the following formats    |
-| data package                                        | data packet                            |
-| demonstrate                                         | show                                   |
-| dual stream mode (adjectival form for "mode")       | dual-stream mode                       |
-| dual-stream (when not modifying a noun)             | dual stream                            |
-| e-mail                                              | email                                  |
-| enter a channel, entering a channel                 | join a channel, joining a channel      |
-| file name, file-name                                | filename                               |
-| for more information, refer to…                     | see…                                   |
-| on Electron                                         | in Electron (Electron is a framework)  |
-| in various dimensions                               | across various dimensions              |
-| in-built                                            | built-in                               |
-| internet                                            | Internet                               |
-| introduces how to use                               | describes how to use                   |
-| is released                                         | was released                           |
-| issues fixed                                        | fixed issues                           |
-| it indicates...                                     | (delete "it indicates...")             |
-| listen to callback events                           | listen for callback events             |
-| log onto, login                                     | log in                                 |
-| multi-threaded                                      | multithreaded                          |
-| no. (short for "number")                            | number                                 |
-| on the user interface                               | in the user interface                  |
-| open the camera                                     | turn the camera on                     |
-| packet lost rate                                    | packet loss rate                       |
-| pass in an object as an argument                    | pass an object as an argument          |
-| plugin                                              | plug-in                                |
-| real-time (when being used as an adverb)            | real time (when used as an adverb)     |
-| re-integrate                                        | reintegrate                            |
-| reserved parameter                                  | reserved for future use                |
-| sample codes                                        | sample code                            |
-| save the bandwidth                                  | reduce the bandwidth                   |
-| screen-sharing                                      | screen sharing                         |
-| secret                                              | encryption password                    |
-| Socks5                                              | SOCKS5                                 |
-| sub page, sub-page                                  | subpage                                |
-| the attributes for a channel                        | the attributes of a channel            |
-| the saving directory                                | the directory to save                  |
-| this method must be called                          | you must call this method              |
-| this method only works when                         | this method works only if              |
-| this webpage                                        | this article                           |
-| timeframe, time-frame                               | time frame                             |
-| to fetch                                            | to get                                 |
-| to login (when used as a verb rather than a noun)   | to log in, to log in to Agora Console, |
-| to setup (when used as a verb rather than a noun)   | to set up                              |
-| Url                                                 | URL                                    |
-| video sample                                        | video capture                          |
-| Voice/Video Live Broadcast                          | Live Voice or Video Broadcast          |
-| we recommend                                        | Agora recommends                       |
-| WeChat Miniprogram, WeChat Mini Program             | WeChat Mini-program                    |
-| web (when referring to the platform/World Wide Web) | Web                                    |
-| webpage, Web page                                   | web page                               |
-| wrong                                               | incorrect or invalid                   |
+| **Not Preferred**                                   | **Preferred**                                                |
+| --------------------------------------------------- | ------------------------------------------------------------ |
+| 3D sound effect                                     | 3D sound effects                                             |
+| a higher version of…                                | a later version of…                                          |
+| a lower version of…                                 | an earlier version of…                                       |
+| Agora SDK…                                          | The Agora SDK…                                               |
+| App, APP                                            | app (exception: "App ID")                                    |
+| at most                                             | maximum                                                      |
+| audiences                                           | <li>audience (when referring to the role)</li><li>audience member (when referring to individuals)</li> |
+| audio capture                                       | audio sample                                                 |
+| audio sampling rate                                 | audio sample rate                                            |
+| back camera                                         | rear camera                                                  |
+| back end development                                | back-end development                                         |
+| beautification                                      | image enhancement                                            |
+| bit rate                                            | bitrate                                                      |
+| bluetooth                                           | Bluetooth                                                    |
+| boolean                                             | Boolean                                                      |
+| bridge header file                                  | bridging header file                                         |
+| call the [methodname] method to                     | call [methodname] to                                         |
+| camera, main camera                                 | front camera                                                 |
+| case sensitive                                      | case-sensitive                                               |
+| check whether the function is enabled or not        | check whether the function is enabled                        |
+| choose either of the following three formats        | choose one of the following formats                          |
+| data package                                        | data packet                                                  |
+| demonstrate                                         | show                                                         |
+| dual stream mode (adjectival form for "mode")       | dual-stream mode                                             |
+| dual-stream (when not modifying a noun)             | dual stream                                                  |
+| e-mail                                              | email                                                        |
+| eSports                                             | esports                                                      |
+| enter a channel, entering a channel                 | join a channel, joining a channel                            |
+| file name, file-name                                | filename                                                     |
+| for more information, refer to…                     | see…                                                         |
+| on Electron                                         | in Electron (Electron is a framework)                        |
+| in various dimensions                               | across various dimensions                                    |
+| in-built                                            | built-in                                                     |
+| internet                                            | Internet                                                     |
+| introduces how to use                               | describes how to use                                         |
+| in the team                                         | on the team                                                  |
+| is released                                         | was released                                                 |
+| issues fixed                                        | fixed issues                                                 |
+| it indicates...                                     | (delete "it indicates...")                                   |
+| listen to callback events                           | listen for callback events                                   |
+| log onto, login                                     | log in                                                       |
+| multi-threaded                                      | multithreaded                                                |
+| multi-media                                         | multimedia                                                   |
+| no. (short for "number")                            | number                                                       |
+| on the user interface                               | in the user interface                                        |
+| open the camera                                     | turn the camera on                                           |
+| packet lost rate                                    | packet loss rate                                             |
+| pass in an object as an argument                    | pass an object as an argument                                |
+| plugin                                              | plug-in                                                      |
+| real-time (when being used as an adverb)            | real time (when used as an adverb)                           |
+| re-integrate                                        | reintegrate                                                  |
+| reserved parameter                                  | reserved for future use                                      |
+| sample codes                                        | sample code                                                  |
+| save the bandwidth                                  | reduce the bandwidth                                         |
+| screen-sharing                                      | screen sharing                                               |
+| secret                                              | encryption password                                          |
+| Socks5                                              | SOCKS5                                                       |
+| sub page, sub-page                                  | subpage                                                      |
+| the attributes for a channel                        | the attributes of a channel                                  |
+| the saving directory                                | the directory to save                                        |
+| this method must be called                          | you must call this method                                    |
+| this method only works when                         | this method works only if                                    |
+| this webpage                                        | this article                                                 |
+| timeframe, time-frame                               | time frame                                                   |
+| to fetch                                            | to get                                                       |
+| to login (when used as a verb rather than a noun)   | to log in, to log in to Agora Console,                       |
+| to setup (when used as a verb rather than a noun)   | to set up                                                    |
+| Url                                                 | URL                                                          |
+| video sample                                        | video capture                                                |
+| Voice/Video Live Broadcast                          | Live Voice or Video Broadcast                                |
+| we recommend                                        | Agora recommends                                             |
+| WeChat Miniprogram, WeChat Mini Program             | WeChat Mini-program                                          |
+| web (when referring to the platform/World Wide Web) | Web                                                          |
+| webpage, Web page                                   | web page                                                     |
+| wrong                                               | incorrect or invalid                                         |
 
 
 ### Commonly used acronyms
