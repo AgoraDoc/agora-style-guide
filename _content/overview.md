@@ -20,13 +20,13 @@ Most readers will be scanning rather than reading our content, seeking only the 
 
 Think about what you are trying to communicate to the reader. Then use plain language to convey the information to our audience.
 
-If you do not fully understand what you are writing about, that will come across to the reader. 
+If you do not fully understand what you are writing about, that will come across to the reader.
 
 #### Correct
 
-Our content must be technically and grammatically correct. 
+Our content must be technically and grammatically correct.
 
-Incorrect content causes our audience to lose trust in our content and brand. If you are unsure if your content is technically correct, check with a developer before publication. 
+Incorrect content causes our audience to lose trust in our content and brand. If you are unsure if your content is technically correct, check with a developer before publication.
 
 Grammatically incorrect writing confuses our readers and reflects poorly on our professionalism. If you are questioning the wording of your content, speak to another writer, or contact a technical editor for help.
 
@@ -60,7 +60,7 @@ Avoid the following:
 - Starting all sentences with the same phrase (such as "You can" or "To do").
 - Current pop-culture references.
 - Jokes.
-- Exclamation marks, except in code examples. 
+- Exclamation marks, except in code examples.
 - Wackiness, zaniness, and goofiness.
 - Phrasing that denigrates, insults, or discriminates against any group of people.
 - Using phrases like "simply" or "it is that simple" or "it is easy" in a procedure.

@@ -25,7 +25,7 @@
 Agora Developer Documentation Style Guide
 =============================================
 
-The Agora Technical Document Style Guide is a reference for Technical Writers to improve the writing and consistency of the Agora documentation. 
+The Agora Technical Document Style Guide is a reference for Technical Writers to improve the writing and consistency of the Agora documentation.
 This document only provides important guidelines targeting Agora technical writers. You can find detailed style, usage, and grammar in the following references.
 
 English style guide references
@@ -34,10 +34,10 @@ English style guide references
 - `Apple Style Guide <https://help.apple.com/applestyleguide/>`_
 - `Appledoc comments formatting style <https://github.com/tomaz/appledoc/blob/master/CommentsFormattingStyle.markdown>`_
 - `Google Developer Documentation Style Guide <https://developers.google.com/style/>`_
-- `How to Write Doc Comments for the Javadoc Tool <http://www.oracle.com/technetwork/articles/java/index-137868.html>`_ 
+- `How to Write Doc Comments for the Javadoc Tool <http://www.oracle.com/technetwork/articles/java/index-137868.html>`_
 - *Managing your Documentation Projects*, by JoAnn Hackos (John Wiley and Sons, 1994).
-- `Merriam-Webster's Dictionary <https://www.merriam-webster.com/>`_ 
-- `Microsoft Writing Style Guide <https://docs.microsoft.com/en-us/style-guide/welcome/>`_ 
+- `Merriam-Webster's Dictionary <https://www.merriam-webster.com/>`_
+- `Microsoft Writing Style Guide <https://docs.microsoft.com/en-us/style-guide/welcome/>`_
 - *Technical Editing*, by Judith A. Tarutz (Perseus Books, 1992).
 - `The Chicago Manual of Style <http://www.chicagomanualofstyle.org/home.html>`_
 - `The Elements of Style (PDF) <https://faculty.washington.edu/heagerty/Courses/b572/public/StrunkWhite.pdf>`_

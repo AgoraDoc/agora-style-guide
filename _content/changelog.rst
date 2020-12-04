@@ -3,6 +3,20 @@ December 2020
 
 - Added wording for Unix time.
 
+July 2020
+==========
+
+- Added :ref:`formatting-and-organization:Currency`.
+- Added "audience member" in :ref:`references:Common phrasing issues`.
+- Deleted the rule of no periods in Chinese language.
+
+June 2020
+==========
+
+- Added "in the user interface" in :ref:`references:Common phrasing issues`.
+- Updated usage of "the ... method" in :ref:`language-and-grammar:Articles and internal agreement`.
+- Added exceptions to :ref:`formatting-and-organization:Commas in numbers`.
+
 May 2020
 =========
 
@@ -54,9 +68,9 @@ Added an exception for not using markdown quotes.
 April 6 - April 10
 ---------------------
 
-- Avoid the use of possessives with product names and company names. 
-- Link to glossary at the first mention. 
-- Updated: Do not use a colon to separate two sentences. 
-- Adde: Use a comma to separate values in this thousands, hundreds of thousands, millions, and so on. 
+- Avoid the use of possessives with product names and company names.
+- Link to glossary at the first mention.
+- Updated: Do not use a colon to separate two sentences.
+- Adde: Use a comma to separate values in this thousands, hundreds of thousands, millions, and so on.
 - Added :ref:`references:Commonly used acronyms` and :ref:`references:Agora-related naming conventions`.
 

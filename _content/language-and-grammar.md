@@ -2,9 +2,9 @@
 
 ### Abbreviations and acronyms
 
-Abbreviations are the shortened version of a word or phrase used to represent the whole. Examples include "s" for "seconds,” "approx." for "approximately," and "e.g." for "exempli gratia" (meaning "for example"). 
+Abbreviations are the shortened version of a word or phrase used to represent the whole. Examples include "s" for "seconds,” "approx." for "approximately," and "e.g." for "exempli gratia" (meaning "for example").
 
-Acronyms are a type of abbreviation formed from the initial letters of other words. Examples include "SDK" for "Software Development Kit", "API" for "Application Programming Interface", and "URL" for "Uniform Resource Locator". 
+Acronyms are a type of abbreviation formed from the initial letters of other words. Examples include "SDK" for "Software Development Kit", "API" for "Application Programming Interface", and "URL" for "Uniform Resource Locator".
 
 Abbreviations and acronyms can affect the clarity of Agora content for the reader. While many are understood by our readers and do not need to be spelled out, for new or novel terms always spell out the first mention of an abbreviated term in the text, followed immediately by the abbreviation in parentheses. Use the abbreviated form for all subsequent references of the abbreviation.
 
@@ -35,7 +35,7 @@ The only exception to this rule is when you are writing content for an FAQ. The 
 
 ### Possessives
 
-Do not use a possessive with a product name, or with the company name. 
+Do not use a possessive with a product name, or with the company name.
 
 | Recommended                                          | Not recommended                                       |
 | :--------------------------------------------------- | :---------------------------------------------------- |
@@ -43,7 +43,7 @@ Do not use a possessive with a product name, or with the company name.
 | ...Agora RTC SDK                                     | ...Agora's RTC SDK                                    |
 | Output by the Agora server                           | Output by Agora's server                              |
 
-In general, to form a possessive of a singular or a plural noun that doesn't end in "s", add "'s" to the end of the word. For a plural noun that does end in "s", add an apostrophe but no additional "s". 
+In general, to form a possessive of a singular or a plural noun that doesn't end in "s", add "'s" to the end of the word. For a plural noun that does end in "s", add an apostrophe but no additional "s".
 
 ``` admonition:: Example
 
@@ -60,8 +60,12 @@ The way a word or acronym is spoken determines whether "a" or "an" precedes it. 
 
 #### Articles and internal agreement
 
-- There is no need to use "the" or even "method" when describing what a method does, as the reader will understand that it is a method by context. For example: "Call CheckPermission to request access…" and not "Call the CheckPermission method to request access…" 
-- Callbacks must be specified, so when referring to a callback, use a leading "the" followed by "callback". For example "the SDK triggers the Client.on("disable-local-video") callback".
+Methods and callbacks must be specified, so when referring to a method or callback, use a leading "the" followed by "method" or "callback". For example "the SDK triggers the Client.on("disable-local-video") callback".
+
+``` admonition:: Exception
+
+   Omit "the" and "method" when the reader will understand that it is a method by context. For example: "Call CheckPermission to request access…", not "Call the CheckPermission method to request access…".
+```
 
 ```eval_rst
 .. _the:
@@ -150,8 +154,8 @@ The imperative mood keeps the content concise. The direct address is more person
 
 - Use the present tense as it creates concise sentences and provides a tone of immediacy. An exception to this rule is the release date of an SDK or other product. Always frame the release date in the past tense, as that tense will only be correct on the day of release. For example, use "v3.0.0 **was** released on Mar 4, 2020", not "v3.0.0 **is** released on Mar 4, 2020".
 - Avoid using *will* and *can*.
-- Use future tense if there is a significant time delay that matters in the context. 
-- Only use the present prefect tense to emphasize a past event that has present consequences (The corresponding Chinese is 已经). 
+- Use future tense if there is a significant time delay that matters in the context.
+- Only use the present prefect tense to emphasize a past event that has present consequences (The corresponding Chinese is 已经).
 
 | Recommended                                  | Not recommended                                     |
 | :------------------------------------------- | :-------------------------------------------------- |
@@ -181,6 +185,6 @@ In documentation (like step-by-step instructions) that is aimed at *implementors
 
 ### Clause order
 
-- Put the most important information at the beginning of a sentence, followed by what the user can do with that information. 
-- Provide the context before you provide the instruction; that way, the reader can skip the additional information if it does not apply to their circumstance. 
+- Put the most important information at the beginning of a sentence, followed by what the user can do with that information.
+- Provide the context before you provide the instruction; that way, the reader can skip the additional information if it does not apply to their circumstance.
 - If clauses have a causal relationship, put the cause first, followed by the effect.

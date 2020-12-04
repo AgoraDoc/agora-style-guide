@@ -76,7 +76,7 @@ General rules to follow:
 - Do not use a period in a title or heading.
 - List items that are complete sentences end with a period.
 - List items that are incomplete sentences do not end with a period. However, when a list includes one item that requires a period, all the list items should have a period for consistency.
-- For table items, use complete sentences and end them with a period. For the Chinese language, do not use a period whether it is a sentence or not.
+- For table items, use complete sentences and end them with a period.
 
 ### Slashes
 
