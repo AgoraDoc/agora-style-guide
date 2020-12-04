@@ -1,3 +1,9 @@
+December 2020
+==============
+
+- Added wording for Unix time.
+- Fixed the title of the Punctuation section.
+
 July 2020
 ==========
 
@@ -11,6 +17,8 @@ June 2020
 - Added "in the user interface" in :ref:`references:Common phrasing issues`.
 - Updated usage of "the ... method" in :ref:`language-and-grammar:Articles and internal agreement`.
 - Added exceptions to :ref:`formatting-and-organization:Commas in numbers`.
+
+
 
 May 2020
 =========
