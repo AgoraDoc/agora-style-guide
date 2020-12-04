@@ -132,11 +132,15 @@ Use a comma to separate values in this thousands, hundreds of thousands, million
 
 An exception to this is when referring to resolution values, such as "1080p", or "1920 x 1080". For example, "`width` should not exceed 1920, and `width`*`height` should not exceed `1920` x `1080`."
 
+### Time
+
+If a parameter or property expresses Unix time, describe it as "Unix time (in seconds since 1 January 1970) in UTC".
+
 ### Dates
 
 Writing dates in a clear and unambiguous way helps with reader understanding, and with writing for a global audience. 
 
-In general, express months as a word rather than an abbreviation, in *month day, year* format. For example, "v.3.0.0 was released on September 3, 2019." When space is tight (such as within a table), use a three-letter abbreviation for the month. When a full date appears in the middle of a sentence, add a comma after the year. For example, "The September 3, 2019, release of..."
+In general, express months as a word rather than an abbreviation, in *month day, year* format. For example, "v3.0.0 was released on September 3, 2019." When space is tight (such as within a table), use a three-letter abbreviation for the month. When a full date appears in the middle of a sentence, add a comma after the year. For example, "The September 3, 2019, release of..."
 
 Avoid using numeric dates when possible. Different countries and regions in the world express numeric dates in different formats, inevitably leading to confusion. If a numeric date cannot be avoided, use the format *yyyy-mm-dd*, (for example, "2019-09-03"), which conforms to the ISO 8601 international standard for numerical dates.
 

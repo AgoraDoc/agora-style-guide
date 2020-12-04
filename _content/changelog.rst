@@ -1,3 +1,8 @@
+December 2020
+==============
+
+- Added wording for Unix time.
+
 May 2020
 =========
 
