@@ -264,6 +264,7 @@ Some specific items to put in code font:
 - Attribute names and values.
 - Filenames and paths. Start the path with a /, for example: `/etc/app/agora.app`.
 - Defined (constant) values for an element or attribute.
+- User inputs, for example: "Enter `demoChannel1` as the channel name".
 
 ### Code samples
 

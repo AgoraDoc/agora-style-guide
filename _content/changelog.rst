@@ -1,3 +1,8 @@
+December 2020
+==============
+
+- Added the font formatting for user inputs in :ref:`formatting-and-organization:Code in text`.
+
 July 2020
 ==========
 
