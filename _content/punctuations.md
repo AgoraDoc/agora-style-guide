@@ -1,4 +1,4 @@
-## Punctuations
+## Punctuation
 
 ### Colons
 
