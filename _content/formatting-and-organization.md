@@ -173,11 +173,15 @@ Always place the dollar symbol at the beginning of a currency value, without any
 
 If the amount is less than a full dollar, ensure that there is a leading 0 before the decimal point. Also, when referring to the small figures that are used in billing documentation, always use two decimal places for any dollar amount. For example "$9.90", not "​\$9.9".
 
+### Time
+
+If a parameter or property expresses Unix time, describe it as "Unix time (in seconds since 1 January 1970) in UTC".
+
 ### Dates
 
 Writing dates in a clear and unambiguous way helps with reader understanding, and with writing for a global audience.
 
-In general, express months as a word rather than an abbreviation, in *month day, year* format. For example, "v.3.0.0 was released on September 3, 2019." When space is tight (such as within a table), use a three-letter abbreviation for the month. When a full date appears in the middle of a sentence, add a comma after the year. For example, "The September 3, 2019, release of..."
+In general, express months as a word rather than an abbreviation, in *month day, year* format. For example, "v3.0.0 was released on September 3, 2019." When space is tight (such as within a table), use a three-letter abbreviation for the month. When a full date appears in the middle of a sentence, add a comma after the year. For example, "The September 3, 2019, release of..."
 
 Avoid using numeric dates when possible. Different countries and regions in the world express numeric dates in different formats, inevitably leading to confusion. If a numeric date cannot be avoided, use the format *yyyy-mm-dd*, (for example, "2019-09-03"), which conforms to the ISO 8601 international standard for numerical dates.
 
