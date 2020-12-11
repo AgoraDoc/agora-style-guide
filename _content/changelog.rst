@@ -1,9 +1,9 @@
 December 2020
 ==============
 
+- Added the font formatting for user inputs in :ref:`formatting-and-organization:Code in text`.
 - Added wording for Unix time.
 - Fixed the title of the Punctuation section.
-
 
 July 2020
 ==========
