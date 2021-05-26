@@ -37,10 +37,9 @@ English references (online)
 - `How to Write Doc Comments for the Javadoc Tool <http://www.oracle.com/technetwork/articles/java/index-137868.html>`_
 - `Merriam-Webster's Dictionary <https://www.merriam-webster.com/>`_
 - `Microsoft Writing Style Guide <https://docs.microsoft.com/en-us/style-guide/welcome/>`_
+- `Purdue University Online Writing Lab <https://owl.purdue.edu/owl/purdue_owl.html>`_
 - `The Chicago Manual of Style <http://www.chicagomanualofstyle.org/home.html>`_ // TODO William This seems to be a subscription-based model, so you can't just refer to it. Maybe add  - *A Manual of Style*, by University of Chicago Press (Franklin Classics Trade Press, 2018) to the top of the books list instead and delete this entry?
 - `The Elements of Style (PDF) <https://faculty.washington.edu/heagerty/Courses/b572/public/StrunkWhite.pdf>`_
-
-// TODO William Perhaps add this as a good all-around online reference to writing in general (insert after Microsoft): - `Purdue University Online Writing Lab <https://owl.purdue.edu/owl/purdue_owl.html>`_
 
 English references (books)
 -------------------------------
