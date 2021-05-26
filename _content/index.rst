@@ -38,11 +38,11 @@ English references (online)
 - `Merriam-Webster's Dictionary <https://www.merriam-webster.com/>`_
 - `Microsoft Writing Style Guide <https://docs.microsoft.com/en-us/style-guide/welcome/>`_
 - `Purdue University Online Writing Lab <https://owl.purdue.edu/owl/purdue_owl.html>`_
-- `The Chicago Manual of Style <http://www.chicagomanualofstyle.org/home.html>`_ // TODO William This seems to be a subscription-based model, so you can't just refer to it. Maybe add  - *A Manual of Style*, by University of Chicago Press (Franklin Classics Trade Press, 2018) to the top of the books list instead and delete this entry?
 - `The Elements of Style (PDF) <https://faculty.washington.edu/heagerty/Courses/b572/public/StrunkWhite.pdf>`_
 
 English references (books)
 -------------------------------
+- *A Manual of Style*, by University of Chicago Press (Franklin Classics Trade Press, 2018)
 - *Developing Quality Technical Information: A Handbook for Writers and Editors*, by Michelle Carey et al. (IBM Press, 2014).
 - *Managing your Documentation Projects*, by JoAnn Hackos (John Wiley and Sons, 1994).
 - *Technical Editing*, by Judith A. Tarutz (Basic Books, 1992).
@@ -52,6 +52,7 @@ English references (books)
 Chinese references
 --------------------------------
 
+- `中文技术文档写作风格指南 <https://zh-style-guide.readthedocs.io>`_
 - `泛化智能文风规范 <https://github.com/generalized-intelligence/gi-Chinese-Style-Guide/blob/master/泛化智能（gi）文风指南.md>`_
 - `leengo 简体中文规范指南 <https://www.lengoo.de/documents/styleguides/lengoo_styleguide_ZH.pdf>`_
 - `LeanCloud 文案风格指南 <https://open.leancloud.cn/copywriting-style-guide/>`_
