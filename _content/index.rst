@@ -25,25 +25,32 @@
 Agora Developer Documentation Style Guide
 =============================================
 
-The Agora Technical Document Style Guide is a reference for Technical Writers to improve the writing and consistency of the Agora documentation.
-This document only provides important guidelines targeting Agora technical writers. You can find detailed style, usage, and grammar in the following references.
+The Agora Technical Document Style Guide is a reference for technical writers to improve the writing and consistency of Agora documentation.
+This document provides important guidelines targeting Agora technical writers. You can find detailed style, usage, and grammar guidance in the following references:
 
-English style guide references
+English references (online)
 -------------------------------
 
 - `Apple Style Guide <https://help.apple.com/applestyleguide/>`_
 - `Appledoc comments formatting style <https://github.com/tomaz/appledoc/blob/master/CommentsFormattingStyle.markdown>`_
 - `Google Developer Documentation Style Guide <https://developers.google.com/style/>`_
 - `How to Write Doc Comments for the Javadoc Tool <http://www.oracle.com/technetwork/articles/java/index-137868.html>`_
-- *Managing your Documentation Projects*, by JoAnn Hackos (John Wiley and Sons, 1994).
 - `Merriam-Webster's Dictionary <https://www.merriam-webster.com/>`_
 - `Microsoft Writing Style Guide <https://docs.microsoft.com/en-us/style-guide/welcome/>`_
-- *Technical Editing*, by Judith A. Tarutz (Perseus Books, 1992).
-- `The Chicago Manual of Style <http://www.chicagomanualofstyle.org/home.html>`_
+- `The Chicago Manual of Style <http://www.chicagomanualofstyle.org/home.html>`_ // TODO William This seems to be a subscription-based model, so you can't just refer to it. Maybe add  - *A Manual of Style*, by University of Chicago Press (Franklin Classics Trade Press, 2018) to the top of the books list instead and delete this entry?
 - `The Elements of Style (PDF) <https://faculty.washington.edu/heagerty/Courses/b572/public/StrunkWhite.pdf>`_
-- *The Transitive Vampire: A Handbook of Grammar for the Innocent, the Eager, and the Doomed*, by Karen Elizabeth Gordon (Times Books, 1984).
 
-Chinese style guide references
+// TODO William Perhaps add this as a good all-around online reference to writing in general (insert after Microsoft): - `Purdue University Online Writing Lab <https://owl.purdue.edu/owl/purdue_owl.html>`_
+
+English references (books)
+-------------------------------
+- *Developing Quality Technical Information: A Handbook for Writers and Editors*, by Michelle Carey et al. (IBM Press, 2014).
+- *Managing your Documentation Projects*, by JoAnn Hackos (John Wiley and Sons, 1994).
+- *Technical Editing*, by Judith A. Tarutz (Basic Books, 1992).
+- *The Deluxe Transitive Vampire: The Ultimate Handbook of Grammar for the Innocent, the Eager, and the Doomed*, by Karen Elizabeth Gordon (Pantheon, 1993).
+- *The New Well-Tempered Sentence: A Punctuation Handbook for the Innocent, the Eager, and the Doomed*, by Karen Elizabeth Gordon (Mariner Books, 2003).
+
+Chinese references
 --------------------------------
 
 - `泛化智能文风规范 <https://github.com/generalized-intelligence/gi-Chinese-Style-Guide/blob/master/泛化智能（gi）文风指南.md>`_
