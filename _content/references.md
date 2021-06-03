@@ -1,5 +1,155 @@
 ## References
 
+### Word list
+
+This section lists commonly used words and phrases in Agora technical documentation. For the usage of other words, refer to the [word list](https://developers.google.com/style/word-list) in Google developer documentation style guide.
+
+#### Agora-related naming conventions
+
+When referring to an Agora SDK, use "the". For example, "the Agora Native SDK" or "the Agora Recording SDK", and not "Agora Signaling SDK". 
+
+Do not use "the" for proper nouns such as "Agora Video Call" or "Agora Recording". Do not use "the Agora Cloud Recording".
+
+| **Full Name**                                | **Short Form**             | **Description/Notes**                                        |
+| -------------------------------------------- | -------------------------- | ------------------------------------------------------------ |
+| Agora Analytics                              | Agora Analytics            | A tool that tracks and analyzes the usage and quality of calls. |
+| Agora Cloud Recording                        | Cloud Recording            | A component provided by Agora to record and save voice calls, video calls, and interactive broadcasts on your cloud storage. |
+| Agora Communications as a Service            | Agora CaaS                 | Term appears to have been superceded by Agora SD-RTN™.       |
+| Agora Console                                | Agora Console              | A platform for creating and managing projects. Previously Agora Dashboard. |
+| Agora Electron SDK                           | Electron SDK               | "Agora RTC Electron SDK" is also used, but "Agora Electron SDK" is the preferred term in our documentation. Uses Agora RTC SDK for rapid RTC application development. |
+| Agora Lab, Inc.                              | Agora                      | Holding company for Agora. Not used in technical documentation. |
+| Agora MediaPlayer Kit                        | Mediaplayer Kit            | A media player plug-in developed for live broadcast scenes, and is compatible with the Agora Native SDK. |
+| Agora RTC Native SDK                         | Native SDK                 | Enables easy and convenient one-to-one or one-to-many calls and supports voice-only and video modes. |
+| Agora On-premise Recording SDK               | On-premise Recording SDK   | Record and save voice calls, video calls, and interactive broadcasts to a server. |
+| Agora RTC SDK                                | RTC SDK                    | "Real-time Communications". We refer to all the Agora SDKs that enable real-time communication as the RTC SDK. |
+| Agora Real-time Messaging SDK, Agora RTM SDK | RTM SDK                    | Used to create a stable messaging mechanism for real-time messaging scenarios. Successor to the Agora Signaling SDK. |
+| Agora SDK                                    | Agora SDK                  | A generic term for referring to any Agora SDK. Preference is to specify the name of the SDK. |
+| Agora SD-RTN™                                | SD-RTN™                    | "Software-defined Real-time Network". Must appear with trademark symbol, preferred version of term |
+| Agora Video SDK                              | Video SDK                  | Used to embed video calling features into an app.            |
+| Agora RTC Web SDK                            | Web SDK                    | Uses APIs in the web browser to establish connections and control the communication and live broadcast services. |
+| Agora Interactive Whiteboard SDK             | Interactive Whiteboard SDK | Provides a simple collaboration platform on a virtual whiteboard where users from different locations can draw, annotate, and share PDF documents. |
+| Agora, Inc.                                  | Agora                      | Official company name.                                       |
+| Agora.io                                     | Agora                      | Variant of company name. Not used in technical documentation, with the exception of copyright statements (for example, "© 2016 Agora.io. All rights reserved.") |
+
+#### A
+
+- **add-on** (noun, adjective), **add on** (verb)
+- **Android device**
+- **app** (lowercase except when beginning a sentence or used as a proper noun)
+- **audio sample**: Use instead of *audio capture*.
+- **audio sample rate**
+
+#### B
+
+- **backend**: Use instead of *back-end* or *back end*.
+- **beta**
+- **bitrate**
+- **Boolean** (uppercase when referring to the datatype)
+- **Bluetooth**
+- **bridging header file**
+
+#### C
+
+- **case-sensitive**
+
+#### D
+
+- **data packet**
+- **dual-stream mode**
+- **dual stream** (when not modifying a noun)
+
+#### E
+
+- **email**
+- **earlier**: Use instead of *lower* when describing a version.
+- **extract**: Use instead of *unarchive* or *uncompress*.
+
+#### F
+
+- **filename**
+- **fill in; fill out**: Use *fill in* when referring to entering information in individual fields. Use *fill out* when referring to completing an entire form.
+- **front camera**
+
+#### G
+
+- **get**: Use instead of *fetch* or *retrieve*.
+
+#### H
+
+- **HTML5**: Use instead of *H5*.
+
+#### I
+
+- **incorrect**: Use instead of *wrong*.
+- **image enhancement**
+- **internet**
+
+#### J
+
+- **join a channel**: Use instead of *enter a channel*.
+- **just**: Avoid. Usually, *just* is a filler word that you can delete without affecting your meaning.
+
+#### L
+
+- **later**: Use instead of *higher* when describing a version.
+- **live stream** (verb or noun)
+- **log in** (verb), **login** (noun or adjective)
+
+#### M
+
+- **might**: Use instead of may when referring to possibility.
+- **multichannel**
+- **multimedia**
+- **multithreaded**
+
+#### N
+
+- **number**, instead of *no.*
+
+#### O
+
+- **open source** (no hyphen, not even as an adjective or verb)
+
+#### P
+
+- **packet loss rate**
+- **path**: Avoid using *filepath*, *file path*, *pathname*, or *path name* if possible.
+- **plugin** (noun), **plug-in** (adjective), **plug in** (verb)
+
+#### R
+
+- **real time** (noun or adverb), **real-time** (adjective)
+- **reintegrate**
+
+#### S
+
+- **screen sharing**
+- **set up** (verb), **setup** (noun)
+- **show**: Use instead of *demonstrate*.
+- **signup** (verb), **sign-up** (noun)
+- **SOCKS5**
+
+#### T
+
+- **time frame**
+- **token**
+
+#### U
+
+- **`uid`** or **user ID**, not *uid*.
+- **URL**
+- **username**, not account name.
+
+#### V
+
+- **video capture**
+
+#### W
+
+- **Web** (when referring to the platform)
+- **web page**
+- **Wi-Fi**
+
 ### Commonly used units of measure and their abbreviated form
 
 | Unit                   | Unit Symbol or Abbreviation |
@@ -25,81 +175,36 @@
 
 | **Not Preferred**                                   | **Preferred**                                                |
 | --------------------------------------------------- | ------------------------------------------------------------ |
-| 3D sound effect                                     | 3D sound effects                                             |
-| a higher version of…                                | a later version of…                                          |
-| a lower version of…                                 | an earlier version of…                                       |
 | Agora SDK…                                          | The Agora SDK…                                               |
-| App, APP                                            | app (exception: "App ID")                                    |
 | at most                                             | maximum                                                      |
 | audiences                                           | <li>audience (when referring to the role)</li><li>audience member (when referring to individuals)</li> |
-| audio capture                                       | audio sample                                                 |
-| audio sampling rate                                 | audio sample rate                                            |
-| back camera                                         | rear camera                                                  |
-| back end development                                | back-end development                                         |
-| beautification                                      | image enhancement                                            |
-| bit rate                                            | bitrate                                                      |
-| bluetooth                                           | Bluetooth                                                    |
-| boolean                                             | Boolean                                                      |
-| bridge header file                                  | bridging header file                                         |
 | call the [methodname] method to                     | call [methodname] to                                         |
-| camera, main camera                                 | front camera                                                 |
-| case sensitive                                      | case-sensitive                                               |
 | check whether the function is enabled or not        | check whether the function is enabled                        |
 | choose either of the following three formats        | choose one of the following formats                          |
-| data package                                        | data packet                                                  |
-| demonstrate                                         | show                                                         |
-| dual stream mode (adjectival form for "mode")       | dual-stream mode                                             |
-| dual-stream (when not modifying a noun)             | dual stream                                                  |
-| e-mail                                              | email                                                        |
-| eSports                                             | esports                                                      |
-| enter a channel, entering a channel                 | join a channel, joining a channel                            |
-| file name, file-name                                | filename                                                     |
 | for more information, refer to…                     | see…                                                         |
 | on Electron                                         | in Electron (Electron is a framework)                        |
 | in various dimensions                               | across various dimensions                                    |
-| in-built                                            | built-in                                                     |
-| internet                                            | Internet                                                     |
 | introduces how to use                               | describes how to use                                         |
 | in the team                                         | on the team                                                  |
 | is released                                         | was released                                                 |
 | issues fixed                                        | fixed issues                                                 |
 | it indicates...                                     | (delete "it indicates...")                                   |
 | listen to callback events                           | listen for callback events                                   |
-| log onto, login                                     | log in                                                       |
-| multi-threaded                                      | multithreaded                                                |
-| multi-media                                         | multimedia                                                   |
-| no. (short for "number")                            | number                                                       |
 | on the user interface                               | in the user interface                                        |
 | open the camera                                     | turn the camera on                                           |
-| packet lost rate                                    | packet loss rate                                             |
 | pass in an object as an argument                    | pass an object as an argument                                |
-| plugin                                              | plug-in                                                      |
-| real-time (when being used as an adverb)            | real time (when used as an adverb)                           |
-| re-integrate                                        | reintegrate                                                  |
 | reserved parameter                                  | reserved for future use                                      |
 | sample codes                                        | sample code                                                  |
 | save the bandwidth                                  | reduce the bandwidth                                         |
-| screen-sharing                                      | screen sharing                                               |
 | secret                                              | encryption password                                          |
-| Socks5                                              | SOCKS5                                                       |
-| sub page, sub-page                                  | subpage                                                      |
 | the attributes for a channel                        | the attributes of a channel                                  |
 | the saving directory                                | the directory to save                                        |
 | this method must be called                          | you must call this method                                    |
 | this method only works when                         | this method works only if                                    |
-| this webpage                                        | this article                                                 |
-| timeframe, time-frame                               | time frame                                                   |
-| to fetch                                            | to get                                                       |
-| to login (when used as a verb rather than a noun)   | to log in, to log in to Agora Console,                       |
-| to setup (when used as a verb rather than a noun)   | to set up                                                    |
-| Url                                                 | URL                                                          |
-| video sample                                        | video capture                                                |
-| Voice/Video Live Broadcast                          | Live Voice or Video Broadcast                                |
 | we recommend                                        | Agora recommends                                             |
 | WeChat Miniprogram, WeChat Mini Program             | WeChat Mini-program                                          |
 | web (when referring to the platform/World Wide Web) | Web                                                          |
 | webpage, Web page                                   | web page                                                     |
-| wrong                                               | incorrect or invalid                                         |
 
 
 ### Commonly used acronyms
@@ -132,38 +237,6 @@ Examples of commonly used acronyms that do not need to be spelled out, along wit
 | URL         | Uniform Resource Locator                                     | A reference to a web resource that specifies its location on a computer network, typically on the Web. |
 | Wi-Fi       | Wireless Fidelity (unofficial)                               | A family of wireless networking technologies, commonly used for local area networking of devices and Internet access. |
 | XML         | Extensible Markup Language                                   | A metalanguage used to define their customized markup languages. |
-
-### Agora-related naming conventions
-
-When referring to an Agora SDK, use "the". For example, "the Agora Native SDK" or "the Agora Recording SDK", and not "Agora Signaling SDK". 
-
-Do not use "the" for proper nouns such as "Agora Video Call" or "Agora Recording". Do not use "the Agora Cloud Recording".
-
-| **Full Name**                                | **Short Form**                  | **Description/Notes**                                        |
-| -------------------------------------------- | ------------------------------- | ------------------------------------------------------------ |
-| Agora [OS] SDK for Interactive Gaming        | [OS] SDK for Interactive Gaming | SDK includes name of the OS. For example, "The Agora Android SDK for Interactive Gaming". |
-| Agora Analytics                              | Agora Analytics                 | A tool that tracks and analyzes the usage and quality of calls. |
-| Agora Cloud Recording                        | Cloud Recording                 | A component provided by Agora to record and save voice calls, video calls, and interactive broadcasts on your cloud storage. |
-| Agora Communications as a Service            | Agora CaaS                      | Term appears to have been superceded by Agora SD-RTN™.       |
-| Agora Console                                | Agora Console                   | A platform for creating and managing projects. Previously Agora Dashboard. |
-| Agora Electron SDK                           | Electron SDK                    | "Agora RTC Electron SDK" is also used, but "Agora Electron SDK" is the preferred term in our documentation. Uses Agora RTC SDK for rapid RTC application development. |
-| Agora Interactive Gaming SDK                 | Interactive Gaming SDK          | Used for integrating audio and video functions into gaming projects. |
-| Agora Interactive Gaming Voice SDK           | Interactive Gaming Voice SDK    | Provides voice functions for gaming.                         |
-| Agora Lab, Inc.                              | Agora                           | Holding company for Agora. Not used in technical documentation. |
-| Agora MediaPlayer Kit                        | Mediaplayer Kit                 | A media player plug-in developed for live broadcast scenes, and is compatible with the Agora Native SDK. |
-| Agora Native SDK                             | Native SDK                      | Enables easy and convenient one-to-one or one-to-many calls and supports voice-only and video modes. |
-| Agora On-premise Recording SDK               | On-premise Recording SDK        | Record and save voice calls, video calls, and interactive broadcasts to a server. |
-| Agora RTC SDK                                | RTC SDK                         | "Real-time Communications". We refer to all the Agora SDKs that enable real-time communication as the RTC SDK. |
-| Agora Real-time Messaging SDK, Agora RTM SDK | RTM SDK                         | Used to create a stable messaging mechanism for real-time messaging scenarios. Successor to the Agora Signaling SDK. |
-| Agora SDK                                    | Agora SDK                       | A generic term for referring to any Agora SDK. Preference is to specify the name of the SDK. |
-| Agora SD-RTN™                                | SD-RTN™                         | "Software-defined Real-time Network". Must appear with trademark symbol, preferred version of term |
-| Agora Signaling SDK                          | Signaling SDK                   | Legacy. Provides a TCP-based messaging channel for initiating and establishing audio and video calls. Succeeded by the Agora Real-time Messaging SDK. |
-| Agora Video Call SDK                         | Video Call                      | Marketing term only?                                         |
-| Agora Video SDK                              | Video SDK                       | Used to embed video calling features into an app.            |
-| Agora Web SDK                                | Web SDK                         | Uses APIs in the web browser to establish connections and control the communication and live broadcast services. |
-| Agora Whiteboard SDK                         | Whiteboard SDK                  | Provides a simple collaboration platform on a virtual whiteboard where users from different locations can draw, annotate, and share PDF documents. |
-| Agora, Inc.                                  | Agora                           | Official company name.                                       |
-| Agora.io                                     | Agora                           | Variant of company name. Not used in technical documentation, with the exception of copyright statements (for example, "© 2016 Agora.io. All rights reserved.") |
 
 ### Common issues when native-Chinese speakers write English content 
 
