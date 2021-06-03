@@ -67,7 +67,7 @@ If a sentence ends with an abbreviation, the period used for the abbreviation al
 - Favor the active voice where possible.
 _________
 
-Generally speaking, with the active voice the subject of a sentence performs the action, whereas with the passive voice the subject is acted upon by something else, .
+Generally speaking, with the active voice the subject of a sentence performs the action, whereas with the passive voice the subject is acted upon by something else.
 
 The active voice sounds immediate and clear. The passive voice usually sounds more wordy and can obscure the subject, making it difficult for readers to fully understand your meaning. 
 
