@@ -129,7 +129,7 @@ The sound of a word or acronym when it is spoken determines whether "a" or "an" 
 
 Methods and callbacks must be specified, so when referring to a method or callback, use a leading "the" followed by "method" or "callback". For example "the SDK triggers the Client.on("disable-local-video") callback".
 
-You can omit “the” and “method” or "callback" when the reader will understand what it is through context.
+You can omit "the" and "method" or "callback" when the reader will understand what it is through context.
 
 ``` admonition:: Example
 
