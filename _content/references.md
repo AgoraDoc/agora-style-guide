@@ -10,26 +10,41 @@ When referring to an Agora SDK, use "the". For example, "the Agora Native SDK" o
 
 Do not use "the" for proper nouns such as "Agora Video Call" or "Agora Recording". Do not use "the Agora Cloud Recording".
 
-| **Full Name**                                | **Short Form**             | **Description/Notes**                                        |
-| -------------------------------------------- | -------------------------- | ------------------------------------------------------------ |
-| Agora Analytics                              | Agora Analytics            | A tool that tracks and analyzes the usage and quality of calls. |
-| Agora Cloud Recording                        | Cloud Recording            | A component provided by Agora to record and save voice calls, video calls, and interactive broadcasts on your cloud storage. |
-| Agora Communications as a Service            | Agora CaaS                 | Term appears to have been superceded by Agora SD-RTN™.       |
-| Agora Console                                | Agora Console              | A platform for creating and managing projects. Previously Agora Dashboard. |
-| Agora Electron SDK                           | Electron SDK               | "Agora RTC Electron SDK" is also used, but "Agora Electron SDK" is the preferred term in our documentation. Uses Agora RTC SDK for rapid RTC application development. |
-| Agora Lab, Inc.                              | Agora                      | Holding company for Agora. Not used in technical documentation. |
-| Agora MediaPlayer Kit                        | Mediaplayer Kit            | A media player plug-in developed for live broadcast scenes, and is compatible with the Agora Native SDK. |
-| Agora RTC Native SDK                         | Native SDK                 | Enables easy and convenient one-to-one or one-to-many calls and supports voice-only and video modes. |
-| Agora On-premise Recording SDK               | On-premise Recording SDK   | Record and save voice calls, video calls, and interactive broadcasts to a server. |
-| Agora RTC SDK                                | RTC SDK                    | "Real-time Communications". We refer to all the Agora SDKs that enable real-time communication as the RTC SDK. |
-| Agora Real-time Messaging SDK, Agora RTM SDK | RTM SDK                    | Used to create a stable messaging mechanism for real-time messaging scenarios. Successor to the Agora Signaling SDK. |
-| Agora SDK                                    | Agora SDK                  | A generic term for referring to any Agora SDK. Preference is to specify the name of the SDK. |
-| Agora SD-RTN™                                | SD-RTN™                    | "Software-defined Real-time Network". Must appear with trademark symbol, preferred version of term |
-| Agora Video SDK                              | Video SDK                  | Used to embed video calling features into an app.            |
-| Agora RTC Web SDK                            | Web SDK                    | Uses APIs in the web browser to establish connections and control the communication and live broadcast services. |
-| Agora Interactive Whiteboard SDK             | Interactive Whiteboard SDK | Provides a simple collaboration platform on a virtual whiteboard where users from different locations can draw, annotate, and share PDF documents. |
-| Agora, Inc.                                  | Agora                      | Official company name.                                       |
-| Agora.io                                     | Agora                      | Variant of company name. Not used in technical documentation, with the exception of copyright statements (for example, "© 2016 Agora.io. All rights reserved.") |
+| **Full Name**                                | **Short Form**                      | **Description/Notes**                                        |
+| -------------------------------------------- | ----------------------------------- | ------------------------------------------------------------ |
+| Agora Analytics                              | Agora Analytics                     | A tool that tracks and analyzes the usage and quality of calls. |
+| Agora Cloud Recording                        | Cloud Recording                     | A component provided by Agora to record and save voice calls, video calls, and interactive broadcasts on your cloud storage. |
+| Agora Interactive Live Streaming Premium     | Interactive Live Streaming Premium  | Live streaming with ultra-low latency and strong interaction. |
+| Agora Interactive Live Streaming Standard    | Interactive Live Streaming Standard | Live streaming with low latency and light interaction.       |
+| Agora Video Call                             | Video Call                          | Implements high-quality one-to-one or group video calls.     |
+| Agora Voice Call                             | Voice Call                          | Implements crystal-clear one-to-one or group voice calls.    |
+| Agora Real-time Messaging                    | Agora Real-time Messaging           | Provides global messaging cloud service with high reliability, low latency, and high concurrency. |
+| One-to-one Classroom                         | One-to-one Classroom                | An online teacher gives an exclusive lesson to only one student. |
+| Small Classroom                              | Small Classroom                     | A teacher gives an online lesson to multiple students.       |
+| Lecture Hall                                 | Lecture Hall                        | Thousands of students watch an online lecture and "raise hands" to interact. |
+| Live-stream Shopping                         | Live-stream Shopping                | Engaging and stimulating online shopping.                    |
+| Single Host                                  | Single Host                         | Ultra-low-latency live streaming by one host.                |
+| PK Host                                      | PK Host                             | Exciting PK between two hosts from different channels.       |
+| Breakout Class                               | Breakout Class                      | Divide the students in a large online class into small groups. |
+| AI Interactive Classroom                     | AI Interactive Classroom            | A server-side AI teacher provides personalized tutoring to students. |
+| Virtual Host                                 | Virtual Host                        | Avatar-based entertaining live streaming.                    |
+| Multiple Hosts                               | Multiple Hosts                      | Invite audience to co-host in live streaming.                |
+| Agora Communications as a Service            | Agora CaaS                          | Term appears to have been superceded by Agora SD-RTN™.       |
+| Agora Console                                | Agora Console                       | A platform for creating and managing projects. Previously Agora Dashboard. |
+| Agora Electron SDK                           | Electron SDK                        | "Agora RTC Electron SDK" is also used, but "Agora Electron SDK" is the preferred term in our documentation. Uses Agora RTC SDK for rapid RTC application development. |
+| Agora Lab, Inc.                              | Agora                               | Holding company for Agora. Not used in technical documentation. |
+| Agora MediaPlayer Kit                        | Mediaplayer Kit                     | A media player plug-in developed for live broadcast scenes, and is compatible with the Agora Native SDK. |
+| Agora RTC Native SDK                         | Native SDK                          | Enables easy and convenient one-to-one or one-to-many calls and supports voice-only and video modes. |
+| Agora On-premise Recording SDK               | On-premise Recording SDK            | Record and save voice calls, video calls, and interactive broadcasts to a server. |
+| Agora RTC SDK                                | RTC SDK                             | "Real-time Communications". We refer to all the Agora SDKs that enable real-time communication as the RTC SDK. |
+| Agora Real-time Messaging SDK, Agora RTM SDK | RTM SDK                             | Used to create a stable messaging mechanism for real-time messaging scenarios. Successor to the Agora Signaling SDK. |
+| Agora SDK                                    | Agora SDK                           | A generic term for referring to any Agora SDK. Preference is to specify the name of the SDK. |
+| Agora SD-RTN™                                | SD-RTN™                             | "Software-defined Real-time Network". Must appear with trademark symbol, preferred version of term. |
+| Agora Video SDK                              | Video SDK                           | Used to embed video calling features into an app.            |
+| Agora RTC Web SDK                            | Web SDK                             | Uses APIs in the web browser to establish connections and control the communication and live broadcast services. |
+| Agora Interactive Whiteboard                 | Interactive Whiteboard              | Provides a simple collaboration platform on a virtual whiteboard where users from different locations can draw, annotate, and share PDF documents. |
+| Agora, Inc.                                  | Agora                               | Official company name.                                       |
+| Agora.io                                     | Agora                               | Variant of company name. Not used in technical documentation, with the exception of copyright statements (for example, "© 2016 Agora.io. All rights reserved.") |
 
 #### A
 
