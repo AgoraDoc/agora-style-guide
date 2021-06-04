@@ -12,7 +12,7 @@ _________
 
 Abbreviations are a shortened version of a word used to represent the whole. Examples include "s" for "seconds" or "approx." for "approximately." 
 
-As a general rule, only use abbreviations in technical documentation for units of measure, and then only when they are joined with a number. For example, "15 s" is acceptable, but "The interval is measured in s." is not. Do not use a period after an abbreviated unit of measure. For more information, see Units of Measure. //TODO William Insert link.
+As a general rule, only use abbreviations in technical documentation for units of measure, and then only when they are joined with a number. For example, "15 s" is acceptable, but "The interval is measured in s." is not. Do not use a period after an abbreviated unit of measure. For more information, see Units of Measure. 
 
 In most other cases (such as "approx."), spell out the word. The only obvious exceptions are "Ltd." or "Inc." in a company's name.
 
@@ -20,7 +20,7 @@ Note that some short forms have entered common speech and are now accepted as wo
 
 Acronyms and initialisms are a type of abbreviation formed from the initial letters of other words. The difference between them is in pronunciation; acronyms are pronounced like words, whereas with initialisms each letter is pronounced individually. Examples of acronyms include "GIF" for "Graphics Interchange Format" and "RAM" for "random-access memory." Examples of initialisms include "SDK" for "Software Development Kit" and "API" for "Application Programming Interface."
 
-The pronunciation is important when choosing which form of the indefinite article to use. For more information, see Articles. //TODO William Insert link.
+The pronunciation is important when choosing which form of the indefinite article to use. For more information, see Articles. 
 
 Some words can be considered either acronyms or initialisms depending on personal preference, such as "FAQ." In such cases, check the department's word list first for the preferred choice. If there is none, choose one and make sure you use it consistently afterwards. For example, Agora treats FAQ as an intialism, so you would write "an FAQ" (that is, "an eff-ay-cue") rather than "a FAQ" ("a fack").
 
@@ -58,7 +58,7 @@ If a sentence ends with an abbreviation, the period used for the abbreviation al
 
 ``` admonition:: Example
 
-   For more information, contace Agora Inc.
+   For more information, contact Agora Inc.
 ```
 
 ### Active voice
@@ -81,7 +81,7 @@ This is not a hard and fast rule. The passive voice can be used to emphasize the
 ### Anthropomorphism
 
 **Quick reference:**
-- Do not attribute human qualities to software or hardware.
+- Do not attribute human qualities to software, hardware, or companies/brands.
 _________
 
 Anthropomorphism is the attribution of human traits or characteristics to non-human things. This is too metaphorical and informal in the context of technical writing.
@@ -95,23 +95,23 @@ Anthropomorphism is the attribution of human traits or characteristics to non-hu
 
 **Quick reference:**
 - Singular countable nouns must have an article or similar determiner.
-- Plural countable nouns can have a definite article or none.
+- Plural countable nouns can have a definite article or no article.
 - Do not use an article with proper nouns or uncountable (mass) nouns.
 - Use a definite article plus "method" or "callback" to specify its function unless it is obvious from context.
-- Do not normally use a leading article with "mode." Example: "Enter silent mode."
+- Do not normally use a leading article with "mode." Example: "Put the device into silent mode."
 _________
 
-Articles are a type word called a determiner. Determiners are parts of noun phrases that provide information about specificity, quantity, or possession.  
+Articles are a type of word called a determiner. Determiners are parts of noun phrases that provide information about specificity, quantity, or possession. 
 
 "A" and "an" are indefinite articles. They are used before a singular countable noun when referring to any member of a group. For example, "Download a text editor." means any text editor will do.
 
-Note that "countable" nouns are just that: things that can be separated from a group, where the separated items can be counted.
+Note that "countable" nouns are called that because they can be separated from a group and counted. For example, "channels" or "users."
 
 "The" is a definite article. It is used before a singular countable noun when referring to a particular member of a group. For example, "Download the text editor from the sample folder." means you need a specific text editor. 
 
 A plural countable noun can also be specified with a definite article. For example, "Extract the script files to your project folder." points you to some specific files.
 
-Note that singular countable nouns require an article or some other type of determiner, such as "one," "your," or "this." They cannot exist on their own. 
+Note that singular countable nouns *require* an article or some other type of determiner, such as "one," "your," or "this." They cannot exist on their own. 
 
 | Do this...                                           | ...instead of this                                    |
 | :--------------------------------------------------- | :---------------------------------------------------- |
@@ -119,11 +119,11 @@ Note that singular countable nouns require an article or some other type of dete
 
 Some types of nouns do not take articles. For example, non-specific plural nouns ("Script files can be useful."), proper nouns ("Agora is a wonderful company."), and uncountable or mass nouns ("Planning is crucial to success.").
 
-Note that many nouns can shift between "countable" and "uncountable" based on context, and they may therefore sometimes require an article and sometimes not. For example, "Information can be lost to user error. Be sure to back up the information in your project folder."
+Note that many nouns can shift between "countable" and "uncountable" based on context, and they may therefore sometimes require an article and sometimes not. For example, "Information can be lost to user error. Be sure to back up the information in your project folder regularly."
 
 #### Choosing "a" or "an"
 
-The sound of a word or acronym when it is spoken determines whether "a" or "an" precedes it. Use "a" before a word that starts with a consonant *sound*, and "an" for words that begin with a vowel *sound*. For example "a URL" and "an SDK".
+When using an indefinite article, the sound of a word or acronym when it is spoken determines whether "a" or "an" precedes it. Use "a" before a word that starts with a consonant *sound*, and "an" for words that begin with a vowel *sound*. For example, "a URL" and "an SDK".
 
 #### Articles and internal agreement
 
@@ -140,24 +140,25 @@ You can omit "the" and "method" or "callback" when the reader will understand wh
 
 In most cases, do not use a leading article for "modes." The exception to this is modes that have multiple options.
 
-For example:
+For example, the following modes do not require an article:
 
 - silent mode
 - dual-stream mode
 - individual recording mode
 - render mode
 - video display mode
+- mirror mode
 
-The following are modes that have several options: //TODO William Is this still true? Lots of places on the Internet (Zoom, Microsoft) seem to just use "mirror mode," for example. I'm not sure what you mean by "several options". Why isn't in just "set your device to recording mode."?
+The following are modes that have several options, so the article is needed: 
 
-- the mirror mode
 - the recording mode
 - the rendering mode
 
 ### Capitalization
 
 **Quick reference:**
-- Use sentence case for titles, headings, and captions. Exception: Also capitalize the first word after a colon.
+- Use title case for document titles.
+- Use sentence case for headings and captions. Exception: Also capitalize the first word after a colon.
 - Use sentence case for all table elements, including column headings.
 - Capitalize the first word after a colon in a sentence if it follows a label such as "Caution," "Note," or "Example."  
 - Use the official capitalization of products, companies, and so on.
@@ -166,11 +167,18 @@ The following are modes that have several options: //TODO William Is this still 
 - Capitalize only the first word in a hyphenated phrase. Example: "Random-access memory"
 _________
 
-In document titles and headings, use sentence case, where you capitalize only the first word, plus any proper nouns (such as names, trademarks, keywords, and other terms that are normally capitalized). You should also capitalize the first word after a colon in titles and headings.
+In document titles, use title case, where you capitalize the first word and then every word except for the verb "to be," short prepositions or conjunctions, and articles. Capitalize words after a colon, but only the first word in a hyphenated phrase.
+
+| Do this...                                           | ...instead of this                                    |
+| :--------------------------------------------------- | :---------------------------------------------------- |
+| Authenticate Your Users with Tokens | Authenticate your users with tokens | 
+| Real-time Messaging: A Beginner's Guide | Real-Time Messaging: a Beginner's Guide |
+
+In document headings, use sentence case, where you capitalize only the first word, plus any proper nouns (such as names, trademarks, keywords, and other terms that are normally capitalized). You should also capitalize the first word after a colon.
 
 ``` admonition:: Example
 
-  Step one: Generate a builderToken
+  Step one: Generate a builderToken for your users
 ```
 
 Use the official capitalization for the names of brands, companies, software, products, services, and so on. When in doubt, visit the offical web site of the company.
@@ -179,7 +187,7 @@ Use the official capitalization for the names of brands, companies, software, pr
 
   Copy the Microsoft Word files to your iOS project folder.
 ```
-Do not use capitalization for emphasis, as this comes across as shouting to a native English reader. Use italics instead. //TODO William Correct?
+Do not use capitalization for emphasis, as this comes across as shouting to a native English reader. Use italics instead. Note: You should use emphasis sparingly.
 
 | Do this...                                           | ...instead of this                                    |
 | :--------------------------------------------------- | :---------------------------------------------------- |
@@ -195,7 +203,7 @@ When a hyphenated word is capitalized (as the first word in a sentence or headin
 
 | Do this...                                           | ...instead of this                                    |
 | :--------------------------------------------------- | :---------------------------------------------------- |
-| Real-time multimedia streaming | Real-Time multimedia streaming | 
+| Real-time multimedia streaming is optional. | Real-Time multimedia streaming is optional. | 
 
 Note that proper nouns in hyphenated words are always capitalized.
 
@@ -222,7 +230,7 @@ If your sentence describes a cause-and-effect relationship, always put the cause
 
 "That" is used to introduce restrictive clauses. A restrictive clause provides information that is crucial to a sentence. For example, "Download the sample project that corresponds to your operating system." If you remove the clause "that corresponds to your operating system," the sentence lacks information that the reader needs (specifying which sample project to download vs. any others). Restrictive clauses are not set off with commas.
 
-"Which" is used to introduce non-restrictive clauses. A non-restrictive clause provides information that is useful, but not crucial to a sentence. For example, "Download the sample project, which you can find on GitHub." If you remove the clause "which you can find on GitHub," the sentence still conveys its main paint (the directive to "Download the sample project"). The non-restictive clause is useful information, but it is not crucial. Restrictive clauses are set off with commas.
+"Which" is used to introduce non-restrictive clauses. A non-restrictive clause provides information that is useful, but not crucial to a sentence. For example, "Download the sample project, which you can find on GitHub." If you remove the clause "which you can find on GitHub," the sentence still conveys its main point (the directive to "Download the sample project"). Restrictive clauses are set off with commas.
 
 ### Contractions
 
@@ -232,15 +240,16 @@ _________
 
 A contraction is a word or phrase that is shortened by dropping one or more letters. Examples include "let's" for "let us" and "can't" for "cannot." While native English readers understand them, they add unnecessary complexity for non-native readers. For example, contractions that end with the letter "s" can be mistaken for possessive nouns. In technical documentation, the use of contractions is discouraged because it sets an informal tone.
 
-The more conversational nature of an FAQ allows for the use of contractions, but restrict them to titles and headers. //TODO William Correct?
+The more conversational nature of an FAQ allows for the use of contractions, but restrict them to titles and headers.
 
 ### Expletives
 
 **Quick reference:**
 - Avoid using "filler" or unnecessary words or phrases. 
+- Avoid using "please" and "thank you."
 _________
 
-Expletives (also called "filler" or "empty" words) are words or phrases that can add emphasis to a sentence but are normally unnecessary. If a word or phrase can be removed without changing the sentence's meaning, it is probably an expletive. They may creep into writing because they are often heard in conversation. Because technical documentation is more formal, expletives should be used sparingly or avoided altogether.
+Expletives (also called "filler" words or "empty" words) are words or phrases that can add emphasis to a sentence but are normally unnecessary. If a word or phrase can be removed without changing the sentence's meaning, it is probably an expletive. They may creep into writing because they are often heard in conversation. Because technical documentation is more formal, expletives should be used sparingly or avoided altogether.
 
 The most common expletives are "there is/are" and "it is/they are". While these can be used intentionally for emphasis, avoiding them is better. Using them too often also results in boring writing.
 
@@ -252,7 +261,6 @@ The most common expletives are "there is/are" and "it is/they are". While these 
 The following are other expletives to watch out for:
 
 - Indeed
-- Please
 - At this time
 - Most
 - Actually
@@ -267,13 +275,21 @@ Words may become unnecessary in context. For example, you do not need to use "ne
 
 Note: The term "expletives" also commonly refers to swear words, which it could be argued also add unnecessary emphasis to sentences.
 
+#### "Polite" words
+
+Avoid using the words "please" and "thank you" in technical documentation, because they do not set the proper tone.
+
+| Do this...          | ...instead of this      |
+| :------------------- | :------------------- |
+| Download the sample code. | Please download the sample code. |
+
 ### Present tense
 
 **Quick reference:**
 - Use the present tense in most situations.
-- Use the past tense for release dates, fixed issues in release notes, or events that were completed a significant period of time in the past.
-- Use the present perfect tense for actions that happened in past and continue into the present.
-- Reserve the future tense for events that will happen after a significant delay.
+- Use the past tense only for release dates, fixed issues in release notes, or events that were completed a significant period of time in the past.
+- Use the present perfect tense for actions that happened in past and continue into the present. 
+- Avoid the future tense. 
 _________
 
 Use the present tense when writing your technical documentation, as it creates concise sentences and provides a tone of immediacy, as if things are occuring sequentially at the moment they are read (and always will). It also conveys a sense of truth or fact. 
@@ -285,18 +301,23 @@ Use the present tense when writing your technical documentation, as it creates c
 #### Exceptions to using the present tense
 The past tense is used for events that have happened definitively in the past and are unlikely to repeat. For Agora technical documenation, this is generally reserved for two situations: release dates and fixed issues.
 
-Always frame a product's release date in the past tense, as the present tense is only correct on the day of release. Fixed issues described in release notes should also be written in the past tense to emphasize that the issues have been addressed.
+Always frame a product's release date in the past tense, as the present tense is only correct on the day of release. 
+
+Fixed issues described in release notes should also be written in the past tense to emphasize that the issues have been addressed.
 
 | Do this...          | ...instead of this      |
 | :------------------- | :------------------- |
 | v3.0.0 was released on Mar 4, 2020. | v3.0.0 is released on Mar 4, 2020. |
-| Disconnecting the microphone caused the audio to freeze. | Disconnecting the microphone causes the audio to freeze. |
+| Fixed an issue where disconnecting the microphone caused the audio to freeze. | Fixed an issue where disconnecting the microphone causes the audio to freeze. |
 
-Avoid phrasing using *will* and *can*. //TODO William Why are you singling these out? "Will" is attached to the future tense, and "can" is conditional--perhaps there are occasions when it applies?
+Avoid using the future tense if at all possible. In most cases, the present tense works equally well.
 
-Use the future tense only if there is a significant time delay that matters in context. For example, "Agora will grant you access to the service once your application has been approved." //TODO William I'm not sure about this example. Is there a better one?
+| Do this...          | ...instead of this      |
+| :------------------- | :------------------- |
+| The token expires in 24 hours. | The token will expire in 24 hours. |
+| If the network connection is lost, the system attempts to reconnect automatically. | If the network connection is lost, the system will attempt to reconnect automatically. |
 
-The present prefect tense is used to emphasize a past event that has consequences that continue into the present. For example, "Get the information from the log file if error logging has been activated." The corresponding Chinese is 已经. //TODO William The Chinese translates to "already"--is this useful here?
+The present prefect tense is used to emphasize a past event that has consequences that continue into the present. For example, "Get the information from the log file if error logging has been activated." The corresponding Chinese is 已经. 
 
 ### Possessives
 
@@ -304,8 +325,10 @@ The present prefect tense is used to emphasize a past event that has consequence
 - Do not use possessives with company or product names.
 _________
 
-For singular nouns, add "'s" to the end of the word to form a possessive.
-For plural nouns that end in "s", like most English words, add an apostrophe on the end without the "s".
+For singular nouns, add "'s" to the end of the word to form a possessive. 
+
+For plural nouns that end in "s" (like most English plurals), add an apostrophe on the end without an additional "s". 
+
 For plural nouns that do not end in "s", add "'s" to the end of the word. 
 
 ``` admonition:: Example
@@ -313,26 +336,26 @@ For plural nouns that do not end in "s", add "'s" to the end of the word.
    Combine the teacher's video with each of the students' videos on the children's channel.
 ```
 
-Do not use a possessive with a product or company name. This is due to matters of trademark, because the "'s" may be mistaken for a part of the name, and because trademarks are often considered adjectives rather than nouns. //TODO William Maybe update? The Google Style Guide allows 's with a company name (but not with products). I am not sure why this distinction is made--perhaps they consider a company to be an entity that can "have things". I do not mind the Google rule, because something like "Agora's livestreaming products" or "Apple's latest iOS update" sound okay to me, and sometimes writing around the possessive to avoid it can sound clunky. However, I am okay with either rule, so you should just decide and let me know.
+Do not use a possessive with a product or company name. This is due to matters of trademark, because the "'s" may be mistaken for a part of the name, and because trademarks are often considered adjectives rather than nouns. 
 
 | Do this...                                           | ...instead of this                                    |
 | :--------------------------------------------------- | :---------------------------------------------------- |
 | The MP4 support of the Media Streaming Server SDK... | The Media Streaming Server SDK's MP4 support... | 
-| Install the latest version of iOS from Apple. | Install Apple's latest iOS version   |
+| Install the latest version of iOS from Apple. (or "of Apple iOS") | Install Apple's latest iOS version   |
 | Output by the Agora server   | Output by Agora's server  |
 
-### Second person voice
+### Second person
 
 **Quick reference:**
-- Use the second person voice when writing technical documentation.
-- If you need to use the third person, use gender-neutral language (use the singular "they" or refer to a role).
+- Use the second person when writing technical documentation.
+- If you need to use the third person, use gender-neutral language.
 - Use the imperative mood for task steps.
 - When writing references describing methods, use the third person (what it does) rather than the second person (what a developer would do with it).
-- Use the first person voice for FAQ questions.
+- Use the first person for FAQ questions.
 
 _________
 
-Using the second person voice ("you") addresses your text to the reader, which is why it is also called direct address. Second person is more engaging to readers than third person. However, when using the second person you must make sure you are clear who your intended audience is.
+Using the second person ("you") addresses your text to the reader, which is why it is also called direct address. Second person is more engaging to readers than third person. However, when using the second person you must make sure you are clear who your intended audience is.
 
 Use the second person rather than including yourself by using the first person ("we"). Remember who your audience is and that you are in a different role. In Chinese documents, use "你" instead of "您". 
 
@@ -341,7 +364,7 @@ Use the second person rather than including yourself by using the first person (
 | You can get an AppID using Agora Console.        | Developers can get an AppID using Agora Console.         |
 | Once in GitHub, you can download the sample project. | Once in GitHub, we can download a sample project. |
 
-If you are describing something in the third person, avoid using "his," "her," or "he/she". You can rephrase the sentence, use the singular "they," or refer to the relevant role instead (in singular or plural form). //TODO William Is there a preference?
+If you are describing something in the third person, avoid using "his," "her," or "he/she". You can rephrase the sentence, use the singular "they," or refer to the relevant role instead (in singular or plural form). 
 
 | Do this...                                                  | ...instead of this                                              |
 | :----------------------------------------------------------- | :----------------------------------------------------------- |
@@ -349,7 +372,7 @@ If you are describing something in the third person, avoid using "his," "her," o
 | When a user joins a channel, they receive the onChannelJoined callback. | Once a user joins a channel, he receives the onChannelJoined callback.  |
 | Users joining a channel receive the onChannelJoined callback.   | Once a user joins a channel, she receives the onChannelJoined callback.   |
 
-When necessary, given the typical audience for Agora technical documenation, use "a developer" or "developers" to refer to readers in the third person. 
+When necessary, given the typical audience for Agora technical documentation, use "a developer" or "developers" to refer to readers in the third person. 
 
 ``` admonition:: Example
 
@@ -375,7 +398,7 @@ The imperative mood is an implied second-person voice that takes the form of a c
 
 #### Third person with methods in reference documentation
 
-When you are writing reference documentation for a method, phrase the main method description in terms of what it does ("Gets," "Lists," "Creates," "Searches"), rather than what the developer would use it to do ("Get," "List," "Create," "Search").
+When writing reference documentation for a method, phrase the main method description in terms of what it does (for example, "gets" or "creates") rather than what a developer would use it to do ("get" or "create). The subject is the method. 
 
 #### First person with FAQs
 
