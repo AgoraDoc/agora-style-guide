@@ -317,7 +317,9 @@ Avoid using the future tense if at all possible. In most cases, the present tens
 | The token expires in 24 hours. | The token will expire in 24 hours. |
 | If the network connection is lost, the system attempts to reconnect automatically. | If the network connection is lost, the system will attempt to reconnect automatically. |
 
-The present prefect tense is used to emphasize a past event that has consequences that continue into the present. For example, "Get the information from the log file if error logging has been activated." The corresponding Chinese is 已经. 
+The present prefect tense is used to emphasize a past event that has consequences that continue into the present. For example, "Before calling this method, ensure that you have integrated the `libagora_segmentation_extension.dll` dynamic library into the project folder." 
+
+The corresponding Chinese is 已经. 
 
 ### Possessives
 
