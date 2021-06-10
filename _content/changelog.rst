@@ -1,3 +1,9 @@
+June 2021
+==========
+
+- Added a word list.
+- Updated product naming.
+
 December 2020
 ==============
 
