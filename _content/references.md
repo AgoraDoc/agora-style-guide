@@ -13,7 +13,7 @@ Do not use "the" for proper nouns such as "Agora Video Call" or "Agora Recording
 | **Full Name**                                | **Short Form**                      | **Description/Notes**                                        |
 | -------------------------------------------- | ----------------------------------- | ------------------------------------------------------------ |
 | Agora Analytics                              | Agora Analytics                     | A tool that tracks and analyzes the usage and quality of calls. |
-| Agora Cloud Recording                        | Cloud Recording                     | A component provided by Agora to record and save voice calls, video calls, and interactive broadcasts on your cloud storage. |
+| Agora Cloud Recording                        | Cloud Recording                     | A component provided by Agora to record and save voice calls, video calls, and interactive live streaming sessions on your cloud storage. |
 | Agora Interactive Live Streaming Premium     | Interactive Live Streaming Premium  | Live streaming with ultra-low latency and strong interaction. |
 | Agora Interactive Live Streaming Standard    | Interactive Live Streaming Standard | Live streaming with low latency and light interaction.       |
 | Agora Video Call                             | Video Call                          | Implements high-quality one-to-one or group video calls.     |
