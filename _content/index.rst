@@ -31,7 +31,7 @@ This document provides important guidelines on grammar, punctuation, and style f
 
 The `Merriam-Webster's Dictionary <https://www.merriam-webster.com/>`_ is the department’s reference for (American) English spelling. 
 
-Generally speaking, consult this guide first, then consult the Google style guide for information outside the scope of this document. When necessary
+Generally speaking, consult this guide first, then consult the Google style guide for information outside the scope of this document.
 
 For additional in-depth grammar information or company-specific vocabulary and usage, consult the following:
 
