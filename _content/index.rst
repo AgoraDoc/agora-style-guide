@@ -25,17 +25,22 @@
 Agora Developer Documentation Style Guide
 =============================================
 
-The Agora Technical Document Style Guide is a reference for technical writers to improve the writing and consistency of Agora documentation.
-This document provides important guidelines targeting Agora technical writers. You can find detailed style, usage, and grammar guidance in the following references:
+The Agora Developer Documentation Style Guide is the primary reference for technical writers to improve the quality and consistency of Agora documentation.
+
+This document provides important guidelines on grammar, punctuation, and style for Agora technical writers. It is broadly based on the `Google Developer Documentation Style Guide <https://developers.google.com/style/>`_. Exceptions are noted where necessary. 
+
+The `Merriam-Webster's Dictionary <https://www.merriam-webster.com/>`_ is the department’s reference for (American) English spelling. 
+
+Generally speaking, consult this guide first, then consult the Google style guide for information outside the scope of this document.
+
+For additional in-depth grammar information or company-specific vocabulary and usage, consult the following:
 
 English references (online)
 -------------------------------
 
 - `Apple Style Guide <https://help.apple.com/applestyleguide/>`_
 - `Appledoc comments formatting style <https://github.com/tomaz/appledoc/blob/master/CommentsFormattingStyle.markdown>`_
-- `Google Developer Documentation Style Guide <https://developers.google.com/style/>`_
 - `How to Write Doc Comments for the Javadoc Tool <http://www.oracle.com/technetwork/articles/java/index-137868.html>`_
-- `Merriam-Webster's Dictionary <https://www.merriam-webster.com/>`_
 - `Microsoft Writing Style Guide <https://docs.microsoft.com/en-us/style-guide/welcome/>`_
 - `Purdue University Online Writing Lab <https://owl.purdue.edu/owl/purdue_owl.html>`_
 - `The Elements of Style (PDF) <https://faculty.washington.edu/heagerty/Courses/b572/public/StrunkWhite.pdf>`_
