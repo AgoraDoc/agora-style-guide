@@ -13,7 +13,7 @@
 import os
 import sys
 sys.path.insert(0, os.path.abspath('.'))
-sys.path.insert(1, '/usr/local/lib/python3.7/site-packages/')
+sys.path.insert(1, '/opt/homebrew/lib/python3.9/site-packages')
 import recommonmark
 from recommonmark.transform import AutoStructify
 
@@ -21,7 +21,7 @@ from recommonmark.transform import AutoStructify
 # -- Project information -----------------------------------------------------
 
 project = 'Agora Developer Document Style Guide'
-copyright = '2020, Agora.io'
+copyright = '2021, Agora.io'
 author = 'Agora Tech Comm'
 
 github_doc_root = 'https://github.com/AgoraDoc/Agora_style_guide/tree/master/_content/'
