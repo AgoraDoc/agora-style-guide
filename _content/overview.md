@@ -35,7 +35,7 @@ Make sure you fully understand what you are writing about. When in doubt, ask fo
 
 Our content must be factually and grammatically correct.
 
-Incorrect content causes our audience to lose trust in our documentation and brand. If you are unsure if your content is correct, check with a developer before publication. //TODO William Is there not a technical review at some point?
+Incorrect content causes our audience to lose trust in our documentation and brand. If you are unsure if your content is correct, check with a developer before publication.
 
 Grammatically incorrect writing can confuse our readers and reflects poorly on our professionalism. If you are having trouble with the wording of your content, speak to another writer, or contact a technical editor for help.
 
@@ -51,7 +51,7 @@ Best practices to adopt: //TODO William Are there too many? Should we simplify t
 * Keep paragraphs short. Dense pages full of text can be intimidating for readers (or hide important information from skimmers).
 * Remember to be clear and concise. Replace phrases with single words where possible, and remove ambiguities.
 * Favor the active voice.
-* Maintain a formal tone (except for FAQs). //TODO WIlliam I think?
+* Maintain a formal tone (except for FAQs).
 * Write in the second person ("you"), because it is more friendly and engaging than a third-person form (such as "developers"). Do not use "we," but remember that "Agora" can recommend courses of action. 
 * Always be consistent in your word usage. Do not use the same word to mean different things (or refer to one thing using different words).
 * Place essential information in the main clause, as you cannot assume the reader will read the whole sentence.
