@@ -9,6 +9,7 @@
    :hidden:
 
    overview
+   word-list
    language-and-grammar
    punctuations
    formatting-and-organization
@@ -28,7 +29,7 @@ Agora Developer Documentation Style Guide
 The Agora Developer Documentation Style Guide is the primary reference for technical writers to improve the quality and consistency of Agora documentation.
 
 .. hint:: 
-   If you would like to contribute technical content to the Agora community, please follow the `Google Developer Documentation Style Guide <https://developers.google.com/style/>`_ with the `exceptions <Exceptions>`_, and consult the :ref:`references:Word list` for commonly used terms in Agora documentation.
+   If you would like to contribute technical content to the Agora community, please follow the `Google Developer Documentation Style Guide <https://developers.google.com/style/>`_ with the `exceptions <Exceptions>`_, and consult the :ref:`word-list` for commonly used terms in Agora documentation.
 
 This document provides important guidelines on grammar, punctuation, and style for Agora technical writers. It is broadly based on the `Google Developer Documentation Style Guide <https://developers.google.com/style/>`_. Exceptions are noted where necessary. 
 
@@ -133,4 +134,4 @@ Code samples
 
 Word list
 ^^^^^^^^^^^
-See :ref:`references:Word list` for details.
+See :ref:`word-list` for details.

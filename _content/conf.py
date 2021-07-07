@@ -21,7 +21,7 @@ from recommonmark.transform import AutoStructify
 # -- Project information -----------------------------------------------------
 
 project = 'Agora Developer Document Style Guide'
-copyright = '2021, Agora.io'
+copyright = '2021, Agora, Inc.'
 author = 'Agora Tech Comm'
 
 github_doc_root = 'https://github.com/AgoraDoc/Agora_style_guide/tree/master/_content/'
