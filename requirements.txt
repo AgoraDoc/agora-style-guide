@@ -1,4 +1,5 @@
 sphinx_rtd_theme
+sphinx-press-theme
 recommonmark
 sphinx_markdown_tables
 sphinx>2.4

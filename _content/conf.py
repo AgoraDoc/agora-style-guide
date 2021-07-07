@@ -24,7 +24,7 @@ project = 'Agora Developer Document Style Guide'
 copyright = '2021, Agora, Inc.'
 author = 'Agora Tech Comm'
 
-github_doc_root = 'https://github.com/AgoraDoc/Agora_style_guide/tree/master/_content/'
+github_doc_root = 'https://github.com/AgoraDoc/agora-style-guide/tree/theme-test/_content/'
 
 # -- General configuration ---------------------------------------------------
 
@@ -55,7 +55,7 @@ latex_engine = 'xelatex'
 # a list of builtin themes.
 #
 
-html_theme = "sphinx_rtd_theme"
+html_theme = "press"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
