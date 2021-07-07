@@ -1,7 +1,7 @@
 Word list
 ===========
 
-This section lists commonly used words and phrases in Agora technical documentation. For the usage of other words, refer to the [word list](https://developers.google.com/style/word-list) in Google developer documentation style guide.
+This section lists commonly used words and phrases in Agora technical documentation. For the usage of other words, refer to the `word list <https://developers.google.com/style/word-list>`_ in Google developer documentation style guide.
 
 Agora-related naming conventions
 ----------------------------------
@@ -103,19 +103,23 @@ Agora Voice SDK
 A
 ---
 
-**add-on** (noun, adjective)
+**add-on**
+    Use as a noun or adjective.
 
-**add on** (verb)
+**add on**
+    Use as a verb.
 
 **Android device**
+     
 
 **app**
-    Lowercase except when beginning a sentence or used as a proper noun)
+    Lowercase except when beginning a sentence or used as a proper noun.
   
 **audio sample**
     Use instead of *audio capture*.
 
 **audio sample rate**
+    Not *audio sampling rate*.
 
 B
 ---
@@ -124,34 +128,37 @@ B
     Use instead of *back-end* or *back end*.
 
 **beta**
+    Lowercase.
 
 **bitrate**
+    Not *bit rate*.
 
 **Boolean**
-Uppercase when referring to the datatype.
+    Uppercase when referring to the datatype.
 
 **Bluetooth**
+    Not *bluetooth*.
 
 **bridging header file**
-
-C
----
-
-**case-sensitive**
+     
 
 D
 ---
 
 **data packet**
+     
 
 **dual-stream mode**
+    No articles before the phrase, for example, "enable dual-stream mode."
 
-**dual stream** (noun)
+**dual stream**
+    Use as a noun. Do not use *dual stream*.
 
 E
 ---
 
 **email**
+    Not *E-mail* or *e-mail*.
 
 **earlier**
     Use instead of *lower* when describing a version.
@@ -163,11 +170,13 @@ F
 ---
 
 **filename**
+    Not *file name*.
 
 **fill in; fill out**
     Use *fill in* when referring to entering information in individual fields. Use *fill out* when referring to completing an entire form.
 
 **front camera**
+     
 
 H
 ---
@@ -182,8 +191,10 @@ I
     Use instead of *wrong*.
 
 **image enhancement**
+     
 
 **internet**
+    Lowercase.
 
 J
 ---
@@ -197,20 +208,23 @@ J
 L
 ---
 
-**last mile** (noun or adjective)
-    Always two separate words.
+**last mile**
+    Use as a noun or adjective. Always two separate words.
 
 **later**
     Use instead of *higher* when describing a version.
   
-**live stream** (intransitive verb or noun)
+**live stream**
+    Use as an intransitive verb or noun.
 
 **live streaming**
     Use *live streaming* to refer to Agora products and scenarios.
 
-**log in** (verb)
+**log in**
+    Use as a verb.
 
-**login** (noun or adjective)
+**login**
+    Use as a noun or adjective.
 
 M
 ---
@@ -219,10 +233,13 @@ M
     Use instead of may when referring to possibility.
 
 **multichannel**
+    No hyphen.
 
 **multimedia**
+    No hyphen.
 
 **multithreaded**
+    No hyphen.
 
 N
 ---
@@ -240,6 +257,7 @@ P
 ---
 
 **packet loss rate**
+     
 
 **page**
     Use *this page* instead of *this article*.
@@ -247,18 +265,23 @@ P
 **path**
     Avoid using *filepath*, *file path*, *pathname*, or *path name* if possible.
 
-**plugin** (noun)
+**plugin**
+    Use as a noun.
 
-**plug-in** (adjective)
+**plug-in**
+    Use as an adjective.
 
-**plug in** (verb)
+**plug in**
+    Use as a verb.
 
 R
 ---
 
-**real time** (noun or adverb)
+**real time**
+    Use as a noun or adverb.
 
-**real-time** (adjective)
+**real-time**
+    Use as an adjective.
 
 **reintegrate**
     No hyphen. 
@@ -267,26 +290,31 @@ S
 ---
 
 **screen sharing**
+    Use as a noun or adjective.
 
-**set up** (verb)
+**set up**
+    Use as a verb.
 
-**setup** (noun)
+**setup**
+    Use as a noun.
 
 **show**
     Use instead of *demonstrate*.
 
-**sign up** (verb)
+**sign up**
+    Use as a verb.
 
-**sign-up** (noun or adjective)
-
-**SOCKS5**
+**sign-up**
+    Use as a noun or adjective.
 
 T
 ---
 
 **time frame**
+     
 
 **token**
+     
 
 U
 ---
@@ -295,14 +323,16 @@ U
     Do not use *uid*.
 
 **URL**
+    All captials. Not *Url* or *url*.
 
 **username**
-    Do not use account name.
+    Do not use *account name*.
 
 V
 ---
 
 **video capture**
+    Use as a noun or adjective.
 
 W
 ---
@@ -311,5 +341,7 @@ W
     Refers to the platform.
 
 **web page**
+    Lowercase.
 
 **Wi-Fi**
+    Not *Wifi* or *WiFi*.
