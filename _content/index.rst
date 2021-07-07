@@ -9,6 +9,7 @@
    :hidden:
 
    overview
+   word-list
    language-and-grammar
    punctuations
    formatting-and-organization
