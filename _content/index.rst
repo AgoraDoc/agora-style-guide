@@ -30,7 +30,7 @@ This document is the primary reference for technical writers on questions of gra
 
 When investigating a style issue, consult this guide first. Refer to the Google style guide for information outside the scope of this document.
 
-This document also contains the official spellings for Agora products and technology, as well a list of preferred spellings for related words. See :ref:`references:Word list` for details. 
+This document also contains the official spellings for Agora products and technology, as well a list of preferred spellings for related words. See :ref:`word-list` for details. 
 
 For the (American) English spelling of additional terms and general vocabulary, refer to the `Merriam-Webster's Dictionary <https://www.merriam-webster.com/>`_.
 
