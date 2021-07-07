@@ -26,18 +26,15 @@
 Agora Developer Documentation Style Guide
 =============================================
 
-The Agora Developer Documentation Style Guide is the primary reference for technical writers to improve the quality and consistency of Agora documentation.
+This document is the primary reference for technical writers on questions of grammar, style, and usage. It is broadly based on the `Google Developer Documentation Style Guide <https://developers.google.com/style/>`_. Exceptions are noted where necessary; a summary of the main differences can be found in `Exceptions <Exceptions>`_.
 
-.. hint:: 
-   If you would like to contribute technical content to the Agora community, please follow the `Google Developer Documentation Style Guide <https://developers.google.com/style/>`_ with the `exceptions <Exceptions>`_, and consult the :ref:`word-list` for commonly used terms in Agora documentation.
+When investigating a style issue, consult this guide first. Refer to the Google style guide for information outside the scope of this document.
 
-This document provides important guidelines on grammar, punctuation, and style for Agora technical writers. It is broadly based on the `Google Developer Documentation Style Guide <https://developers.google.com/style/>`_. Exceptions are noted where necessary. 
+This document also contains the official spellings for Agora products and technology, as well a list of preferred spellings for related words. See :ref:`word-list` for details. 
 
-The `Merriam-Webster's Dictionary <https://www.merriam-webster.com/>`_ is the department’s reference for (American) English spelling. 
+For the (American) English spelling of additional terms and general vocabulary, refer to the `Merriam-Webster's Dictionary <https://www.merriam-webster.com/>`_.
 
-Generally speaking, consult this guide first, then consult the Google style guide for information outside the scope of this document.
-
-For additional in-depth grammar information or company-specific vocabulary and usage, consult the following:
+For additional, in-depth study of style, grammar, and technical documentation, you can consult the following recommended sources:
 
 English references (online)
 -------------------------------
@@ -72,66 +69,26 @@ Chinese references
 Exceptions
 -------------
 
-This section lists the differences between Agora and Google style guides for a quick reference.
+For those familiar with the Google style guide, this section summarizes the main differences between that document and this style guide.
 
 Language and grammar
 ^^^^^^^^^^^^^^^^^^^^^
 
-Articles
-   Methods and callbacks must be specified, so when referring to a method or callback, use a leading “the” followed by “method” or “callback”. For example “the SDK triggers the Client.on(“disable-local-video”) callback”. Omit “the” and “method” when the reader will understand that it is a method by context. 
-
 Contractions
-   Do not use contractions except in FAQs.
+   Do not use contractions except in the headings of FAQs.
 
 Possessives
-   Do not use a possessive with a product name, or with the company name.
+   Do not use a possessive with a product or company name.
 
-Tense
-   Always frame the release date in the past tense, as that tense will only be correct on the day of release. For example, use “v3.0.0 was released on Mar 4, 2020”, not “v3.0.0 is released on Mar 4, 2020”.
-
-Verb form
-   Prefer using the relative noun to a verb-…ing combination, for example say “the method that uses this parameter” instead of “the method using this parameter”.
-
-Punctuations
-^^^^^^^^^^^^^
-
-Colons
-   No space before or after a colon when it is used to express ratios.
-
-Slashes
-   Use a slash to separate the two functions that can be realized with one method, such as, “enable/disable”. The capitalization of the two words should remain consistent.
+Tone
+   Use a formal tone in your technical documentation, with the exception of FAQs, which can be more conversational.
 
 Formatting and organization
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Dimensions
-   When referring to resolution values, such as "1080p", or "1920 × 1080", only use commas when the number has five or more digits. For example, "width should not exceed 1920, and width × height should not exceed 1920 × 1080."
+   When referring to resolution values, such as "1080p", or "1920 × 1080", only use commas when the number has five or more digits. For example, "width should not exceed 1920, and width × height should not exceed 1920 × 1080." Also, use the multiplication symbol rather than a lowercase x. 
 
-Linking
-   - Provide a link to the glossary at the first mention.
-   - Provide links to reference documents except in code comments.
-
-Spaces
-  - Use one space between numbers and units. Example: 256 Kbps.
+Numbers and spacing
   - Use spaces around mathematical symbols. Example: V = off, width x height, x < y
   - Use spaces around dimensions. Example: 3.2 x 3.6 x 0.6 mm.
-
-Computer interfaces
-^^^^^^^^^^^^^^^^^^^^
-Parameters and return values
-   - For Boolean parameters use a list that includes “true” and “false”, followed by corresponding functions. Do not put the words “true” and “false” in code font or quotation marks. Notice the capitalization difference across different platforms.
-   - For Optional or Default parameters, put (Optional) or (Default) as the first word of the description.
-
-Callbacks
-   - If a callback occurs when a method triggers it, start with “Occurs when…”
-   - If a callback reports an error or statistics, start with “Reports…”
-
-Code samples
-   - Ensure that all the variants in the code samples are assigned values.
-   - Code comments should be one line above the code they refer to and start with “// “.
-   - Code comments should use the same indenting as the succeeding code.
-   - Only use periods for complete sentences.
-
-Word list
-^^^^^^^^^^^
-See :ref:`word-list` for details.
