@@ -2,6 +2,8 @@
 
 ## July 2021
 
+- Applied a new theme [Furo](https://pradyunsg.me/furo/).
+- Replaced recommonmark with [MyST](https://myst-parser.readthedocs.io/en/latest/index.html). See [Proposal to sunset recommonmark in favor of MyST-Parser](https://github.com/readthedocs/recommonmark/issues/221) for more information.
 - Added a word list.
 - Updated product naming.
 

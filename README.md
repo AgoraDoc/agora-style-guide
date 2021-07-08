@@ -21,6 +21,8 @@ The `master` branch is published to Read the Docs as the latest version. To make
 
 2. Create a pull request to merge your commits to `master`.
 
+> The source files are written in markdown, and use the MyST parser to support Sphinx features. For the MyST syntax, see [The MyST Syntax Guide](https://myst-parser.readthedocs.io/en/latest/syntax/syntax.html).
+
 ### Open an issue for discussion
 
 Feel free to propose something for discussion by opening an issue.
