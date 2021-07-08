@@ -15,10 +15,9 @@ The following are **extremely strong suggestions**. In some cases, they may not 
 - Make sure that the spelling of a class name in documentation matches the spelling in code, with capital letters and no spaces (for example, `ActionBar`).
 - Check for typos in the code and raise them to development to get fixed.
 
-``` admonition:: Example
-
-    .. image:: img/api.png
-```
+:::{admonition} Example
+![example of API doc](img/api.png)
+:::
 
 ### Classes, interfaces, structs
 
@@ -45,16 +44,22 @@ Use present tense for all descriptions.
 #### Description
 
 - If a method performs an operation and returns some data, start the description with a verb describing the operation.
+
 - If it is a "getter" method and it returns a Boolean, start with "Checks whether ...."
+
 - If it is a "getter" method and it returns something other than a Boolean, start with "Gets the ...."
+
 - If it has no return value, start with a verb like one of the following:
+
   - Turning on an ability or setting: "Sets the..."
   - Updating a property: "Updates the..."
   - Deleting something: "Deletes the..."
   - Registering a callback or other element for later reference: "Registers..."
 
 - If it is a convenience method that constructs the class object, start with "Creates a..."
+
 - If a callback occurs when a method triggers it, start with "Occurs when..."
+
 - If a callback reports an error or statistics, start with "Reports..."
 
 #### Parameters

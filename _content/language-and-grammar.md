@@ -28,19 +28,17 @@ Always capitalize every letter in an acronym or initialism unless it is a compan
 
 Do not use periods after the letters of acronyms or initialisms. The only exception is "U.S." when used as an adjective (you should spell out the noun). 
 
-``` admonition:: Example
-
-   Servers located in the United States provide services to U.S. users.
-```
+:::{admonition} Example
+Servers located in the United States provide services to U.S. users.
+:::
 
 Note that some acronyms have evolved into words (for example, "modem") and are now treated as words, meaning they are not capitalized.
 
 Many abbreviations and acronyms/initialisms can be considered understood by average readers and do not need to be spelled out. If a term is new or uncommon, however, spell out the first mention of it in the text, followed immediately by the abbreviation in parentheses. Use the abbreviated form for all subsequent references.
 
-``` admonition:: Example
-
-   The communication between the user and the Agora server is protected by transmission protocols, such as the Agora private transmission protocol, Transport Layer Security (TLS), and Web Socket Secure (WSS). Consult the API guide for guidelines on implementing TLS and WSS on your project.
-```
+:::{admonition} Example
+The communication between the user and the Agora server is protected by transmission protocols, such as the Agora private transmission protocol, Transport Layer Security (TLS), and Web Socket Secure (WSS). Consult the API guide for guidelines on implementing TLS and WSS on your project.
+:::
 
 #### Latin abbreviations
 
@@ -56,10 +54,9 @@ Do not use abbreviations derived from Latin. Always use their English equivalent
 
 If a sentence ends with an abbreviation, the period used for the abbreviation also serves as the period for the sentence.
 
-``` admonition:: Example
-
-   For more information, contact Agora Inc.
-```
+:::{admonition} Example
+For more information, contact Agora Inc.
+:::
 
 ### Active voice
 
@@ -90,6 +87,10 @@ Anthropomorphism is the attribution of human traits or characteristics to non-hu
 | :-------------------------------------------------------- | :----------------------------------------------------------- |
 | A Delimiter object specifies where to split a string. | A Delimiter object tells the splitter where a string should be broken. |
 | The PC detects a new device.                          | The PC sees a new device.                                    |
+
+:::{admonition} Example
+Combine the teacher's video with each of the students' videos.
+:::
 
 ### Articles (a, an, the)
 
@@ -129,12 +130,15 @@ When using an indefinite article, the sound of a word or acronym when it is spok
 
 Methods and callbacks must be specified, so when referring to a method or callback, use a leading "the" followed by "method" or "callback". For example "the SDK triggers the Client.on("disable-local-video") callback".
 
+
 You can omit "the" and "method" or "callback" when the reader will understand what it is through context.
 
-``` admonition:: Example
+:::{admonition} Example
+The CheckPermission method is used to request access to the microphone. You do not need to call CheckPermission for earlier versions.
+:::
 
-  The CheckPermission method is used to request access to the microphone. You do not need to call CheckPermission for earlier versions.
-```
+
+(the)=
 
 #### Use of "the" before a type of mode
 
@@ -176,17 +180,16 @@ In document titles, use title case, where you capitalize the first word and then
 
 In document headings, use sentence case, where you capitalize only the first word, plus any proper nouns (such as names, trademarks, keywords, and other terms that are normally capitalized). You should also capitalize the first word after a colon.
 
-``` admonition:: Example
-
-  Step one: Generate a builderToken for your users
-```
+:::{admonition} Example
+Step one: Generate a builderToken for your users
+:::
 
 Use the official capitalization for the names of brands, companies, software, products, services, and so on. When in doubt, visit the offical web site of the company.
 
-``` admonition:: Example
+:::{admonition} Example
+Copy the Microsoft Word files to your iOS project folder.
+:::
 
-  Copy the Microsoft Word files to your iOS project folder.
-```
 Do not use capitalization for emphasis, as this comes across as shouting to a native English reader. Use italics instead. Note: You should use emphasis sparingly.
 
 | Do this...                                           | ...instead of this                                    |
@@ -333,10 +336,9 @@ For plural nouns that end in "s" (like most English plurals), add an apostrophe 
 
 For plural nouns that do not end in "s", add "'s" to the end of the word. 
 
-``` admonition:: Example
-
-   Combine the teacher's video with each of the students' videos on the children's channel.
-```
+:::{admonition} Example
+Combine the teacher's video with each of the students' videos on the children's channel.
+:::
 
 Do not use a possessive with a product or company name. This is due to matters of trademark, because the "'s" may be mistaken for a part of the name, and because trademarks are often considered adjectives rather than nouns. 
 
@@ -345,6 +347,7 @@ Do not use a possessive with a product or company name. This is due to matters o
 | The MP4 support of the Media Streaming Server SDK... | The Media Streaming Server SDK's MP4 support... | 
 | Install the latest version of iOS from Apple. (or "of Apple iOS") | Install Apple's latest iOS version   |
 | Output by the Agora server   | Output by Agora's server  |
+
 
 ### Second person
 
@@ -376,18 +379,16 @@ If you are describing something in the third person, avoid using "his," "her," o
 
 When necessary, given the typical audience for Agora technical documentation, use "a developer" or "developers" to refer to readers in the third person. 
 
-``` admonition:: Example
-
-  To improve data security, developers can encrypt users' media streams during the real-time engagement.
-```
+:::{admonition} Example
+To improve data security, developers can encrypt users' media streams during the real-time engagement.
+:::
 
 For glossary terms, avoid using any person where possible; otherwise, use "developers."  
 
-``` admonition:: Example
-
-  Agora Console
-  Agora Console is a site for developers to manage Agora projects and services.
-```
+:::{admonition} Example
+Agora Console
+: Agora Console is a site for developers to manage Agora projects and services.
+:::
 
 #### Imperative mood
 
@@ -407,7 +408,9 @@ When writing reference documentation for a method, phrase the main method descri
 When writing the questions for FAQs (but *not* the answers), use first person, as if someone were asking you the question.
 
 
-``` admonition:: Example
+:::{admonition} Example
 
-  How do I obtain a temporary token?
-```
+
+How do I obtain a temporary token?
+:::
+
