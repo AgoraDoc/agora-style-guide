@@ -4,44 +4,44 @@
 
 - Applied a new theme [Furo](https://pradyunsg.me/furo/).
 - Replaced recommonmark with [MyST](https://myst-parser.readthedocs.io/en/latest/index.html). See [Proposal to sunset recommonmark in favor of MyST-Parser](https://github.com/readthedocs/recommonmark/issues/221) for more information.
-- Added a word list.
+- Added [](word-list.md).
 - Updated product naming.
 
 ## December 2020
 
-- Added the font formatting for user inputs in {ref}`formatting-and-organization:Code in text`.
+- Added the font formatting for user inputs in [](code-in-text).
 - Added wording for Unix time.
 - Fixed the title of the Punctuation section.
 
 ## July 2020
 
-- Added {ref}`formatting-and-organization:Currency`.
-- Added "audience member" in {ref}`references:Common phrasing issues`.
+- Added [](currency).
+- Added "audience member" in [](ref/issues).
 - Deleted the rule of no periods in Chinese language.
 
 ## June 2020
 
-- Added "in the user interface" in {ref}`references:Common phrasing issues`.
-- Updated usage of "the ... method" in {ref}`language-and-grammar:Articles and internal agreement`.
-- Added exceptions to {ref}`formatting-and-organization:Commas in numbers`.
+- Added "in the user interface" in [](ref/issues).
+- Updated usage of "the ... method" in [](language/articles).
+- Added exceptions to [](comma/numbers).
 
 ## May 2020
 
 ### May 22
 
 - Added an exception for spelling out numbers.
-- Added {ref}`punctuations:Colon use in ratios`.
+- Added [](colon/ratios).
 
 ### May 15
 
-- Added guidelines for {ref}`inline code comments <api-reference-code-comments:Inline code comments>`.
-- Added {ref}`the`.
+- Added guidelines for [](inline-code-comments).
+- Added [](the).
 
 ### May 9
 
-- Updated examples in {ref}`punctuations:Commas`.
+- Updated examples in [](commas).
 
-- Added examples in {ref}`formatting-and-organization:Numbers`.
+- Added examples in [](numbers).
 
 - Added the following preferred phrasings:
 
@@ -76,4 +76,4 @@ Added an exception for not using markdown quotes.
 - Link to glossary at the first mention.
 - Updated: Do not use a colon to separate two sentences.
 - Adde: Use a comma to separate values in this thousands, hundreds of thousands, millions, and so on.
-- Added {ref}`references:Commonly used acronyms` and {ref}`word-list:Agora-related naming conventions`.
+- Added *Commonly used acronyms* and *Agora-related naming conventions*.

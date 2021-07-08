@@ -81,6 +81,7 @@ In Agora's online editor, wrap the notes in `<div class="alert warning"></div>`.
 ![Example of warning](img/notes-warning.png)
 :::
 
+(numbers)=
 ### Numbers
 
 Spell out all ordinal numbers in text. For example, first, fifth, twelfth, forty-third.
@@ -115,6 +116,7 @@ In general, use numerals for the following:
 - Measurements.
 - [Numbers in a range](https://developers.google.com/style/numbers#ranges-of-numbers).
 
+(comma/numbers)=
 #### Commas in numbers
 
 Use a comma to separate values in this thousands, hundreds of thousands, millions, and so on. For example, "Agora gives each Agora account 10,000 charge-free minutes each month."
@@ -131,6 +133,7 @@ Use a comma to separate values in this thousands, hundreds of thousands, million
 - Do not use commas in page numbers, phone numbers, addresses, or on the right of decimal points.
 :::
 
+(currency)=
 ### Currency
 
 Agora technical documentation rarely mentions currency figures, but they do occasionally come up in billing-related documentation. In English documentation, the standard currency used is in US dollars. Please keep the following in mind when writing currency information.
@@ -242,6 +245,7 @@ A couple of specific things not to do in link text:
 - Do not use a URL as link text. Instead, use the page title or a description of the page.
 - Do not include punctuation in the link text.
 
+(code-in-text)=
 ### Code in text
 
 This section applies to all Agora documentation except the automatically generated API Reference.

@@ -126,6 +126,7 @@ Note that many nouns can shift between "countable" and "uncountable" based on co
 
 When using an indefinite article, the sound of a word or acronym when it is spoken determines whether "a" or "an" precedes it. Use "a" before a word that starts with a consonant *sound*, and "an" for words that begin with a vowel *sound*. For example, "a URL" and "an SDK".
 
+(language/articles)=
 #### Articles and internal agreement
 
 Methods and callbacks must be specified, so when referring to a method or callback, use a leading "the" followed by "method" or "callback". For example "the SDK triggers the Client.on("disable-local-video") callback".
