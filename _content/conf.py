@@ -20,7 +20,7 @@ from recommonmark.transform import AutoStructify
 
 # -- Project information -----------------------------------------------------
 
-project = 'Agora Style Guide'
+project = 'Agora Developer Documentation Style Guide'
 copyright = '2021, Agora, Inc.'
 author = 'Agora Tech Comm'
 
