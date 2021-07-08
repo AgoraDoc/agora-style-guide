@@ -21,6 +21,8 @@ The `master` branch is published to Read the Docs as the latest version. To make
 
 2. Create a pull request to merge your commits to `master`.
 
+> The source files are written in markdown, and use the MyST parser to support Sphinx features. For the MyST syntax, see [The MyST Syntax Guide](https://myst-parser.readthedocs.io/en/latest/syntax/syntax.html).
+
 ### Open an issue for discussion
 
 Feel free to propose something for discussion by opening an issue.
@@ -42,16 +44,13 @@ If you want to view the website locally before pushing your changes to GitHub, f
 2. Install the following packages for Markdown support.
 
    ```bash
-   $ pip install recommonmark
-   ```
-   ```bash
-   $ pip install sphinx_markdown_tables
+   $ pip install myst-parser
    ```
 
 3. Install the theme.
 
    ```bash
-   $ pip install sphinx_rtd_theme
+   $ pip install furo
    ```
    
 4. Build the website locally.

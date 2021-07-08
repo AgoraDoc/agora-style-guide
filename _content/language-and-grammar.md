@@ -8,10 +8,9 @@ Acronyms are a type of abbreviation formed from the initial letters of other wor
 
 Abbreviations and acronyms can affect the clarity of Agora content for the reader. While many are understood by our readers and do not need to be spelled out, for new or novel terms always spell out the first mention of an abbreviated term in the text, followed immediately by the abbreviation in parentheses. Use the abbreviated form for all subsequent references of the abbreviation.
 
-``` admonition:: Example
-
-   The communication between the user and the Agora server is protected by transmission protocols, such as the Agora private transmission protocol, Transport Layer Security (TLS) and Web Socket Secure (WSS). You can also use Advanced Encryption Standard (AES) or a customized encryption algorithm for end-to-end encryption of audio and video data.
-```
+:::{admonition} Example
+The communication between the user and the Agora server is protected by transmission protocols, such as the Agora private transmission protocol, Transport Layer Security (TLS) and Web Socket Secure (WSS). You can also use Advanced Encryption Standard (AES) or a customized encryption algorithm for end-to-end encryption of audio and video data.
+:::
 
 #### Latin abbreviations
 
@@ -45,10 +44,9 @@ Do not use a possessive with a product name, or with the company name.
 
 In general, to form a possessive of a singular or a plural noun that doesn't end in "s", add "'s" to the end of the word. For a plural noun that does end in "s", add an apostrophe but no additional "s".
 
-``` admonition:: Example
-
-   Combine the teacher's video with each of the students' videos.
-```
+:::{admonition} Example
+Combine the teacher's video with each of the students' videos.
+:::
 
 ### Articles (a, an, the)
 
@@ -62,14 +60,11 @@ The way a word or acronym is spoken determines whether "a" or "an" precedes it. 
 
 Methods and callbacks must be specified, so when referring to a method or callback, use a leading "the" followed by "method" or "callback". For example "the SDK triggers the Client.on("disable-local-video") callback".
 
-``` admonition:: Exception
+:::{admonition} Exception
+Omit "the" and "method" when the reader will understand that it is a method by context. For example: "Call CheckPermission to request access…", not "Call the CheckPermission method to request access…".
+:::
 
-   Omit "the" and "method" when the reader will understand that it is a method by context. For example: "Call CheckPermission to request access…", not "Call the CheckPermission method to request access…".
-```
-
-```eval_rst
-.. _the:
-```
+(the)=
 #### Use of "the" before a type of mode
 
 The general trend in technical writing is to drop the use of the article "the" before a type of mode. The Agora style drops the leading article for modes that do not have multiple options, and retains the article for modes that do have multiple options.
@@ -100,10 +95,10 @@ For the names of brands, companies, software, products, services, and the like, 
 
 In document titles and page headings, use sentence case. That is, capitalize only the first word. The exceptions are for proper nouns, trademarks, keywords, and other terms that are always capitalized a certain way, use the standard capitalization for the term.
 
-``` admonition:: Example
+:::{admonition} Example
+![Example of sentence case](img/sentence-case.png)
+:::
 
-  .. image:: img/sentence-case.png
-```
 ### Ornamental words
 
 Avoid placeholder phrases such as "current", "currently", "please", "at this time", "now", "still", "most", or "commonly".
@@ -146,8 +141,8 @@ The imperative mood keeps the content concise. The direct address is more person
 - Avoid using "his" or "her", or "he/she".
 - Use the second person, "you", or the collective noun.
 
-| Recommended                                                  | Not recommended                                              |
-| :----------------------------------------------------------- | :----------------------------------------------------------- |
+| Recommended                                                           | Not recommended                                                            |
+| :-------------------------------------------------------------------- | :------------------------------------------------------------------------- |
 | **A user joins a channel and receives the onChannelJoined callback.** | Once a user joins a channel, he/she receives the onChannelJoined callback. |
 
 ### Present tense
@@ -166,10 +161,10 @@ The imperative mood keeps the content concise. The direct address is more person
 
 Do not attribute human qualities to software or hardware.
 
-| Recommended                                               | Not recommended                                              |
-| :-------------------------------------------------------- | :----------------------------------------------------------- |
+| Recommended                                               | Not recommended                                                        |
+| :-------------------------------------------------------- | :--------------------------------------------------------------------- |
 | A Delimiter object **specifies** where to split a string. | A Delimiter object tells the splitter where a string should be broken. |
-| The PC **detects** a new device.                          | The PC sees a new device.                                    |
+| The PC **detects** a new device.                          | The PC sees a new device.                                              |
 
 ### Second person
 
