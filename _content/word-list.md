@@ -124,276 +124,230 @@ Agora Voice SDK
 
 : Provides reliable real-time audio services.
 
-## A
+## Word list
 
-**add-on**
+### A
 
+add-on
 : Use as a noun or adjective.
 
-**add on**
-
+add on
 : Use as a verb.
 
-**Android device**
+Android device
+: &nbsp;
 
-**app**
-
+app
 : Lowercase except when beginning a sentence or used as a proper noun.
 
-**audio sample**
-
+audio sample
 : Use instead of *audio capture*.
 
-**audio sample rate**
-
+audio sample rate
 : Not *audio sampling rate*.
 
-## B
+### B
 
-**backend**
-
+backend
 : Use instead of *back-end* or *back end*.
 
-**beta**
-
+beta
 : Lowercase.
 
-**bitrate**
-
+bitrate
 : Not *bit rate*.
 
-**Boolean**
-
+Boolean
 : Uppercase when referring to the datatype.
 
-**Bluetooth**
-
+Bluetooth
 : Not *bluetooth*.
 
-**bridging header file**
+bridging header file
+: &nbsp;
 
-## D
+### D
 
-**data packet**
+data packet
+: &nbsp;
 
-**dual-stream mode**
-
+dual-stream mode
 : No articles before the phrase, for example, "enable dual-stream mode."
 
-**dual stream**
-
+dual stream
 : Use as a noun. Do not use *dual stream*.
 
-## E
+### E
 
-**email**
-
+email
 : Not *E-mail* or *e-mail*.
 
-**earlier**
-
+earlier
 : Use instead of *lower* when describing a version.
 
-**extract**
-
+extract
 : Use instead of *unarchive*, *uncompress*, or *unzip*.
 
-## F
+### F
 
-**filename**
-
+filename
 : Not *file name*.
 
-**fill in; fill out**
-
+fill in; fill out
 : Use *fill in* when referring to entering information in individual fields. Use *fill out* when referring to completing an entire form.
 
-**front camera**
+front camera
+: &nbsp;
 
-## H
+### H
 
-**HTML5**
-
+HTML5
 : Use instead of *H5*.
 
-## I
-
-**incorrect**
-
+### I
+incorrect
 : Use instead of *wrong*.
 
-**image enhancement**
+image enhancement
+: &nbsp;
 
-**internet**
-
+internet
 : Lowercase.
 
-## J
+### J
 
-**join a channel**
-
+join a channel
 : Use instead of *enter a channel*.
 
-**just**
-
+just
 : Avoid. Usually, *just* is a filler word that you can delete without affecting your meaning.
 
-## L
+### L
 
-**last mile**
-
+last mile
 : Use as a noun or adjective. Always two separate words.
 
-**later**
-
+later
 : Use instead of *higher* when describing a version.
 
-**live stream**
-
+live stream
 : Use as an intransitive verb or noun.
 
-**live streaming**
-
+live streaming
 : Use *live streaming* to refer to Agora products and scenarios.
 
-**log in**
-
+log in
 : Use as a verb.
 
-**login**
-
+login
 : Use as a noun or adjective.
 
 ## M
 
-**might**
-
+might
 : Use instead of may when referring to possibility.
 
-**multichannel**
-
+multichannel
 : No hyphen.
 
-**multimedia**
-
+multimedia
 : No hyphen.
 
-**multithreaded**
-
+multithreaded
 : No hyphen.
 
-## N
+### N
 
-**number**
-
+number
 : Use instead of *no.*
 
-## O
+### O
 
-**open source**
-
+open source
 : No hyphen, not even as an adjective or verb.
 
-## P
+### P
 
-**packet loss rate**
+packet loss rate
+: &nbsp;
 
-**page**
-
+page
 : Use *this page* instead of *this article*.
 
-**path**
-
+path
 : Avoid using *filepath*, *file path*, *pathname*, or *path name* if possible.
 
-**plugin**
-
+plugin
 : Use as a noun.
 
-**plug-in**
-
+plug-in
 : Use as an adjective.
 
-**plug in**
-
+plug in
 : Use as a verb.
 
-## R
+### R
 
-**real time**
-
+real time
 : Use as a noun or adverb.
 
-**real-time**
-
+real-time
 : Use as an adjective.
 
-**reintegrate**
-
+reintegrate
 : No hyphen.
 
-## S
+### S
 
-**screen sharing**
-
+screen sharing
 : Use as a noun or adjective.
 
-**set up**
-
+set up
 : Use as a verb.
 
-**setup**
-
+setup
 : Use as a noun.
 
-**show**
-
+show
 : Use instead of *demonstrate*.
 
-**sign up**
-
+sign up
 : Use as a verb.
 
-**sign-up**
-
+sign-up
 : Use as a noun or adjective.
 
-## T
+### T
 
-**time frame**
+time frame
+: &nbsp;
 
-**token**
+token
+: &nbsp;
 
-## U
+### U
 
-**user ID**
-
+user ID
 : Do not use *uid*.
 
-**URL**
-
+URL
 : All captials. Not *Url* or *url*.
 
-**username**
-
+username
 : Do not use *account name*.
 
-## V
+### V
 
-**video capture**
-
+video capture
 : Use as a noun or adjective.
 
-## W
+### W
 
-**Web**
-
+Web
 : Refers to the platform.
 
-**web page**
-
+web page
 : Lowercase.
 
-**Wi-Fi**
-
+Wi-Fi
 : Not *Wifi* or *WiFi*.
