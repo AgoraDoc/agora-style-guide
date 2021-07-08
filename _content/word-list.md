@@ -175,7 +175,7 @@ dual-stream mode
 : No articles before the phrase, for example, "enable dual-stream mode."
 
 dual stream
-: Use as a noun. Do not use *dual stream*.
+: Use as a noun. Do not use *dual streams*.
 
 ### E
 
