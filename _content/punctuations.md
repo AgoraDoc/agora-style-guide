@@ -6,23 +6,21 @@ The first word after the colon should be in uppercase.
 
 #### Colons preceding lists
 
-When a colon introduces a list, the phrase before the colon must be a complete sentence. 
+When a colon introduces a list, the phrase before the colon must be a complete sentence.
 
 A colon cannot be placed between a verb and its object or a preposition and its object. See **Lists**.
 
-``` admonition:: Incorrect
+:::{admonition} Incorrect
+The methods are:
+:::
 
-   The methods are:
-```
+:::{admonition} Correct
+The SDK uses the following methods:
 
-``` admonition:: Correct
-
-   The SDK uses the following methods:
-
-    - joinChannel
-    - leaveChannel
-    - renewToken
-```
+- joinChannel
+- leaveChannel
+- renewToken
+:::
 
 #### Colon use within sentences
 
@@ -38,26 +36,25 @@ General rules to follow:
 
 - In a series of three or more items, use a comma before the final "and" or "or." (This is the house editing style of Oxford Press, hence the term "[Oxford comma](https://www.lexico.com/definition/oxford_comma)").
 
-  ``` admonition:: Example
+  :::{admonition} Example
+  Adds support for the macOS, Windows x86, and Windows x86_64 platforms.
+  :::
 
-      Adds support for the macOS, Windows x86, and Windows x86_64 platforms.
-  ```
-  
-- In general, place a comma after an introductory word or phrase like “occasionally”, or “otherwise”. 
+- In general, place a comma after an introductory word or phrase like “occasionally”, or “otherwise”.
 
-  ``` admonition:: Example
+  :::{admonition} Example
+  Occasionally, the SDK does not automatically reconnect after being disconnected from the servers for pushing and pulling streams.
+  :::
 
-      Occasionally, the SDK does not automatically reconnect after being disconnected from the servers for pushing and pulling streams.
-  ```
 - When a coordinating conjunction ("for", "and", "nor", "but", "or", "yet", and "so") separates two independent clauses (where each clause could stand as an independent sentence), insert a comma after the first clause before the conjunction. For example: “The recorded files are stored on your server only, and Agora has no access to them." An exception is when both clauses are very short. For example: "Enables or disables image enhancement and sets the options."
 
 - Commas also enclose the following and similar phrases: "and so forth," "for example," "namely," and "that is,".
 
-| Recommended                                                  | Not recommended                                              |
-| :----------------------------------------------------------- | :----------------------------------------------------------- |
-| Unity renders 3D objects by default, such as Cube, Cylinder**,** and Plane. (note comma after "Cylinder") | Unity renders 3D objects by default, such as Cube, Cylinder and Plane. |
-| Finally, only groups that contain parameters appear in this list. | Finally only groups that contain parameters appear in this list. |
-| The libraries not only make feed creation easier, but they also ensure that only valid feeds are produced. | The libraries not only make feed creation easier but they also ensure that only valid feeds are produced. |
+| Recommended                                                                                                   | Not recommended                                                                                           |
+| :------------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------- |
+| Unity renders 3D objects by default, such as Cube, Cylinder\*\*,\*\* and Plane. (note comma after "Cylinder") | Unity renders 3D objects by default, such as Cube, Cylinder and Plane.                                    |
+| Finally, only groups that contain parameters appear in this list.                                             | Finally only groups that contain parameters appear in this list.                                          |
+| The libraries not only make feed creation easier, but they also ensure that only valid feeds are produced.    | The libraries not only make feed creation easier but they also ensure that only valid feeds are produced. |
 
 ### Ampersands
 
@@ -69,10 +66,10 @@ Do not use exclamation marks unless they are part of a code example.
 
 ### Periods
 
-General rules to follow: 
+General rules to follow:
 
 - Use a period to end a complete sentence.
-- Do not use a period at the end of a sentence fragment, such as an item in a list that is not a complete sentence, or in a heading title. 
+- Do not use a period at the end of a sentence fragment, such as an item in a list that is not a complete sentence, or in a heading title.
 - Do not use a period in a title or heading.
 - List items that are complete sentences end with a period.
 - List items that are incomplete sentences do not end with a period. However, when a list includes one item that requires a period, all the list items should have a period for consistency.
@@ -84,10 +81,9 @@ Use a slash to separate the two functions that can be realized with one method, 
 
 Do not use slashes to separate alternatives. For example use "audio or video calls" instead of "audio/video calls".
 
-``` hint::
-
-    "a and/or b" is only acceptable when the meaning is a or b or both.
-```
+:::{hint}
+"a and/or b" is only acceptable when the meaning is a or b or both.
+:::
 
 ### Hyphens
 
@@ -109,29 +105,25 @@ The semicolon has the following uses:
 
 - To unite sentences that are closely associated
 
-  ``` admonition:: Example
-  
-      The people on the fourth floor work with product development; those on the fifth work with deployment.
-  ```
+  :::{admonition} Example
+  The people on the fourth floor work with product development; those on the fifth work with deployment.
+  :::
 
 - To create a stronger division in a sentence that already includes divisions using commas
 
-  ``` admonition:: Example
-
-      The people on the fourth floor, who work with product development, are to continue with the project until Friday; but the following Monday, when their equipment has been moved, they resume work on the sixth floor.
-  ```
+  :::{admonition} Example
+  The people on the fourth floor, who work with product development, are to continue with the project until Friday; but the following Monday, when their equipment has been moved, they resume work on the sixth floor.
+  :::
 
 - To create stronger divisions in a list
 
-  ``` admonition:: Example
+  :::{admonition} Example
+  The visitors are to be received by the managing director, Daphne Jones; the head of security, Fred Smith; and the union representative, Howard Brown.
+  :::
 
-      The visitors are to be received by the managing director, Daphne Jones; the head of security, Fred Smith; and the union representative, Howard Brown.
-  ```
-
-``` caution::
-
-    The previous examples only demonstrate the semicolon usage and are not typical of technical writing style.
-```
+:::{caution}
+The previous examples only demonstrate the semicolon usage and are not typical of technical writing style.
+:::
 
 ### Spaces
 
@@ -140,15 +132,13 @@ General rules to follow:
 - Add a space before an opening parenthesis (. *Example: Basic Methods (RTCEngine)*
 - Use only one space after full stops. *Example: Add a space. One after the full stop.*
 - Use one space between numbers and units. *Example: 256 Kbps.*
-- Use spaces around mathematical symbols. *Example: V = off, width x height, x < y*
+- Use spaces around mathematical symbols. *Example: V = off, width x height, x \< y*
 - Use spaces around dimensions. *Example: 3.2 x 3.6 x 0.6 mm.*
 
+:::{admonition} Exception
+There is no space before a parenthesis when writing a function call. For example:
 
-``` admonition:: Exception
-
-    There is no space before a parenthesis when writing a function call. For example:
-    
-    - `muteRemoteAudioStream`(true)
-    - `enableLocalVideo`(false)
-    - `CHANNEL_PROFILE_COMMUNICATION`(0)
-```
+- `muteRemoteAudioStream`(true)
+- `enableLocalVideo`(false)
+- `CHANNEL_PROFILE_COMMUNICATION`(0)
+:::

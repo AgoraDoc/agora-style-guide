@@ -19,10 +19,9 @@ Use headers to help outline your draft content. Some other points for considerat
 
 In most cases, the phrase before the list must be a complete sentence, not a partial one that is completed by the list items. The sentence can end with a colon or a period; usually a colon if it immediately precedes the list, or a period if there is more material (such as a note paragraph) between the introduction and the list.
 
-``` caution::
-
-    Never use a semicolon to end a list item.
-```
+:::{caution}
+Never use a semicolon to end a list item.
+:::
 
 ### Tables
 
@@ -46,10 +45,9 @@ A note provides the reader with important or useful information that is not part
 
 Do not use Markdown's native ">" to create a note, as the visual effect it produces is poor. Instead, use HTML code format as outlined below for each note type.
 
-``` admonition:: Exception
-
-    ">" can be used in API Reference (code comments).
-```
+:::{admonition} Exception
+">" can be used in API Reference (code comments).
+:::
 
 Agora has three styles of notes, designed to convey a different level of importance depending on the circumstance.
 
@@ -59,10 +57,9 @@ Provides supplemental information that is useful for the reader to know.
 
 In Agora's online editor, wrap the notes in `<div class="alert info"></div>`.
 
-``` admonition:: Example
-
-    .. image:: img/notes-info.png
-```
+:::{admonition} Example
+![Example of info](img/notes-info.png)
+:::
 
 #### Note
 
@@ -70,10 +67,9 @@ Provides supplemental information that may not apply to all readers, but is impo
 
 In Agora's online editor, wrap the notes in `<div class="alert note"></div>`.
 
-``` admonition:: Example
-
-    .. image:: img/notes-note.png
-```
+:::{admonition} Example
+![Example of note](img/notes-note.png)
+:::
 
 #### Warning
 
@@ -81,10 +77,9 @@ Designed to guide the reader away from a circumstance that poses some form of pr
 
 In Agora's online editor, wrap the notes in `<div class="alert warning"></div>`.
 
-``` admonition:: Example
-
-    .. image:: img/notes-warning.png
-```
+:::{admonition} Example
+![Example of warning](img/notes-warning.png)
+:::
 
 ### Numbers
 
@@ -92,10 +87,9 @@ Spell out all ordinal numbers in text. For example, first, fifth, twelfth, forty
 
 Do not start a sentence with a numeral. Add a modifier before the number, or spell the number out if you cannot rewrite the sentence.
 
-``` admonition:: Exception
-
-    List items or table cells can start with numerals.
-```
+:::{admonition} Exception
+List items or table cells can start with numerals.
+:::
 
 In general, spell out the following:
 
@@ -132,11 +126,10 @@ Use a comma to separate values in this thousands, hundreds of thousands, million
 | 100,000     | 100000          |
 | 1,000,000   | 1000000         |
 
-``` admonition:: Exception
-
-    - When referring to resolution values, such as "1080p", or "1920 × 1080", only use commas when the number has five or more digits. For example, "`width` should not exceed 1920, and `width` × `height` should not exceed `1920` × `1080`."
-    - Do not use commas in page numbers, phone numbers, addresses, or on the right of decimal points.
-```
+:::{admonition} Exception
+- When referring to resolution values, such as "1080p", or "1920 × 1080", only use commas when the number has five or more digits. For example, "`width` should not exceed 1920, and `width` × `height` should not exceed `1920` × `1080`."
+- Do not use commas in page numbers, phone numbers, addresses, or on the right of decimal points.
+:::
 
 ### Currency
 
@@ -148,30 +141,28 @@ When referencing US dollars, it is not enough to use the dollar symbol ("\$"), a
 
 For example:
 
-| Service type    | Pricing ($US/1,000 minutes)        |
-| --------------- | ---------------------------------- |
-| Recording audio | $1.49                              |
-| Recording video | High-Definition (HD): $5.99        |
+| Service type    | Pricing (\$US/1,000 minutes) |
+| --------------- | ---------------------------- |
+| Recording audio | \$1.49                       |
+| Recording video | High-Definition (HD): \$5.99 |
 
 If you are writing about more than one type of currency within the same article, use the official [ISO 4217 three-letter currency code](https://www.thefinancials.com/Default.aspx?SubSectionID=curformat), which is "USD". Use this same ISO standard if you need to refer to other currencies in your documentation. The currency amount immediately follows the three-letter currency code with no intervening space. For large currency amounts, things are typically rounded to the nearest dollar, so there is no need to display the dollar amount to two decimal places.
 
-``` admonition:: Example
-
-    In Q4 the company posted a net profit of CNY1,234,567 (USD176,297).
-```
+:::{admonition} Example
+In Q4 the company posted a net profit of CNY1,234,567 (USD176,297).
+:::
 
 If it is understood through context that the currency is in US dollars, there is no need to use the three-letter ISO code.
 
-``` admonition:: Example
-
-    The American division posted a net revenue of $123,456.
-```
+:::{admonition} Example
+The American division posted a net revenue of $123,456.
+:::
 
 #### Using the dollar symbol and amounts
 
-Always place the dollar symbol at the beginning of a currency value, without any intervening space. For example: "$0.99".
+Always place the dollar symbol at the beginning of a currency value, without any intervening space. For example: "\$0.99".
 
-If the amount is less than a full dollar, ensure that there is a leading 0 before the decimal point. Also, when referring to the small figures that are used in billing documentation, always use two decimal places for any dollar amount. For example "$9.90", not "​\$9.9".
+If the amount is less than a full dollar, ensure that there is a leading 0 before the decimal point. Also, when referring to the small figures that are used in billing documentation, always use two decimal places for any dollar amount. For example "\$9.90", not "​\$9.9".
 
 ### Time
 
@@ -189,10 +180,9 @@ Avoid using numeric dates when possible. Different countries and regions in the 
 
 In most cases, introduce a procedure with an introductory sentence. The sentence can end with a colon or a period; usually a colon if it immediately precedes the procedure, or a period if there is more material (such as a note paragraph) between the introduction and the procedure.
 
-| Recommended                                       | Not recommended           |
-| :------------------------------------------------ | :------------------------ |
-| To customize the buttons, follow these steps:     | To customize the buttons: |
-
+| Recommended                                   | Not recommended           |
+| :-------------------------------------------- | :------------------------ |
+| To customize the buttons, follow these steps: | To customize the buttons: |
 
 Here are more guidelines:
 
@@ -211,7 +201,7 @@ Here are more guidelines:
 
 ### Units of measurement
 
-When specifying a unit of measurement, use a non-breaking space (&nbsp;) between the number and the unit. This guidance applies to HTML and Markdown sources.
+When specifying a unit of measurement, use a non-breaking space ( ) between the number and the unit. This guidance applies to HTML and Markdown sources.
 
 However, when the unit of measure is money, degrees, or percent, do not leave a space.
 
@@ -220,7 +210,7 @@ In some contexts, it may be appropriate to indicate thousands of something by fo
 - Do not put a space between the number and "k".
 - Add a noun to indicate what the number measures, and to make clear that you are not using "k" as an abbreviation for "kilobytes."
 
-See [Commonly used units of measure and their abbreviated form](./references.html#commonly-used-units-of-measure-and-their-abbreviated-form).
+See [](ref/units).
 
 ### Linking
 
@@ -232,12 +222,11 @@ Provide links to reference documents except in code comments for the API Referen
 
 In an API Reference, when referring to an advanced guide, do not create a link, just use italics instead. For Chinese, use guillemets《》to indicate the reference.
 
-``` admonition:: Example
+:::{admonition} Example
+See *Set the Audio Profile* for details.
 
-    See *Set the Audio Profile* for details.
-
-    详见《设置音频属性》。
-```
+详见《设置音频属性》。
+:::
 
 #### Link text
 
@@ -257,7 +246,7 @@ A couple of specific things not to do in link text:
 
 This section applies to all Agora documentation except the automatically generated API Reference.
 
-In ordinary text sentences, use code font to mark up most things that have anything to do with code. In HTML, use the `<code>` element; in Markdown, use backticks (```).
+In ordinary text sentences, use code font to mark up most things that have anything to do with code. In HTML, use the `<code>` element; in Markdown, use backticks (\`\`\`).
 
 Some specific items to put in code font:
 
@@ -274,10 +263,9 @@ Some specific items to put in code font:
 
 In most cases, precede a code sample with an introductory sentence or paragraph. The intro can end with a colon or a period; usually a colon if it immediately precedes the sample, usually a period if there is more material (such as a note paragraph) between the introduction and the sample, or if the introduction paragraph ends in a sentence that is not directly related to the sample.
 
-``` caution::
-
-    Ensure that all the variants in the code samples are assigned values.
-```
+:::{caution}
+Ensure that all the variants in the code samples are assigned values.
+:::
 
 ### UI elements and interaction
 

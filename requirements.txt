@@ -1,6 +1,4 @@
-sphinx_rtd_theme
-sphinx-press-theme
-recommonmark
-sphinx_markdown_tables
+furo
+myst-parser
 sphinx>2.4
 docutils<0.17

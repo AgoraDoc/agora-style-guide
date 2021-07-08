@@ -42,16 +42,13 @@ If you want to view the website locally before pushing your changes to GitHub, f
 2. Install the following packages for Markdown support.
 
    ```bash
-   $ pip install recommonmark
-   ```
-   ```bash
-   $ pip install sphinx_markdown_tables
+   $ pip install myst-parser
    ```
 
 3. Install the theme.
 
    ```bash
-   $ pip install sphinx_rtd_theme
+   $ pip install furo
    ```
    
 4. Build the website locally.
