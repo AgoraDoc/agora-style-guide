@@ -26,10 +26,12 @@ The SDK uses the following methods:
 
 Do not use colons within sentences. In most cases, splitting the two clauses into separate sentences reads better and is more clear.
 
+(colon/ratios)=
 #### Colon use in ratios
 
 No space before or after a colon when it is used to express ratios.
 
+(commas)=
 ### Commas
 
 General rules to follow:
@@ -89,7 +91,7 @@ Do not use slashes to separate alternatives. For example use "audio or video cal
 
 In appearance, a hyphen is shorter than both the em dash (“—”), and the en dash (“–”).
 
-- All words following a hyphen are in lowercase, even if the word is at the beginning of a sentence. For example, "32-bit", "Open-source", or "Multi-threaded".
+- All words following a hyphen are in lowercase, even if the word is at the beginning of a sentence. For example, "32-bit" or "Open-source".
 - Use a hyphen to form a compound adjective which is an adjective made up of more than one word. Examples include, "A 25-minute interval", "16-bit color", "state-of-the-art technology", "a six-figure price".
 - Use a hyphen to indicate a common second element. For example, "a 10- to 11-digit number", "a six- or seven-hour delay", "a two-, three-, or fourfold increase".
 - Many common prefixes, such as "co", "de", "pre", "pro", "re", and "sub" do not need a hyphen.

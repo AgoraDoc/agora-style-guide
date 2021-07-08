@@ -68,7 +68,7 @@ For parameter descriptions, follow these guidelines:
 
 - Capitalize the first word, and end the sentence or phrase with a period.
 - Begin descriptions of non-Boolean parameters with "The" or "A" if possible.
-- For Boolean parameters use a list that includes "true" and "false", followed by corresponding functions. Do not put the words "true" and "false" in code font or quotation marks. Notice the capitalization difference across different platforms.
+- For Boolean parameters use a list that includes "true" and "false", followed by corresponding functions. Notice the capitalization difference across different platforms.
 - For Optional or Default parameters, put (Optional) or (Default) as the first word of the description.
 
 #### Return values
@@ -90,6 +90,7 @@ If you track your API with version numbers, mention which version it was first d
 
 Only the first sentence of a description appears in the summary section and index, so put the most important information there. Subsequent sentences can explain why it was deprecated, along with any other information that is useful for a developer using your API.
 
+(inline-code-comments)=
 ### Inline code comments
 
 Inline code comments are comments not included in API header files, and usually appear in the sample code.
