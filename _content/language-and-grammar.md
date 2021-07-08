@@ -6,13 +6,13 @@
 - Do not use abbreviations. Exceptions: Units of measure with numbers, and "Ltd." or "Inc."
 - Capitalize acronyms.
 - Do not use periods after the letters in acronyms. Exception: "U.S." when it is used as an adjective.
-- Spell out uncommon acronyms the first time they appear. Example: "ANA (A New Acronym)."
+- Spell out uncommon acronyms the first time they appear. Example: "A New Acronym (ANA)."
 - Do not use Latin abbreviations such as "e.g." or "etc."
 _________
 
 Abbreviations are a shortened version of a word used to represent the whole. Examples include "s" for "seconds" or "approx." for "approximately." 
 
-As a general rule, only use abbreviations in technical documentation for units of measure, and then only when they are joined with a number. For example, "15 s" is acceptable, but "The interval is measured in s." is not. Do not use a period after an abbreviated unit of measure. For more information, see Units of Measure. 
+As a general rule, only use abbreviations in technical documentation for units of measure, and then only when they are joined with a number. For example, "15 s" is acceptable, but "The interval is measured in s." is not. Do not use a period after an abbreviated unit of measure. For more information, see [Units of Measurement](formatting-and-organization.md#units-of-measurement). 
 
 In most other cases (such as "approx."), spell out the word. The only obvious exceptions are "Ltd." or "Inc." in a company's name.
 
@@ -20,7 +20,7 @@ Note that some short forms have entered common speech and are now accepted as wo
 
 Acronyms and initialisms are a type of abbreviation formed from the initial letters of other words. The difference between them is in pronunciation; acronyms are pronounced like words, whereas with initialisms each letter is pronounced individually. Examples of acronyms include "GIF" for "Graphics Interchange Format" and "RAM" for "random-access memory." Examples of initialisms include "SDK" for "Software Development Kit" and "API" for "Application Programming Interface."
 
-The pronunciation is important when choosing which form of the indefinite article to use. For more information, see Articles. 
+The pronunciation is important when choosing which form of the indefinite article to use. For more information, see [Articles](language-and-grammar.md#articles-a-an-the). 
 
 Some words can be considered either acronyms or initialisms depending on personal preference, such as "FAQ." In such cases, check the department's word list first for the preferred choice. If there is none, choose one and make sure you use it consistently afterwards. For example, Agora treats FAQ as an intialism, so you would write "an FAQ" (that is, "an eff-ay-cue") rather than "a FAQ" ("a fack").
 
@@ -366,7 +366,7 @@ Use the second person rather than including yourself by using the first person (
 
 | Do this...                                          | ...instead of this                           |
 | :--------------------------------------------------- | :---------------------------------------- |
-| You can get an AppID using Agora Console.        | Developers can get an AppID using Agora Console.         |
+| You can get an App ID using Agora Console.        | Developers can get an App ID using Agora Console.         |
 | Once in GitHub, you can download the sample project. | Once in GitHub, we can download a sample project. |
 
 If you are describing something in the third person, avoid using "his," "her," or "he/she". You can rephrase the sentence, use the singular "they," or refer to the relevant role instead (in singular or plural form). 
@@ -413,4 +413,3 @@ When writing the questions for FAQs (but *not* the answers), use first person, a
 
 How do I obtain a temporary token?
 :::
-
