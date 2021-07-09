@@ -1,6 +1,6 @@
 ## Language and grammar
 
-### Abbreviations, acronyms, and initialisms
+### Abbreviations, acronyms, and file extensions
 
 **Quick reference:**
 - Do not use abbreviations. Exceptions: Units of measure with numbers, and "Ltd." or "Inc."
@@ -8,6 +8,7 @@
 - Do not use periods after the letters in acronyms. Exception: "U.S." when it is used as an adjective.
 - Spell out uncommon acronyms the first time they appear. Example: "A New Acronym (ANA)."
 - Do not use Latin abbreviations such as "e.g." or "etc."
+- Use all caps with no periods when using extensions to refer to file types. Example: "Upload the file in JPG or PNG format."
 _________
 
 Abbreviations are a shortened version of a word used to represent the whole. Examples include "s" for "seconds" or "approx." for "approximately." 
@@ -44,7 +45,7 @@ The communication between the user and the Agora server is protected by transmis
 
 Do not use abbreviations derived from Latin. Always use their English equivalents. 
 
-| Do this... | ...instead of this |
+| Correct | Incorrect |
 | :---------| :------- |
 | For example | e.g. (for ""exempli gratia") | 
 | In other words   | i.e. (for "id est")   |
@@ -58,22 +59,30 @@ If a sentence ends with an abbreviation, the period used for the abbreviation al
 For more information, contact Agora Inc.
 :::
 
+#### File extensions
+
+When you refer to file extensions, use all caps and do not use a period before.
+
+| Correct | Incorrect |
+| :---------| :------- |
+| JPG | .jpg | 
+
 ### Active voice
 
 **Quick reference:**
 - Favor the active voice where possible.
 _________
 
-Generally speaking, with the active voice the subject of a sentence performs the action, whereas with the passive voice the subject is acted upon by something else.
+When you use the active voice, your writing emphasizes the subject of a sentence (whatever is performing the action). In most cases, this is preferable for technical documentation.
 
-The active voice sounds immediate and clear. The passive voice usually sounds more wordy and can obscure the subject, making it difficult for readers to fully understand your meaning. 
+The active voice is direct and sounds immediate and clear. The passive voice usually sounds more wordy and can obscure the subject, making it more difficult for readers to understand your meaning. 
 
 | Recommended                       | Not recommended                         |
 | :-------------------------------- | :-------------------------------------- |
-| This method gets the user ID. | This method is used to get the user ID. |
+| This method gets the user ID. | The user ID is gotten by this method. |
 | The callback provides troubleshooting information | Troubleshooting information is provided by the callback. |
 
-This is not a hard and fast rule. The passive voice can be used to emphasize the object of the action or the action itself. Also, it may not always be possible to phrase your sentence with an active voice, such as in status code explanations. For example, "This method is not implemented."
+Using the active voice is not a hard and fast rule, however. The passive voice can be used when you specifically want to emphasize the object of the action or the action itself, or when there really is no subject. For example, "The file is saved." Also, it may not be possible to phrase your sentence with an active voice, such as in status code explanations. For example, "This method is not implemented."
 
 ### Anthropomorphism
 
@@ -81,24 +90,21 @@ This is not a hard and fast rule. The passive voice can be used to emphasize the
 - Do not attribute human qualities to software, hardware, or companies/brands.
 _________
 
-Anthropomorphism is the attribution of human traits or characteristics to non-human things. This is too metaphorical and informal in the context of technical writing.
+Anthropomorphism is when you give human traits or characteristics to non-human things. While understandable, this is too metaphorical and informal for technical writing.
 
-| Do this...                                               | ...instead of this                                              |
+| Correct                                               | Incorrect                                             |
 | :-------------------------------------------------------- | :----------------------------------------------------------- |
 | A Delimiter object specifies where to split a string. | A Delimiter object tells the splitter where a string should be broken. |
 | The PC detects a new device.                          | The PC sees a new device.                                    |
-
-:::{admonition} Example
-Combine the teacher's video with each of the students' videos.
-:::
 
 ### Articles (a, an, the)
 
 **Quick reference:**
 - Singular countable nouns must have an article or similar determiner.
-- Plural countable nouns can have a definite article or no article.
+- Plural countable nouns can have the definite article or no article.
 - Do not use an article with proper nouns or uncountable (mass) nouns.
-- Use a definite article plus "method" or "callback" to specify its function unless it is obvious from context.
+- Use the definite article plus "method" or "callback" to specify its function unless it is obvious from context.
+- Use the definite article with Agora SDKs.
 - Do not normally use a leading article with "mode." Example: "Put the device into silent mode."
 _________
 
@@ -108,13 +114,13 @@ Articles are a type of word called a determiner. Determiners are parts of noun p
 
 Note that "countable" nouns are called that because they can be separated from a group and counted. For example, "channels" or "users."
 
-"The" is a definite article. It is used before a singular countable noun when referring to a particular member of a group. For example, "Download the text editor from the sample folder." means you need a specific text editor. 
+"The" is the definite article. It is used before a singular countable noun when referring to a particular member of a group. For example, "Download the text editor from the sample folder." means you need a specific text editor. 
 
-A plural countable noun can also be specified with a definite article. For example, "Extract the script files to your project folder." points you to some specific files.
+A plural countable noun can also be specified with the definite article. For example, "Extract the script files to your project folder" points you to specific files.
 
 Note that singular countable nouns *require* an article or some other type of determiner, such as "one," "your," or "this." They cannot exist on their own. 
 
-| Do this...                                           | ...instead of this                                    |
+| Correct                                           | Incorrect                                    |
 | :--------------------------------------------------- | :---------------------------------------------------- |
 | You need a token (or *the* token, or *your* token) to access the channel. | You need token to access the channel. | 
 
@@ -126,24 +132,27 @@ Note that many nouns can shift between "countable" and "uncountable" based on co
 
 When using an indefinite article, the sound of a word or acronym when it is spoken determines whether "a" or "an" precedes it. Use "a" before a word that starts with a consonant *sound*, and "an" for words that begin with a vowel *sound*. For example, "a URL" and "an SDK".
 
-(language/articles)=
 #### Articles and internal agreement
 
-Methods and callbacks must be specified, so when referring to a method or callback, use a leading "the" followed by "method" or "callback". For example "the SDK triggers the Client.on("disable-local-video") callback".
+Methods and callbacks must be specified, so when referring to a method or callback, use the definite article followed by "method" or "callback". For example "the SDK triggers the Client.on("disable-local-video") callback."
 
-
-You can omit "the" and "method" or "callback" when the reader will understand what it is through context.
+You can omit "the" and "method" or "callback" when the reader understands which one it is through context.
 
 :::{admonition} Example
 The CheckPermission method is used to request access to the microphone. You do not need to call CheckPermission for earlier versions.
 :::
 
+#### Definite articles with Agora SDKs
 
-(the)=
+When referring to an Agora SDK, use the definite article ("the"). 
 
-#### Use of "the" before a type of mode
+| Correct                                          | Incorrect                                    |
+| :----------------------- | :--------------------- |
+| Download the Agora Recording SDK. | Download Agora Recording SDK. | 
 
-In most cases, do not use a leading article for "modes." The exception to this is modes that have multiple options.
+#### Definite articles with modes
+
+In most cases, do not use a definite article with "modes." The exception to this is modes that have multiple options.
 
 For example, the following modes do not require an article:
 
@@ -174,7 +183,7 @@ _________
 
 In document titles, use title case, where you capitalize the first word and then every word except for the verb "to be," short prepositions or conjunctions, and articles. Capitalize words after a colon, but only the first word in a hyphenated phrase.
 
-| Do this...                                           | ...instead of this                                    |
+| Correct                                           | Incorrect                                    |
 | :--------------------------------------------------- | :---------------------------------------------------- |
 | Authenticate Your Users with Tokens | Authenticate your users with tokens | 
 | Real-time Messaging: A Beginner's Guide | Real-Time Messaging: a Beginner's Guide |
@@ -193,7 +202,7 @@ Copy the Microsoft Word files to your iOS project folder.
 
 Do not use capitalization for emphasis, as this comes across as shouting to a native English reader. Use italics instead. Note: You should use emphasis sparingly.
 
-| Do this...                                           | ...instead of this                                    |
+| Correct                                          | Incorrect                                    |
 | :--------------------------------------------------- | :---------------------------------------------------- |
 | Do *not* share your token. | Do NOT share your token. | 
 
@@ -205,7 +214,7 @@ Use sentence case for all of the following:
 
 When a hyphenated word is capitalized (as the first word in a sentence or heading, for example), capitalize only the first element in the word.  
 
-| Do this...                                           | ...instead of this                                    |
+| Correct                                           | Incorrect                                    |
 | :--------------------------------------------------- | :---------------------------------------------------- |
 | Real-time multimedia streaming is optional. | Real-Time multimedia streaming is optional. | 
 
@@ -225,7 +234,7 @@ Provide the context or objective before you provide the information. This allows
 
 If your sentence describes a cause-and-effect relationship, always put the cause first.
 
-| Do this...                                               | ...instead of this                                              |
+| Correct                                               | Incorrect                                              |
 | :-------------------------------------------------------- | :----------------------------------------------------------- |
 | To obtain a user ID, use the following procedure: | Use the following procedure to obtain a user ID:    |
 | If the operation completes without errors, the system returns a status code of 200. | The system returns a status code of 200 if the operation completes without errors. |
@@ -257,7 +266,7 @@ Expletives (also called "filler" words or "empty" words) are words or phrases th
 
 The most common expletives are "there is/are" and "it is/they are". While these can be used intentionally for emphasis, avoiding them is better. Using them too often also results in boring writing.
 
-| Do this...                          | ...instead of this                       |
+| Correct                          | Incorrect                       |
 | :----------------------------------- | :---------------------------------------- |
 | The live broadcast has 17 hosts. | There are 17 hosts in the live broadcast. |
 | Do not store the key in plaintext.  | It is important not to store the key in plaintext. |
@@ -273,7 +282,7 @@ The following are other expletives to watch out for:
 
 Words may become unnecessary in context. For example, you do not need to use "new" after "create," because "new" is implied.
 
-| Do this...          | ...instead of this      |
+| Correct         | Incorrect      |
 | :------------------- | :------------------- |
 | Create a folder. | Create a new folder. |
 
@@ -283,7 +292,7 @@ Note: The term "expletives" also commonly refers to swear words, which it could 
 
 Avoid using the words "please" and "thank you" in technical documentation, because they do not set the proper tone.
 
-| Do this...          | ...instead of this      |
+| Correct          | Incorrect      |
 | :------------------- | :------------------- |
 | Download the sample code. | Please download the sample code. |
 
@@ -298,7 +307,7 @@ _________
 
 Use the present tense when writing your technical documentation, as it creates concise sentences and provides a tone of immediacy, as if things are occuring sequentially at the moment they are read (and always will). It also conveys a sense of truth or fact. 
 
-| Do this...          | ...instead of this      |
+| Correct         | Incorrect      |
 | :------------------- | :------------------- |
 | Click on the Open button. A pop-up window opens. | Once you have clicked on the Open button, a pop-up window will open. |
 
@@ -309,14 +318,14 @@ Always frame a product's release date in the past tense, as the present tense is
 
 Fixed issues described in release notes should also be written in the past tense to emphasize that the issues have been addressed.
 
-| Do this...          | ...instead of this      |
+| Correct          | Incorrect      |
 | :------------------- | :------------------- |
 | v3.0.0 was released on Mar 4, 2020. | v3.0.0 is released on Mar 4, 2020. |
 | Fixed an issue where disconnecting the microphone caused the audio to freeze. | Fixed an issue where disconnecting the microphone causes the audio to freeze. |
 
 Avoid using the future tense if at all possible. In most cases, the present tense works equally well.
 
-| Do this...          | ...instead of this      |
+| Correct          | Incorrect      |
 | :------------------- | :------------------- |
 | The token expires in 24 hours. | The token will expire in 24 hours. |
 | If the network connection is lost, the system attempts to reconnect automatically. | If the network connection is lost, the system will attempt to reconnect automatically. |
@@ -343,7 +352,7 @@ Combine the teacher's video with each of the students' videos on the children's 
 
 Do not use a possessive with a product or company name. This is due to matters of trademark, because the "'s" may be mistaken for a part of the name, and because trademarks are often considered adjectives rather than nouns. 
 
-| Do this...                                           | ...instead of this                                    |
+| Correct                                           | Incorrect                                    |
 | :--------------------------------------------------- | :---------------------------------------------------- |
 | The MP4 support of the Media Streaming Server SDK... | The Media Streaming Server SDK's MP4 support... | 
 | Install the latest version of iOS from Apple. (or "of Apple iOS") | Install Apple's latest iOS version   |
@@ -365,14 +374,14 @@ Using the second person ("you") addresses your text to the reader, which is why 
 
 Use the second person rather than including yourself by using the first person ("we"). Remember who your audience is and that you are in a different role. In Chinese documents, use "你" instead of "您". 
 
-| Do this...                                          | ...instead of this                           |
+| Correct                                          | Incorrect                           |
 | :--------------------------------------------------- | :---------------------------------------- |
 | You can get an App ID using Agora Console.        | Developers can get an App ID using Agora Console.         |
 | Once in GitHub, you can download the sample project. | Once in GitHub, we can download a sample project. |
 
 If you are describing something in the third person, avoid using "his," "her," or "he/she". You can rephrase the sentence, use the singular "they," or refer to the relevant role instead (in singular or plural form). 
 
-| Do this...                                                  | ...instead of this                                              |
+| Correct                                                  | Incorrect                                              |
 | :----------------------------------------------------------- | :----------------------------------------------------------- |
 | A user joins a channel and receives the onChannelJoined callback. | Once a user joins a channel, he/she receives the onChannelJoined callback. |
 | When a user joins a channel, they receive the onChannelJoined callback. | Once a user joins a channel, he receives the onChannelJoined callback.  |
@@ -395,7 +404,7 @@ Agora Console
 
 The imperative mood is an implied second-person voice that takes the form of a command or request. The imperative mood keeps the content concise and sounds like you are giving instructions. Use the imperative mood when describing steps in a task, as if you were walking someone through the procedure.
 
-| Do this...                                          | ...instead of this                          |
+| Correct                                          | Incorrect                          |
 | :--------------------------------------------------- | :---------------------------------------- |
 | Download the Agora SDK. | The Agora SDK can be downloaded.          |
 | Define your variables in the header file. | You should define your variables in the header file. |
@@ -410,7 +419,5 @@ When writing the questions for FAQs (but *not* the answers), use first person, a
 
 
 :::{admonition} Example
-
-
 How do I obtain a temporary token?
 :::
