@@ -1,100 +1,96 @@
-## Overview
+## 概述
 
-This chapter describes the purpose of the Agora documentation and the top editing principles for our team.
+本文描述了本指南的目的和声网中文文档团队的写作原则。
 
-### Purpose
+### 目的
 
-The primary goal of this guide is to codify and record decisions the Agora technical communication team make about style. The guide can help you avoid making decisions about the same issue over and over again, provide editorial assistance on structuring and writing your documentation, and help you keep your documentation consistent with our other documentation.
+本指南的主要目的是整理和记录声网中文文档团队关于风格的决定。该指南可以帮助你避免对同一问题反复决策，构建和编写文档，以及让不同作者的文档风格保持一致。
 
-### Our audience
+### 我们的用户
 
-Our technical documentation is aimed primarily at programmers working with our SDKs to create apps. The programmers visiting our website have all levels of experience, ranging from domain experts to junior programmers working on their first project. Keep in mind that most programmers visiting our website have a specific goal in mind: to find the information they need to get their app working. While we cannot write our content to cater to all levels of programmers, we can best serve them all by ensuring our content is concise, clear, and correct.
+我们的技术文档主要针对使用我们的 SDK 来创建应用程序的开发者。访问我们网站的开发者拥有各种级别的经验，从领域专家到从事第一个项目的初级开发者。请记住，大多数访问我们网站的开发者都有一个特定的目标：找到让他们的应用程序运行所需的信息。虽然我们无法编写内容来迎合所有级别的开发者，但我们可以通过确保我们的内容简洁、清晰和正确来更好地为他们服务。
 
-#### Concise
+#### 简洁的
 
-Keep your writing short and to the point.
+保持你的写作简明扼要。
 
-Most readers will be scanning rather than reading our content, seeking only the information they need to do their job. You need to get your ideas across to our audience quickly. Concise writing does not always mean fewer words but enough to convey an idea effectively.
+大多数用户将扫读而不是精读文档内容，他们只寻找完成工作所需的信息。你需要快速将你的想法传达给我们的用户。简洁的写作并不总是意味着更少的文字，而是意味着以尽量少的文字有效地传达信息。
 
-#### Clear
+#### 清晰的
 
-Think about what you are trying to communicate to the reader. Then use plain language to convey the information to our audience.
+考虑一下你要与用户交流的内容。然后使用通俗易懂的语言将信息传达给我们的用户。
 
-If you do not fully understand what you are writing about, that will come across to the reader.
+如果你不完全理解你所写的内容，那么用户也可能会有同样的困惑。
 
-#### Correct
+#### 正确的
 
-Our content must be technically and grammatically correct.
+我们的内容必须在技术上和语法上都是正确的。
 
-Incorrect content causes our audience to lose trust in our content and brand. If you are unsure if your content is technically correct, check with a developer before publication.
+不正确的内容会导致我们的用户对我们的内容和品牌失去信任。如果你不确定你的内容在技术上是否正确，请在发布前咨询开发或产品负责人。
 
-Grammatically incorrect writing confuses our readers and reflects poorly on our professionalism. If you are questioning the wording of your content, speak to another writer, or contact a technical editor for help.
+语法错误的写作会让我们的用户感到困惑，并且有损我们的专业形象。如果你对内容的措辞有疑问，请与其他作者讨论。
 
-### General principles
+### 一般原则
 
-#### Style and tone
+#### 风格和基调
 
-Best practices to adopt:
+采用的最佳实践：
 
-- Plan what to write before you write.
-- Always keep your audience in mind when you write.
-- Use active voice when possible.
-- Write for scannability; use bullet points, short paragraphs, and sections/headers to break up your content.
-- Be brief.
-- Oxford comma: In a list of three or more items, add a comma before the conjunction (for example: "Android, iOS, and Windows").
-- Spell check your content.
-- Be friendly by using "you". And remember that Agora can "recommend" courses of action.
-- Review your content. Edit out any information your reader does not need to know.
-- Use parallel structures to tell the reader how related concepts are different and how they are similar.
-- Place essential information in the main clause, as you cannot assume the reader will read the whole sentence.
-- Remove ambiguity by choosing words whose meaning is clear.
-- Use the relative pronoun "that" where you might otherwise omit it, and prefer using it to a noun-...ing combination, for example say "the method that uses this parameter" instead of "the method using this parameter".
+- 在写之前计划好要写的内容。
+- 写作时始终牢记你的用户。
+- 尽可能使用主动语态。
+- 为有利于扫读而写；使用要点、短段落和部分/标题来分解你的内容。
+- 文字简洁。
+- 检查你的内容是否有错别字。
+- 使用表示友好的词语。例如：“你可以”，“声网推荐”。
+- 自检文档内容。删除掉你的用户不需要知道的信息。
+- 使用平行结构告诉用户相关概念的异同。
+- 通过选择含义明确的词来消除歧义。
 
-Avoid the following:
+避免以下情况：
 
-- Buzzwords or technical jargon.
-- Adding unwarranted humor.
-- [Ableist language](https://developers.google.com/style/inclusive-documentation.html#ableist-language) or figures of speech.
-- Placeholder phrases like "please note" and "at this time."
-- Convoluted or overly-long sentences.
-- Starting all sentences with the same phrase (such as "You can" or "To do").
-- Current pop-culture references.
-- Jokes.
-- Exclamation marks, except in code examples.
-- Wackiness, zaniness, and goofiness.
-- Phrasing that denigrates, insults, or discriminates against any group of people.
-- Using phrases like "simply" or "it is that simple" or "it is easy" in a procedure.
-- Internet slang, or other [internet abbreviations](https://developers.google.com/style/abbreviations#dont-use) such as "[tl;dr](https://developers.google.com/style/word-list#tldr)" or "[ymmv](https://developers.google.com/style/word-list#ymmv)".
-- Do not use dangling modifiers. A modifier "dangles" when the sentence is not clear about what is being modified.
+- 流行语或技术行话。
+- 添加不必要的幽默。
+- 占位符短语，例如“请注意”和“此时”。 // TODO 这种语言会更亲和，我们需要避免吗？
+- 令人费解或过长的句子。
+- 所有句子都以相同的短语开头（例如“你可以”或“要做”）。
+- 参考当前的流行文化。
+- 笑话。
+- 感叹号，代码示例中除外。
+- 诋毁、侮辱或歧视任何群体的措辞。
+- 在程序中使用诸如“简单”或“就这么简单”或“很容易”之类的短语。
+- 互联网俚语，或其他[互联网缩写]( https://developers.google.com/style/abbreviations#dont-use)，例如“[tl;dr](https://developers.google.com/style/word-list#tldr)”或“[ymmv](https://developers.google.com/style/word-list#ymmv)”。
+- 指向不清晰的修饰语。
 
-#### Accessible content
+#### 无障碍内容
 
-Our audience is comprised of people who come to our website with different abilities. Some might have issues with their eyesight and magnify the content on their screen. Others may use a screen reader that speaks the text on a web page. Some people come to the Agora website for whom English is a second language, and their reading comprehension level may be low. Content aimed at U.S. readers should be in line with the Americans with Disabilities Act (ADA) and use the [W3C Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/) as a guide. By following the best practices outlined previously, you will already be doing most of what is required, but also keep the following in mind when you write:
+访问声网文档网站的用户是具有不同能力的人，例如：
+- 有些人的视力可能有问题，因此会放大屏幕上的内容，或使用屏幕阅读器朗读网页上的文本。
+- 一些中文为第二语言的人来到声网文档网站，他们的阅读理解水平可能较低。
 
-- Provide informative and descriptive page titles for your articles.
-- Use headings to convey meaning and structure.
-- Make link text meaningful, describing the target of the link target.
-- Write meaningful text alternatives for images that provide information about what the image is or what function it depicts.
-- Provide transcripts for videos.
-- For every image, provide alt text that summarizes the intent of the image. In markdown, images should look like `![Alt text](image_url)`. The alt text should be in Chinese for Chinese documents.
-- Tables are particularly challenging for screen readers. Do not use table unless it is the best method to present your information. Also, do not merge cells within a table.
+我们需要在写作过程中遵循 [Web 内容无障碍指南](https://www.w3.org/Translations/WCAG21-zh/)。通过遵循上一章节中介绍的最佳实践，你已经完成了大部分工作，但在写作时还要记住以下几点：
 
-#### Writing for a global audience
+- 提供能传达有效信息的文档标题。
+- 使用章节标题来展示章节含义和文档结构。
+- 使链接文本有意义，例如在链接文本中描述指向的目标内容。
+- 为图像编写有意义的替代文本，提供有关图像是什么或它描述的功能的信息。
+- 提供视频的成绩单。
+- 对于每个图像，提供总结图像意图的替代文本。例如，在 markdown 中，图片写法为 `![替代文本](图像地址)`。
 
-While Agora has a sizable Chinese audience, it is important to remember that the company's growth depends on having an international focus. It is essential that as Agora expands its operations worldwide, that writers keep in mind techniques that will help when we begin to translate to languages other than English.
+#### 为全球用户写作
 
-In conjunction with the general principles outlined earlier, the following techniques will help us write for a global audience:
+虽然声网拥有大量的中国用户，但重要的是要记住，公司的发展取决于国际关注度。结合前面概述的一般原则，以下技巧将帮助我们为全球用户写作：
 
-- Write in simple structures.
-- Use simple verbs. For example, don't use words like *utilize* when the simpler word *use* conveys the same information.
-- Do not use idiomatic or colloquial expressions.
-- Provide context for the reader using descriptive (but still concise) text.
-- Avoid making negative constructions. Do not tell the reader what they cannot do; tell them what they can do.
-- Do not use double negative.
-- Avoid using images with embedded text where possible.
-- Keep paragraphs short. Dense pages full of text are intimidating for readers.
-- Address the reader directly by using "you" instead of "the developer".
-- Put the conditional clause first. Start by mentioning a circumstance or scenario, followed the instruction.
-- Be inclusive in your writing. Use gender-neutral pronouns. Avoid mentioning holidays, sports teams, or other culturally-specific things.
-- Avoid using metaphors, as many are culturally specific.
-- Be consistent in your word usage. Do not use the same word to mean different things.
+- 用简单的结构写作。
+- 使用简单的动词。
+- 不要使用惯用语或口语表达。
+- 使用具有描述性但仍然简洁的文本为用户提供上下文。
+- 避免做否定的结构。不要告诉用户不能做什么，而要告诉用户可以做什么。
+- 不要使用双重否定。
+- 尽可能避免使用带有嵌入文本的图像。
+- 保持段落简短。充满文字的密集页面对用户来说是令人生畏的。
+- 使用“你”而不是“开发人员”直接称呼用户。
+- 先写条件句。首先提及一个情况或场景，然后按照说明进行操作。
+- 使用中性代词。避免提及假期、运动队或其他具有文化特色的事物。
+- 避免使用隐喻，因为许多隐喻在文化上是特定的。
+- 在你的用词上保持一致。不要用同一个词来表达不同的意思。

@@ -1,278 +1,278 @@
-## Formatting and organization
+## 格式化和组织
 
-### Headings and titles
+### 标题和标题
 
-Headings assist the reader in scanning content, helping them discover exactly what they are seeking. They provide structure and are visual points of reference for the reader.
+标题帮助用户扫描内容，帮助他们准确地发现他们正在寻找的内容。它们提供结构，是用户的视觉参考点。
 
-Use headers to help outline your draft content. Some other points for consideration:
+使用标题来帮助概述草稿内容。其他一些需要考虑的要点：
 
-- Use sentence case for headings.
-- Capitalize doc titles.
-- Be descriptive and concise.
-- Each heading should cover a specific topic.
-- Focus on what the reader needs to know and what they can accomplish.
-- Use ampersands or other symbols only if they appear in a UI or product name.
-- Do not conclude a heading with a period. (An exception are FAQs whose titles are often phrased as a conversation with the reader).
-- Do not skip levels of the heading hierarchy. For example, put an `<h3>` only under an `<h2>`.
+- 标题使用句子大小写。
+- 将文档标题大写。
+- 具有描述性和简洁性。
+- 每个标题应涵盖一个特定主题。
+- 关注用户需要知道什么以及他们可以完成什么。
+- 只有出现在 UI 或产品名称中时才使用和号或其他符号。
+- 不要用句号结束标题。（一个例外是常见问题解答，其标题通常被表述为与用户的对话）。
+- 不要跳过标题层次结构的级别。例如，放一个`<h3>`只有在`<h2>`.
 
-### Lists
+### 列表
 
-In most cases, the phrase before the list must be a complete sentence, not a partial one that is completed by the list items. The sentence can end with a colon or a period; usually a colon if it immediately precedes the list, or a period if there is more material (such as a note paragraph) between the introduction and the list.
+在大多数情况下，列表前的短语必须是一个完整的句子，而不是由列表项完成的部分句子。句子可以以冒号或句号结尾；如果它紧接在列表之前，通常是一个冒号，或者如果在介绍和列表之间有更多材料（例如注释段落），则通常是一个句点。
 
-:::{caution}
-Never use a semicolon to end a list item.
+：：：{警告}
+永远不要使用分号来结束列表项。
 :::
 
-### Tables
+### 表
 
-Always introduce a table with a complete sentence and end it with a full stop, not a partial one that is completed by the table.
+始终以完整的句子介绍表格并以句号结束，而不是表格完成的部分句子。
 
-#### Table headings
+#### 表格标题
 
-- Use table headings for the first column and the first row only.
-- Use sentence case.
-- When referencing something specific (such as a unit of measure) in a table header, do not repeat it in the cells in that column. For example, if a table column header uses “Kbps”, there is no need to repeat it in the cells for that column.
-- Write concise headings and omit articles (*a*, *an*, *the*).
-- Do not end with punctuation, including a period, an ellipsis, or a colon.
+- 仅对第一列和第一行使用表格标题。
+- 使用句子大小写。
+- 在表头中引用特定内容（例如度量单位）时，不要在该列的单元格中重复它。例如，如果表格列标题使用“Kbps”，则无需在该列的单元格中重复它。
+- 编写简洁的标题并省略冠词 (*a*, *an*, *the*)。
+- 不要以标点符号结尾，包括句号、省略号或冒号。
 
-#### Multi-paragraph table cells
+#### 多段落表格单元格
 
-To create multiple paragraphs, use the `<p>` element rather than using the `<br>` element.
+要创建多个段落，请使用`<p>`元素而不是使用`<br>`元素。
 
-### Notes
+### 笔记
 
-A note provides the reader with important or useful information that is not part of the regular flow of text.
+注释为用户提供重要或有用的信息，这些信息不是常规文本流的一部分。
 
-Do not use Markdown's native ">" to create a note, as the visual effect it produces is poor. Instead, use HTML code format as outlined below for each note type.
+不要使用 Markdown 原生的“>”来创建笔记，它产生的视觉效果很差。相反，请为每种笔记类型使用如下所述的 HTML 代码格式。
 
-:::{admonition} Exception
-">" can be used in API Reference (code comments).
+:::{警告} 异常
+“>”可用于API Reference（代码注释）。
 :::
 
-Agora has three styles of notes, designed to convey a different level of importance depending on the circumstance.
+声网具有三种风格的笔记，旨在根据情况传达不同程度的重要性。
 
-#### Information
+#### 信息
 
-Provides supplemental information that is useful for the reader to know.
+提供对用户了解有用的补充信息。
 
-In Agora's online editor, wrap the notes in `<div class="alert info"></div>`.
+在声网的在线编辑器中，将笔记包裹在`<div class="alert info"></div>`.
 
-:::{admonition} Example
-![Example of info](img/notes-info.png)
+:::{警告} 示例
+![infoimg](/notes-info.png) 示例
 :::
 
-#### Note
+#### 笔记
 
-Provides supplemental information that may not apply to all readers, but is important for those specific readers to know. In the following example, the context for the note only applies to those who have a firewall.
+提供可能不适用于所有用户的补充信息，但对于那些特定用户来说很重要。在以下示例中，注释的上下文仅适用于拥有防火墙的用户。
 
-In Agora's online editor, wrap the notes in `<div class="alert note"></div>`.
+在声网的在线编辑器中，将笔记包裹在`<div class="alert note"></div>`.
 
-:::{admonition} Example
-![Example of note](img/notes-note.png)
+:::{警告} 示例
+![noteimg](/notes-note.png) 示例
 :::
 
-#### Warning
+#### 警告
 
-Designed to guide the reader away from a circumstance that poses some form of problem or hazard.
+旨在引导用户远离会造成某种形式的问题或危险的环境。
 
-In Agora's online editor, wrap the notes in `<div class="alert warning"></div>`.
+在声网的在线编辑器中，将笔记包裹在`<div class="alert warning"></div>`.
 
-:::{admonition} Example
-![Example of warning](img/notes-warning.png)
+:::{警告} 示例
+![warningimg](/notes-warning.png) 示例
 :::
 
-(numbers)=
-### Numbers
+（数字）=
+### 数字
 
-Spell out all ordinal numbers in text. For example, first, fifth, twelfth, forty-third.
+拼出文本中的所有序数。例如，第一、第五、第十二、第四十三。
 
-Do not start a sentence with a numeral. Add a modifier before the number, or spell the number out if you cannot rewrite the sentence.
+不要以数字开头一个句子。在数字前添加修饰语，或者如果您无法重写句子，请拼写数字。
 
-:::{admonition} Exception
-List items or table cells can start with numerals.
+:::{警告} 异常
+列表项或表格单元格可以以数字开头。
 :::
 
-In general, spell out the following:
+一般而言，阐明以下内容：
 
-- Numbers from zero through nine. An exception is when a number appears in a title.
-- A number that starts a sentence. In some cases it is better to rearrange the sentence so that the number appears later.
-- A number that is followed by a numeral.
-- Indefinite and casual numbers.
+- 从零到九的数字。一个例外是数字出现在标题中。
+- 一个句子的开头数字。在某些情况下，最好重新排列句子，以便数字出现在后面。
+- 后跟数字的数字。
+- 不确定和随意的数字。
 
-In general, use numerals for the following:
+通常，以下情况使用数字：
 
-- Numbers including and greater than 10.
-- Version numbers.
-- Technical quantities, such as amounts of memory, amounts of disk space, numbers of queries, or usage limits.
-- Page numbers.
-- Chapter numbers, sections, pages, and so on.
-- Prices.
-- Numbers without units, such as numbers used in mathematical expressions.
-- Numbers less than 10 when they appear in the same sentence with numbers greater than 9.
-- Negative numbers.
-- [Percentages](https://developers.google.com/style/numbers#percentages).
-- [Dimensions](https://developers.google.com/style/numbers#dimensions).
-- Decimals.
-- Measurements.
-- [Numbers in a range](https://developers.google.com/style/numbers#ranges-of-numbers).
+- 包括和大于 10 的数字。
+- 版本号。
+- 技术量，例如内存量、磁盘空间量、查询数或使用限制。
+- 页码。
+- 章号、节、页等。
+- 价格。
+- 没有单位的数字，例如数学表达式中使用的数字。
+- 小于 10 的数字与大于 9 的数字出现在同一个句子中。
+- 负数。
+- 百分比 https://developers.google.com/style/numbers#percentages)。[](
+- 维度 https://developers.google.com/style/numbers#dimensions)。[](
+- 小数点。
+- 测量。
+- [范围内的数字 ](https://developers.google.com/style/numbers#ranges-of-numbers)。
 
-(comma/numbers)=
-#### Commas in numbers
+（逗号/数字）=
+#### 数字中的逗号
 
-Use a comma to separate values in this thousands, hundreds of thousands, millions, and so on. For example, "Agora gives each Agora account 10,000 charge-free minutes each month."
+用逗号分隔这个千位、十万位、百万位等等的值。例如，“声网每月给每个声网账号 10,000 分钟的免费通话时间。”
 
-| Recommended | Not recommended |
+| 受到推崇的 | 不建议 |
 | :---------- | :-------------- |
-| 1,000       | 1000            |
-| 10,000      | 10000           |
-| 100,000     | 100000          |
-| 1,000,000   | 1000000         |
+| 1,000 | 1000 |
+| 10,000 | 10000 |
+| 100,000 | 100000 |
+| 1,000,000 | 1000000 |
 
-:::{admonition} Exception
-- When referring to resolution values, such as "1080p", or "1920 × 1080", only use commas when the number has five or more digits. For example, "`width` should not exceed 1920, and `width` × `height` should not exceed `1920` × `1080`."
-- Do not use commas in page numbers, phone numbers, addresses, or on the right of decimal points.
-:::
+:::{警告} 异常
+- 当提到分辨率值时，例如“1080p”或“1920 × 1080”，只有在数字有五位或更多位时才使用逗号。例如“`宽度`不能超过1920，`宽度`×`高度`不能超过`1920`×`1080`”。
+- 不要在页码、电话号码、地址或小数点右边使用逗号。
+   :::
 
-(currency)=
-### Currency
+（货币）=
+### 货币
 
-Agora technical documentation rarely mentions currency figures, but they do occasionally come up in billing-related documentation. In English documentation, the standard currency used is in US dollars. Please keep the following in mind when writing currency information.
+声网技术文档很少提及货币数字，但它们偶尔会出现在与计费相关的文档中。在英文文档中，使用的标准货币是美元。编写货币信息时请牢记以下几点。
 
-#### Referencing the currency
+#### 参考货币
 
-When referencing US dollars, it is not enough to use the dollar symbol ("\$"), as there are other national currencies that also use the dollar, such as the Australian or Canadian dollars. When referencing US dollars, use "\$US". So long as an article references "\$US" within the article and there are no other currencies referenced, it will be understood that "\$" will mean "\$US".
+引用美元时，仅使用美元符号 ("\$") 是不够的，因为还有其他国家货币也使用美元，例如澳元或加元。引用美元时，使用“\$US”。只要文章在文章中引用“\$US”并且没有引用其他货币，就可以理解“\$”的意思是“\$US”。
 
-For example:
+例如：
 
-| Service type    | Pricing (\$US/1,000 minutes) |
+| 服务类型 | 定价（\$US/1,000 分钟） |
 | --------------- | ---------------------------- |
-| Recording audio | \$1.49                       |
-| Recording video | High-Definition (HD): \$5.99 |
+| 录音 | \$1.49 |
+| 录制视频 | 高清 (HD)：\$5.99 |
 
-If you are writing about more than one type of currency within the same article, use the official [ISO 4217 three-letter currency code](https://www.thefinancials.com/Default.aspx?SubSectionID=curformat), which is "USD". Use this same ISO standard if you need to refer to other currencies in your documentation. The currency amount immediately follows the three-letter currency code with no intervening space. For large currency amounts, things are typically rounded to the nearest dollar, so there is no need to display the dollar amount to two decimal places.
+如果您在同一篇文章中写了不止一种货币，请使用官方[ ISO 4217 三字母货币代码 ](https://www.thefinancials.com/Default.aspx?SubSectionID=curformat)，即“USD”。如果您需要在文档中引用其他货币，请使用相同的 ISO 标准。货币金额紧跟在三个字母的货币代码之后，中间没有空格。对于大额货币，通常会四舍五入到最接近的美元，因此无需将美元金额显示到小数点后两位。
 
-:::{admonition} Example
-In Q4 the company posted a net profit of CNY1,234,567 (USD176,297).
+:::{警告} 示例
+公司第四季度实现净利润 1,234,567 元人民币（176,297 美元）。
 :::
 
-If it is understood through context that the currency is in US dollars, there is no need to use the three-letter ISO code.
+如果通过上下文理解货币为美元，则无需使用三个字母的 ISO 代码。
 
-:::{admonition} Example
-The American division posted a net revenue of $123,456.
+:::{警告} 示例
+美国分部的净收入为 123,456 美元。
 :::
 
-#### Using the dollar symbol and amounts
+#### 使用美元符号和金额
 
-Always place the dollar symbol at the beginning of a currency value, without any intervening space. For example: "\$0.99".
+始终将美元符号放在货币值的开头，中间没有任何空格。例如：“\$0.99”。
 
-If the amount is less than a full dollar, ensure that there is a leading 0 before the decimal point. Also, when referring to the small figures that are used in billing documentation, always use two decimal places for any dollar amount. For example "\$9.90", not "​\$9.9".
+如果金额少于整整一美元，请确保小数点前有一个前导 0。此外，在提及账单文档中使用的小数字时，始终对任何美元金额使用两位小数。例如“\$9.90”，而不是“\$9.9".
 
-### Time
+### 时间
 
-If a parameter or property expresses Unix time, describe it as "Unix time (in seconds since 1 January 1970) in UTC".
+如果参数或属性表示 Unix 时间，请将其描述为“UTC 中的 Unix 时间（自 1970 年 1 月 1 日起以秒为单位）”。
 
-### Dates
+### 日期
 
-Writing dates in a clear and unambiguous way helps with reader understanding, and with writing for a global audience.
+以清晰明确的方式书写日期有助于用户理解，也有助于为全球用户写作。
 
-In general, express months as a word rather than an abbreviation, in *month day, year* format. For example, "v3.0.0 was released on September 3, 2019." When space is tight (such as within a table), use a three-letter abbreviation for the month. When a full date appears in the middle of a sentence, add a comma after the year. For example, "The September 3, 2019, release of..."
+一般情况下，将月份表示为单词而不是缩写，采用*月日年*格式。例如，“v3.0.0 于 2019 年 9 月 3 日发布”。当空间紧张时（例如在表格内），请使用月份的三个字母缩写。当一个完整的日期出现在一个句子的中间时，在年份之后添加一个逗号。例如，“The 2019 September 3, release of...”
 
-Avoid using numeric dates when possible. Different countries and regions in the world express numeric dates in different formats, inevitably leading to confusion. If a numeric date cannot be avoided, use the format *yyyy-mm-dd*, (for example, "2019-09-03"), which conforms to the ISO 8601 international standard for numerical dates.
+尽可能避免使用数字日期。世界上不同的国家和地区以不同的格式表示数字日期，难免造成混淆。如果无法避免使用数字日期，请使用符合 ISO 8601 数字日期国际标准的格式 *yyyy-mm-dd*（例如“2019-09-03”）。
 
-### Procedures
+### 程序
 
-In most cases, introduce a procedure with an introductory sentence. The sentence can end with a colon or a period; usually a colon if it immediately precedes the procedure, or a period if there is more material (such as a note paragraph) between the introduction and the procedure.
+在大多数情况下，介绍带有介绍性句子的程序。句子可以以冒号或句号结尾；如果它紧接在程序之前，则通常使用冒号，如果在介绍和程序之间有更多材料（例如注释段落），则通常使用句号。
 
-| Recommended                                   | Not recommended           |
+| 受到推崇的 | 不建议 |
 | :-------------------------------------------- | :------------------------ |
-| To customize the buttons, follow these steps: | To customize the buttons: |
+| 要自定义按钮，请按照下列步骤操作： | 要自定义按钮： |
 
-Here are more guidelines:
+以下是更多指南：
 
-- In general, use one step per action. However, you can combine small actions into one step, using arrows (`>`) for sequential menu selections.
-- Avoid having more than two levels of steps as this makes it hard for the reader to scan and to understand.
-- When a step has sub-steps, treat the step like an [introductory sentence](https://developers.google.com/style/procedures#introductory-sentences): put a colon or a period at the end of the step, as appropriate.
-- Do not make the procedure too long. If it starts to feel too long, consider splitting it into two procedures.
-- If the user must press **Enter** or click **OK** after a step, then include that instruction as part of the step.
-- State the purpose of the action before stating the action.
-- State the location of the action before stating the action. If there are multiple headings associated with a set of procedures, restate the location of the action in the first step of each procedure, even if the location is the same as in the previous procedure.
-- Do not use "please."
-- For an optional step, type "Optional:" as the first word of the step.
-- Use concise procedures to avoid repetitiveness and overwhelming the user with too much bolding of UI elements.
-- Use complete sentences.
-- Use parallel structure.
+- 通常，每个动作使用一个步骤。但是，您可以将小操作合并为一个步骤，使用箭头 (`>`) 进行顺序菜单选择。
+- 避免有两级以上的步骤，因为这会使用户难以扫视和理解。
+- 当步骤有子步骤时，将步骤视为介绍性句子 https://developers.google.com/style/procedures#introductory-sentences)：在步骤末尾酌情放置冒号或句号。[](
+- 不要使过程太长。如果开始感觉太长，请考虑将其分成两个过程。
+- 如果用户必须在某个步骤后按 **Enter** 或单击“确定”，则将该指令作为步骤的一部分包含在内。****
+- 在陈述动作之前陈述动作的目的。
+- 在陈述动作之前先陈述动作的位置。如果有多个标题与一组程序相关联，请在每个程序的第一步中重申操作的位置，即使位置与前一个程序相同。
+- 不要使用“请”。
+- 对于可选步骤，键入“可选：”作为该步骤的第一个词。
+- 使用简洁的过程来避免重复，避免用户因 UI 元素的粗体过多而不知所措。
+- 使用完整的句子。
+- 使用并行结构。
 
-### Units of measurement
+### 测量单位
 
-When specifying a unit of measurement, use a non-breaking space ( ) between the number and the unit. This guidance applies to HTML and Markdown sources.
+指定度量单位时，请在数字和单位之间使用不间断空格 ( )。本指南适用于 HTML 和 Markdown 源。
 
-However, when the unit of measure is money, degrees, or percent, do not leave a space.
+但是，当计量单位是钱、度或百分比时，不要留空格。
 
-In some contexts, it may be appropriate to indicate thousands of something by following a number with a lowercase "k". If you do that, then follow these guidelines:
+在某些情况下，通过在数字后面加上小写字母“k”来表示数以千计的东西可能是合适的。如果您这样做，请遵循以下准则：
 
-- Do not put a space between the number and "k".
-- Add a noun to indicate what the number measures, and to make clear that you are not using "k" as an abbreviation for "kilobytes."
+- 不要在数字和“k”之间放置空格。
+- 添加一个名词来表示数字的含义，并明确表示您没有使用“k”作为“千字节”的缩写。
 
-See [](ref/units).
+见参考/单位)。[](
 
-### Linking
+### 链接
 
-#### When to link
+#### 何时链接
 
-Provide a link to the glossary at the first mention.
+在第一次提到时提供词汇表的链接。
 
-Provide links to reference documents except in code comments for the API Reference.
+提供指向参考文档的链接，API 参考的代码注释除外。
 
-In an API Reference, when referring to an advanced guide, do not create a link, just use italics instead. For Chinese, use guillemets《》to indicate the reference.
+在 API Reference 中，当引用高级指南时，不要创建链接，而是使用斜体。对于中文，使用guillemets《》来表示引用。
 
-:::{admonition} Example
-See *Set the Audio Profile* for details.
+:::{警告} 示例
+有关详细信息，请参阅*设置音频配置文件*。
 
 详见《设置音频属性》。
 :::
 
-#### Link text
+#### 链接文字
 
-When you are writing link text, use a phrase that describes what the reader will see after following the link. That can take either of two forms:
+当您编写链接文本时，请使用描述用户点击链接后将看到的内容的短语。这可以采用以下两种形式之一：
 
-- The exact title of the linked-to page, capitalized the same way the title is capitalized.
-- A description of the linked-to page, capitalized like ordinary text instead of like a title.
+- 链接页面的确切标题，大写方式与标题大写相同。
+- 链接页面的描述，像普通文本一样大写，而不是像标题。
 
-A couple of specific things not to do in link text:
+一些特定的事情不要在链接文本中做：
 
-- Do not use the phrase "click here." (It is bad for accessibility and bad for scannability.)
-- Similarly, do not use phrases like "this document." (It is easy to read "this" as meaning "the one you're reading now" rather than "the one I'm pointing to.")
-- Do not use a URL as link text. Instead, use the page title or a description of the page.
-- Do not include punctuation in the link text.
+- 不要使用短语“单击此处”。 （这不利于可访问性和可扫描性。）
+- 同样，不要使用诸如“本文档”之类的短语。 （很容易将“this”理解为“你正在阅读的那个”而不是“我指向的那个”。）
+- 不要使用 URL 作为链接文本。相反，请使用页面标题或页面描述。
+- 不要在链接文本中包含标点符号。
 
-(code-in-text)=
-### Code in text
+（文本中的代码）=
+### 文本中的代码
 
-This section applies to all Agora documentation except the automatically generated API Reference.
+本部分适用于除自动生成的 API Reference 之外的所有声网文档。
 
-In ordinary text sentences, use code font to mark up most things that have anything to do with code. In HTML, use the `<code>` element; in Markdown, use backticks (\`\`\`).
+在普通的正文句子中，使用代码字体来标记大多数与代码有关的东西。在 HTML 中，使用`<code>`element; in Markdown, use backticks (\`\`\`).</code>
 
-Some specific items to put in code font:
+要放入代码字体的一些特定项目：
 
-- Language keywords.
-- Class names.
-- Method, function, and callback names.
-- XML and HTML element names. (Also place angle brackets (`<>`) around the element name; you may have to escape the angle brackets to make them appear in the document.)
-- Attribute names and values.
-- Filenames and paths. Start the path with a /, for example: `/etc/app/agora.app`.
-- Defined (constant) values for an element or attribute.
-- User inputs, for example: "Enter `demoChannel1` as the channel name".
+- 语言关键词。
+- 类名。
+- 方法、函数和回调名称。
+- XML 和 HTML 元素名称。（还要在元素名称周围放置尖括号 (`<>`)；您可能必须转义尖括号才能使它们出现在文档中。）
+- 属性名称和值。
+- 文件名和路径。路径以 / 开头，例如：`/etc/app/shengwang.app`。
+- 元素或属性的已定义（常量）值。
+- 用户输入，例如：“输入 `demoChannel1` 作为频道名称”。
 
-### Code samples
+### 代码示例
 
-In most cases, precede a code sample with an introductory sentence or paragraph. The intro can end with a colon or a period; usually a colon if it immediately precedes the sample, usually a period if there is more material (such as a note paragraph) between the introduction and the sample, or if the introduction paragraph ends in a sentence that is not directly related to the sample.
+在大多数情况下，在代码示例之前加上介绍性句子或段落。介绍可以以冒号或句号结尾；如果它紧接在示例之前，通常是冒号；如果介绍和示例之间有更多材料（例如注释段落），或者如果介绍段落以与示例没有直接关系的句子结尾，则通常是句点。
 
-:::{caution}
-Ensure that all the variants in the code samples are assigned values.
+：：：{警告}
+确保代码示例中的所有变体都已分配值。
 :::
 
-### UI elements and interaction
+### UI元素和交互
 
-When referring to any UI element by name, put its name in boldface, using the `<b>` element in HTML or `**` in Markdown. This includes names for buttons, menus, dialogs, windows, list items, or any other feature in the UI that has a visible name.
+当通过名称引用任何 UI 元素时，将其名称以粗体显示，使用<b>HTML 中的元素或 `**` 在 Markdown 中。`</b>`这包括按钮、菜单、对话框、窗口、列表项或 UI 中具有可见名称的任何其他功能的名称。
 
-Do not make an official feature name or product name bold, except when it directly refers to an element in the UI that uses the name, for example a window title or button name.
+不要将官方功能名称或产品名称设为粗体，除非它直接引用 UI 中使用该名称的元素，例如窗口标题或按钮名称。

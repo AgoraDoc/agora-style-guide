@@ -1,116 +1,116 @@
-## References
+## 参考
 
-This section lists commonly used units of measure, acronyms and writing issues.
+本节列出了常用的计量单位、首字母缩略词和写作问题。
 
-For a list of the preferred style choices of terms commonly used in Agora technical documentation, refer to the [](word-list.md).
+有关声网技术文档中常用术语的首选样式选择列表，请参阅 word-list.md)。[](
 
-(ref/units)=
-### Commonly used units of measure and their abbreviated form
+（参考/单位）=
+### 常用计量单位及其缩写形式
 
-| Unit                   | Unit Symbol or Abbreviation |
+| 单元 | 单位符号或缩写 |
 | :--------------------- | :-------------------------- |
-| **bits per second**    | bps                         |
-| **byte**               | B                           |
-| **decibel**            | dB                          |
-| **Frames per second**  | fps                         |
-| **gigabit**            | Gbit                        |
-| **gigabyte**           | GB                          |
-| **hertz**              | Hz                          |
-| **kilobit**            | kbit                        |
-| **kilobit per second** | Kbps                        |
-| **kilobyte**           | KB                          |
-| **kilohertz**          | kHz                         |
-| **megabit**            | Mbit                        |
-| **megabyte**           | MB                          |
-| **megahertz**          | MHz                         |
-| **minute**             | min.                        |
-| **second**             | s                           |
+| **比特每秒** | bps |
+| **字节** | 乙 |
+| **分贝** | D b |
+| **每秒帧数** | 每秒帧数 |
+| **千兆** | 千兆位 |
+| **技嘉** | 国标 |
+| **赫兹** | 赫兹 |
+| **千比特** | 千比特 |
+| **千比特每秒** | 千位每秒 |
+| **千字节** | 知识库 |
+| **千赫** | 千赫 |
+| **兆比特** | 兆比特 |
+| **兆字节** | MB |
+| **兆赫** | 兆赫 |
+| **分钟** | 分钟。 |
+| **第二** | 秒 |
 
-(ref/issues)=
-### Common phrasing issues
+（参考/问题）=
+### 常见的措辞问题
 
-| **Not Preferred**                                   | **Preferred**                                                                                          |
+| **不喜欢** | **首选** |
 | --------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| Agora SDK…                                          | The Agora SDK…                                                                                         |
-| at most                                             | maximum                                                                                                |
-| audiences                                           | <li>audience (when referring to the role)</li><li>audience member (when referring to individuals)</li> |
-| call the \[methodname\] method to                   | call \[methodname\] to                                                                                 |
-| check whether the function is enabled or not        | check whether the function is enabled                                                                  |
-| choose either of the following three formats        | choose one of the following formats                                                                    |
-| for more information, refer to…                     | see…                                                                                                   |
-| on Electron                                         | in Electron (Electron is a framework)                                                                  |
-| in various dimensions                               | across various dimensions                                                                              |
-| introduces how to use                               | describes how to use                                                                                   |
-| in the team                                         | on the team                                                                                            |
-| is released                                         | was released                                                                                           |
-| issues fixed                                        | fixed issues                                                                                           |
-| it indicates...                                     | (delete "it indicates...")                                                                             |
-| listen to callback events                           | listen for callback events                                                                             |
-| on the user interface                               | in the user interface                                                                                  |
-| open the camera                                     | turn the camera on                                                                                     |
-| pass in an object as an argument                    | pass an object as an argument                                                                          |
-| reserved parameter                                  | reserved for future use                                                                                |
-| sample codes                                        | sample code                                                                                            |
-| save the bandwidth                                  | reduce the bandwidth                                                                                   |
-| secret                                              | encryption password                                                                                    |
-| the attributes for a channel                        | the attributes of a channel                                                                            |
-| the saving directory                                | the directory to save                                                                                  |
-| this method must be called                          | you must call this method                                                                              |
-| this method only works when                         | this method works only if                                                                              |
-| we recommend                                        | Agora recommends                                                                                       |
-| WeChat Miniprogram, WeChat Mini Program             | WeChat Mini-program                                                                                    |
-| web (when referring to the platform/World Wide Web) | Web                                                                                                    |
-| webpage, Web page                                   | web page                                                                                               |
+| 声网 SDK… | 声网 SDK… |
+| 最多 | 最大限度 |
+| 听众 | <li>观众（指角色时）</li><li>观众成员（指个人时）</li> |
+| 调用 \[methodname\] 方法来 | 调用 \[methodname\] 到 |
+| 检查该功能是否启用 | 查看功能是否开启 |
+| 选择以下三种格式之一 | 选择以下格式之一 |
+| 如需更多信息，请参阅…… | 看… |
+| 在电子 | 在 Electron 中（Electron 是一个框架） |
+| 在不同的维度 | 跨越各个维度 |
+| 介绍使用方法 | 描述了如何使用 |
+| 在团队中 | 在团队中 |
+| 发行了 | 被释放 |
+| 问题已解决 | 固定问题 |
+| 它表明... | （删去“表示……”） |
+| 监听回调事件 | 监听回调事件 |
+| 在用户界面上 | 在用户界面中 |
+| 打开照相机 | 打开相机 |
+| 传入一个对象作为参数 | 传递一个对象作为参数 |
+| 保留参数 | 留作将来使用 |
+| 示例代码 | 示例代码 |
+| 节省带宽 | 减少带宽 |
+| 秘密 | 加密密码 |
+| 通道的属性 | 通道的属性 |
+| 保存目录 | 要保存的目录 |
+| 必须调用此方法 | 你必须调用这个方法 |
+| 此方法仅在 | 此方法仅适用于 |
+| 我们推荐 | 声网推荐 |
+| 微信小程序，微信小程序 | 微信小程序 |
+| 网络（指平台/万维网时） | 网络 |
+| 网页，网页 | 网页 |
 
-### Commonly used acronyms
+### 常用缩写词
 
-Examples of commonly used acronyms that do not need to be spelled out, along with their expanded form and a description of their meaning for reference:
+常用的不需要拼写的首字母缩略词示例，及其扩展形式和含义说明以供参考：
 
-| **Acronym** | **Expanded Form**                                                   | **Description**                                                                                                                                                         |
+| **首字母缩略词** | **展开形式** | **描述** |
 | ----------- | ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 3G          | Third Generation                                                    | A telecommunication standard.                                                                                                                                           |
-| 4G          | Fourth Generation                                                   | A telecommunication standard.                                                                                                                                           |
-| 5G          | Fifth Generation                                                    | A telecommunication standard.                                                                                                                                           |
-| API         | Application Programming Interface                                   | A computing interface to a software component or system.                                                                                                                |
-| AVI         | Audio Video Interleave                                              | A multimedia container format and file type.                                                                                                                            |
-| CDN         | Content Delivery Network                                            | The process of publishing streams into the Content Delivery Networkis called CDN live streaming.                                                                        |
-| CSS         | Cascading Style Sheets                                              | Used to describing the presentation of a document written in a markup language like HTML.                                                                               |
-| DLL         | Dynamic Link Library                                                | Contains a library of functions and other information that can be accessed by a Windows program.                                                                        |
-| HTML        | Hypertext Markup Language                                           | The standard markup language for Web pages.                                                                                                                             |
-| JPG         | Joint Photographic Experts Group                                    | The name of the group that devised this commonly-used lossy compression format for digital images. Now used to refer to the file format rather than the group.          |
-| JSON        | JavaScript Object Notation                                          | A stateless data interchange format used primarly on the Web.                                                                                                           |
-| M3U8        | Moving Picture Experts Group Audio Layer 3 Uniform Resource Locator | A common computer file format used for creating a multimedia playlist. The "8" means that the file is encoded in UTF-8.                                                 |
-| MP4         | MPEG-4 Part 14                                                      | A digital multimedia container format most commonly used to store video and audio                                                                                       |
-| MPEG        | Moving Picture Experts Group                                        | The name of the group that devised this commonly-used compression format for audio and visual digital data. Now used to refer to the file format rather than the group. |
-| PNG         | Portable Network Graphics                                           | A compressed, lossless digital image file format.                                                                                                                       |
-| RESTful API | Representational State Transfer + ful                               | A software architecture that defines a set of constraints used for creating Web services.                                                                               |
-| RTC         | Real-time Communication                                             | Used to refer to any live telecommunications that occur without transmission delays.                                                                                    |
-| RTMP        | Real-time Messaging Protocol                                        | A TCP-based protocol which maintains persistent connections and allows low-latency communication                                                                        |
-| SDK         | Software Development Kit                                            | A collection of software development tools in one installable package.                                                                                                  |
-| TS          | MPEG Transport Stream                                               | A standard digital container format for transmission and storage of audio, video, and related metadata.                                                                 |
-| TURN        | Traversal Using Relays around NAT                                   | A protocol that assists in traversal of network address translators (NAT) or firewalls for multimedia applications.                                                     |
-| URL         | Uniform Resource Locator                                            | A reference to a web resource that specifies its location on a computer network, typically on the Web.                                                                  |
-| Wi-Fi       | Wireless Fidelity (unofficial)                                      | A family of wireless networking technologies, commonly used for local area networking of devices and Internet access.                                                   |
-| XML         | Extensible Markup Language                                          | A metalanguage used to define their customized markup languages.                                                                                                        |
+| 3G | 第三代 | 一种电信标准。 |
+| 4G | 第四代 | 一种电信标准。 |
+| 5G | 第五代 | 一种电信标准。 |
+| 应用程序接口 | 应用程序接口 | 软件组件或系统的计算接口。 |
+| 视频文件 | 音频视频交错 | 一种多媒体容器格式和文件类型。 |
+| 内容分发网络 | 内容分发网络 | 将流发布到内容交付网络的过程称为 CDN 直播。 |
+| CSS | 级联样式表 | 用于描述用标记语言（如 HTML）编写的文档的表示。 |
+| 动态链接库 | 动态链接库 | 包含可由 Windows 程序访问的函数库和其他信息。 |
+| HTML | 超文本标记语言 | 网页的标准标记语言。 |
+| 图片 | 联合摄影专家组 | 为数字图像设计这种常用有损压缩格式的小组的名称。现在用来指代文件格式而不是组。 |
+| JSON | JavaScript 对象表示法 | 一种主要在 Web 上使用的无状态数据交换格式。 |
+| M3U8 | 运动图像专家组音频第 3 层统一资源定位器 | 一种用于创建多媒体播放列表的常用计算机文件格式。“8”表示文件以 UTF-8 编码。 |
+| MP4 | MPEG-4 第 14 部分 | 最常用于存储视频和音频的数字多媒体容器格式 |
+| MPEG格式 | 运动图像专家组 | 为音频和视频数字数据设计这种常用压缩格式的小组的名称。现在用来指代文件格式而不是组。 |
+| PNG | 便携式网络图形 | 一种压缩的无损数字图像文件格式。 |
+| REST风格的API | 具象状态转移 + ful | 定义一组用于创建 Web 服务的约束的软件体系结构。 |
+| 实时时钟 | 实时通讯 | 用于指代任何没有传输延迟的实时通信。 |
+| 实时播放协议 | 实时消息协议 | 一种基于 TCP 的协议，可保持持久连接并允许低延迟通信 |
+| 开发工具包 | 软件开发工具包 | 一个可安装包中的一组软件开发工具。 |
+| TS | MPEG 传输流 | 用于传输和存储音频、视频和相关元数据的标准数字容器格式。 |
+| 转动 | 使用中继穿越 NAT | 一种协议，有助于穿越网络地址转换器 (NAT) 或多媒体应用程序的防火墙。 |
+| 网址 | 统一资源定位符 | 对 Web 资源的引用，指定其在计算机网络（通常是 Web）上的位置。 |
+| 无线上网 | 无线保真度（非官方） | 一系列无线网络技术，通常用于设备的局域网络和互联网访问。 |
+| XML | 可扩展标记语言 | 用于定义其自定义标记语言的元语言。 |
 
-### Common issues when native-Chinese speakers write English content
+### 以中文为母语的人编写英文内容时的常见问题
 
-The worldwide language of programming is English, so it is essential for our writing to sound like a native-English writer wrote it.
+编程的世界语言是英语，因此我们的写作听起来像母语为英语的作家所写的那样至关重要。
 
-Here are some issues that native-Chinese speakers sometimes encounter when writing English content and how to overcome them:
+以下是母语为中文的人在编写英文内容时有时会遇到的一些问题以及如何克服这些问题：
 
-#### Omitting or inserting articles
+#### 省略或插入冠词
 
-In Chinese, there is no need for articles (such as the equivalent for "a", "an", and "the") before nouns, so Chinese speakers often forget to add the appropriate article in English. In some cases, Chinese speakers overcompensate and add an article when it is not needed. While there is no foolproof way to solve this problem, try speaking the English phrase out loud. If it sounds odd to you, it probably is. When in doubt, talk to a colleague, or reach out to a native English speaker.
+在中文中，名词前不需要冠词（例如“a”、“an”和“the”的等价物），因此说中文的人常常忘记在英文中添加相应的冠词。在某些情况下，说中文的人会过度补偿并在不需要时添加文章。虽然没有解决此问题的万无一失的方法，但请尝试大声说出英语短语。如果您觉得这听起来很奇怪，那可能就是这样。如有疑问，请与同事交谈，或联系以英语为母语的人。
 
-#### Gender confusion
+#### 性别混淆
 
-There aren't separate gender pronouns (such as "he" and "she", "his" and "her") in Chinese. In most technical writing, you should not have to refer to a specific gender in most instances, so use the gender non-specific "they" instead of the awkward "his/her" or "he/she" constructions.
+中文没有单独的性别代词（例如“他”和“她”，“他的”和“她的”）。在大多数技术写作中，在大多数情况下你不必提及特定的性别，所以使用不特定性别的“他们”而不是笨拙的“他/她”或“他/她”的结构。
 
-#### Singular and plural Nouns and Uncountable Nouns
+#### 单复数名词和不可数名词
 
-In Chinese, context distinguishes between singular and plural nouns. In English, plural nouns often end with an "s" (for example: singular "method", plural "methods"). But this is not the case for all English nouns, such as the "uncountable nouns," which are things that cannot be counted by numbers. Examples include "information," "equipment," "knowledge," "research," "safety," and "evidence." These words are already plural, so they need no *s* at the end.
+在汉语中，上下文区分单数名词和复数名词。在英语中，复数名词通常以“s”结尾（例如：单数“method”、复数“methods”）。但并不是所有的英语名词都是这样，比如“不可数名词”，就是不能用数字来数的东西。示例包括“信息”、“设备”、“知识”、“研究”、“安全”和“证据”。这些词已经是复数形式，所以它们的末尾不需要 *s*。
 
-#### Verb tense confusion
+#### 动词时态混淆
 
-There is no such thing as verb conjugation to denote past, present, or future tenses in Chinese, as context provides the necessary cues. Write using active voice and present tense in English to minimize any difficulty in using other tenses.
+汉语中没有动词变位来表示过去时、现在时或将来时，因为上下文提供了必要的线索。使用英语的主动语态和现在时写作，以尽量减少使用其他时态的困难。

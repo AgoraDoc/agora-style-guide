@@ -1,6 +1,6 @@
-# Agora Developer Documentation Style Guide
+#声网Developer Documentation Style Guide
 
-This repo hosts the content for Agora Developer Documentation Style Guide. You can browse the guide on [this website](https://agoradoc-style-guide.readthedocs.io/en/latest/), which is built with Sphinx.
+This repo hosts the content for声网Developer Documentation Style Guide. You can browse the guide on [this website](https://agoradoc-style-guide.readthedocs.io/en/latest/), which is built with Sphinx.
 
 ## Contribute to the guide
 
@@ -17,7 +17,7 @@ To make updates to this guide, follow the instructions in this section.
 
 The `master` branch is published to Read the Docs as the latest version. To make updates, do the following:
 
-1. Create a new branch from `master` and update the Markdown file. Each section of the guide corresponds to a Markdown file in `_content`. 
+1. Create a new branch from `master` and update the Markdown file. Each section of the guide corresponds to a Markdown file in `_content`.
 
 2. Create a pull request to merge your commits to `master`.
 
@@ -52,7 +52,7 @@ If you want to view the website locally before pushing your changes to GitHub, f
    ```bash
    $ pip install furo
    ```
-   
+
 4. Build the website locally.
 
    ```bash

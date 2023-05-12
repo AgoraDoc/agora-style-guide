@@ -1,353 +1,119 @@
-# Word list
+# 单词表
 
-This section lists commonly used words and phrases in Agora technical documentation. For the usage of other words, refer to the [word list](https://developers.google.com/style/word-list) in Google developer documentation style guide.
+本节列出了声网技术文档中常用的单词和短语。
 
-## Agora-related naming conventions
+### 产品名称
 
-When referring to an Agora SDK, use "the". For example, "the Agora Native SDK" or "the Agora Recording SDK", and not "Agora Signaling SDK".
+水晶球
 
-Do not use "the" for discrete Agora products, such as "Agora Interactive Live Streaming Premium" or "Agora Cloud Recording."
+: 跟踪和分析通话的使用情况和质量的工具。
 
-### Product names
+云端录制
 
-Agora Analytics
+: 声网提供的一个组件，用于记录语音通话、视频通话和互动直播，并将音视频文件保存在你的云存储中。
 
-: A tool that tracks and analyzes the usage and quality of calls.
+互动直播
 
-Agora Cloud Recording
+: 超低延迟、强交互的直播。
 
-: A component provided by Agora to record and save voice calls, video calls, and interactive live streaming sessions on your cloud storage.
+极速直播
 
-Agora Interactive Live Streaming Premium
+: 低延迟、轻交互的直播。
 
-: Live streaming with ultra-low latency and strong interaction.
+融合 CDN 直播
 
-Agora Interactive Live Streaming Standard
+: 超低卡顿、全链路质量透明的标准 CDN 直播。
 
-: Live streaming with low latency and light interaction.
+互动白板
 
-Agora Interactive Whiteboard
+: 在虚拟白板上提供一个简单的协作平台，来自不同地区的用户可以在其中绘制、注释和共享 PDF 文档。
 
-: Provides a simple collaboration platform on a virtual whiteboard where users from different locations can draw, annotate, and share PDF documents.
+云信令
 
-Agora Real-time Messaging
+: 提供高可靠、低延迟、高并发的全球消息云服务。
 
-: Provides global messaging cloud service with high reliability, low latency, and high concurrency.
+视频通话
 
-Agora Video Call
+: 实现高质量的一对一或群组视频通话。
 
-: Implements high-quality one-to-one or group video calls.
+语音通话
 
-Agora Voice Call
+: 实现清晰的一对一或群组语音通话。
 
-: Implements crystal-clear one-to-one or group voice calls.
+AI 互动课堂
 
-AI Interactive Classroom
+: 服务器端人工智能老师为学生提供个性化辅导。
 
-: A server-side AI teacher provides personalized tutoring to students.
+超级小班课
 
-Breakout Class
+: 将在线大班的学生分成小组，每个小组的学生可以相互交流。
 
-: Divide the students in a large online class into small groups, and students in one group can interact with each other.
+互动直播大班课
 
-Lecture Hall
+: 数千名学生观看在线讲座并“举手”互动。
 
-: Thousands of students watch an online lecture and "raise hands" to interact.
+电商直播
 
-Live-stream Shopping
+: 沉浸式体验网上购物。
 
-: Engaging online shopping.
+多人连麦直播
 
-Multiple Hosts
+: 邀请观众成为主播，共同主持直播。
 
-: Invite audience to co-host in live streaming.
+1 对 1 互动教学
 
-One-to-one Classroom
+: 一位老师只给一个学生在线教学。
 
-: A teacher gives an online lesson to only one student.
+视频 PK 连麦
 
-PK Host
+: 不同频道的两位主播之间精彩的 PK。
 
-: Exciting PK between two hosts from different channels.
+1 对 N 在线小班课
 
-Small Classroom
+: 一位老师给多名学生在线教学。
 
-: A teacher gives an online lesson to multiple students.
+单主播直播
 
-Single Host
+: 超低延迟单主播直播。
 
-: Ultra-low-latency live streaming by one host.
+虚拟主播
 
-Virtual Host
+: 基于虚拟人物的娱乐直播。
 
-: Avatar-based entertaining live streaming.
+### 插件、SDK 等
 
-### Add-on, SDK and others
+声网
 
-Agora, Inc.
+: 官方公司名称。
 
-: Official company name.
+声网控制台
 
-Agora Console
+:[控制台](https://console.agora.io/)是一个用于创建和管理声网项目的平台。
 
-: [Agora Console](https://console.agora.io/) is a platform for creating and managing Agora projects. Previously Agora Dashboard.
+声网本地服务端录制 SDK
 
-Agora MediaPlayer Kit
+: 录制语音通话、视频通话和交互式流媒体会话并将其保存到服务器。
 
-: A media player plug-in developed for live streaming scenarios, and is compatible with the Agora Native SDK.
+声网云信令 SDK/RTM SDK
 
-Agora On-premise Recording SDK
+: 用于为实时消息传递场景创建稳定的消息传递机制。
 
-: Records and saves voice calls, video calls, and interactive streaming sessions to a server.
+声网 RTC SDK
 
-Agora Real-time Messaging SDK, Agora RTM SDK
+: 我们将所有支持实时音视频通信的声网 SDK 统称为 RTC SDK。使用“声网 RTC \<platform> SDK”指代不同平台的 SDK，例如声网 RTC Web SDK。
 
-: Used to create a stable messaging mechanism for real-time messaging scenarios. Successor to the Agora Signaling SDK.
+声网 SD-RTN™（软件定义实时网，Software-defined Real-time Network）
 
-Agora RTC SDK
+: 声网自建的底层实时传输网络。引用时必须添加商标符号。
 
-: We refer to all the Agora SDKs that enable real-time communication as the RTC SDK. To specify the platform, use "Agora RTC \<platform> SDK", for example, Agora RTC Web SDK.
+声网 SDK
 
-Agora SD-RTN™ (Software-defined Real-time Network)
+: 对所有声网 SDK 的统称。在指代具体 SDK 时，首选使用 SDK 名称；在统称时才建议使用声网 SDK。
 
-: Must appear with trademark symbol, preferred version of term.
+声网视频 SDK
 
-Agora SDK
+: 提供可靠的实时音视频服务。
 
-: A generic term for referring to any Agora SDK. Preference is to specify the name of the SDK.
+声网音频 SDK
 
-Agora Video SDK
-
-: Provides reliable real-time audio and video services.
-
-Agora Voice SDK
-
-: Provides reliable real-time audio services.
-
-## Word list
-
-### A
-
-add-on
-: Use as a noun or adjective.
-
-add on
-: Use as a verb.
-
-Android device
-: &nbsp;
-
-app
-: Lowercase except when beginning a sentence or used as a proper noun.
-
-audio sample
-: Use instead of *audio capture*.
-
-audio sample rate
-: Not *audio sampling rate*.
-
-### B
-
-backend
-: Use instead of *back-end* or *back end*.
-
-beta
-: Lowercase.
-
-bitrate
-: Not *bit rate*.
-
-Boolean
-: Uppercase when referring to the datatype.
-
-Bluetooth
-: Not *bluetooth*.
-
-bridging header file
-: &nbsp;
-
-### D
-
-data packet
-: &nbsp;
-
-dual-stream mode
-: No articles before the phrase, for example, "enable dual-stream mode."
-
-dual stream
-: Use as a noun. Do not use *dual streams*.
-
-### E
-
-email
-: Not *E-mail* or *e-mail*.
-
-earlier
-: Use instead of *lower* when describing a version.
-
-extract
-: Use instead of *unarchive*, *uncompress*, or *unzip*.
-
-### F
-
-filename
-: Not *file name*.
-
-fill in; fill out
-: Use *fill in* when referring to entering information in individual fields. Use *fill out* when referring to completing an entire form.
-
-front camera
-: &nbsp;
-
-### H
-
-HTML5
-: Use instead of *H5*.
-
-### I
-incorrect
-: Use instead of *wrong*.
-
-image enhancement
-: &nbsp;
-
-internet
-: Lowercase.
-
-### J
-
-join a channel
-: Use instead of *enter a channel*.
-
-just
-: Avoid. Usually, *just* is a filler word that you can delete without affecting your meaning.
-
-### L
-
-last mile
-: Use as a noun or adjective. Always two separate words.
-
-later
-: Use instead of *higher* when describing a version.
-
-live stream
-: Use as an intransitive verb or noun.
-
-live streaming
-: Use *live streaming* to refer to Agora products and scenarios.
-
-log in
-: Use as a verb.
-
-login
-: Use as a noun or adjective.
-
-### M
-
-might
-: Use instead of may when referring to possibility.
-
-multichannel
-: No hyphen.
-
-multimedia
-: No hyphen.
-
-multithreaded
-: No hyphen.
-
-### N
-
-number
-: Use instead of *no.*
-
-### O
-
-open source
-: No hyphen, not even as an adjective or verb.
-
-### P
-
-packet loss rate
-: &nbsp;
-
-page
-: Use *this page* instead of *this article*.
-
-path
-: Avoid using *filepath*, *file path*, *pathname*, or *path name* if possible.
-
-plugin
-: Use as a noun.
-
-plug-in
-: Use as an adjective.
-
-plug in
-: Use as a verb.
-
-### R
-
-real time
-: Use as a noun or adverb.
-
-real-time
-: Use as an adjective.
-
-reintegrate
-: No hyphen.
-
-### S
-
-screen sharing
-: Use as a noun or adjective.
-
-set up
-: Use as a verb.
-
-setup
-: Use as a noun.
-
-show
-: Use instead of *demonstrate*.
-
-sign up
-: Use as a verb.
-
-sign-up
-: Use as a noun or adjective.
-
-### T
-
-time frame
-: &nbsp;
-
-token
-: &nbsp;
-
-### U
-
-user ID
-: Do not use *uid*.
-
-URL
-: All captials. Not *Url* or *url*.
-
-username
-: Do not use *account name*.
-
-### V
-
-video capture
-: Use as a noun or adjective.
-
-### W
-
-Web
-: Refers to the platform.
-
-web page
-: Lowercase.
-
-Wi-Fi
-: Not *Wifi* or *WiFi*.
+: 提供可靠的实时音频服务。

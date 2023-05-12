@@ -1,146 +1,146 @@
-## Punctuation
+## 标点
 
-### Colons
+### 冒号
 
-The first word after the colon should be in uppercase.
+冒号后的第一个单词应该是大写的。
 
-#### Colons preceding lists
+#### 列表前的冒号
 
-When a colon introduces a list, the phrase before the colon must be a complete sentence.
+当冒号引入列表时，冒号前的短语必须是一个完整的句子。
 
-A colon cannot be placed between a verb and its object or a preposition and its object. See **Lists**.
+冒号不能放在动词和它的宾语或介词和它的宾语之间。请参阅**列表**。
 
-:::{admonition} Incorrect
-The methods are:
+:::{admonition} 不正确
+这些方法是：
 :::
 
-:::{admonition} Correct
-The SDK uses the following methods:
+:::{admonition} 正确
+SDK 使用以下方法：
 
-- joinChannel
-- leaveChannel
-- renewToken
-:::
+- 加入频道
+- 离开频道
+- 更新令牌
+   :::
 
-#### Colon use within sentences
+#### 冒号在句子中的使用
 
-Do not use colons within sentences. In most cases, splitting the two clauses into separate sentences reads better and is more clear.
+不要在句子中使用冒号。在大多数情况下，将两个从句拆分成单独的句子读起来更好，也更清晰。
 
-(colon/ratios)=
-#### Colon use in ratios
+（冒号/比率）=
+#### 冒号在比率中的使用
 
-No space before or after a colon when it is used to express ratios.
+用于表示比率时，冒号前后没有空格。
 
-(commas)=
-### Commas
+（逗号）=
+### 逗号
 
-General rules to follow:
+遵循的一般规则：
 
-- In a series of three or more items, use a comma before the final "and" or "or." (This is the house editing style of Oxford Press, hence the term "[Oxford comma](https://www.lexico.com/definition/oxford_comma)").
+- 在三个或更多项目的系列中，在最后的“和”或“或”之前使用逗号。 （这是牛津出版社的内部编辑风格，因此称为“牛津逗号 https://www.lexico.com/definition/oxford_comma)”）。[](
 
-  :::{admonition} Example
-  Adds support for the macOS, Windows x86, and Windows x86_64 platforms.
-  :::
+   :::{警告} 示例
+   添加对 macOS、Windows x86 和 Windows x86_64 平台的支持。
+   :::
 
-- In general, place a comma after an introductory word or phrase like “occasionally”, or “otherwise”.
+- 通常，在介绍性词或短语（如“偶尔”或“否则”）后放置一个逗号。
 
-  :::{admonition} Example
-  Occasionally, the SDK does not automatically reconnect after being disconnected from the servers for pushing and pulling streams.
-  :::
+   :::{警告} 示例
+   SDK 偶尔会出现推拉流服务器断开连接后不自动重连的情况。
+   :::
 
-- When a coordinating conjunction ("for", "and", "nor", "but", "or", "yet", and "so") separates two independent clauses (where each clause could stand as an independent sentence), insert a comma after the first clause before the conjunction. For example: “The recorded files are stored on your server only, and Agora has no access to them." An exception is when both clauses are very short. For example: "Enables or disables image enhancement and sets the options."
+- 当并列连词（“for”、“and”、“nor”、“but”、“or”、“yet”和“so”）分隔两个独立的从句（其中每个从句可以作为一个独立的句子）时，在连词前的第一个子句后插入一个逗号。例如：“录制的文件只保存在你的服务器上，声网无权访问。”一个例外是两个子句都非常短。例如：“启用或禁用图像增强并设置选项。”
 
-- Commas also enclose the following and similar phrases: "and so forth," "for example," "namely," and "that is,".
+- 逗号还包含以下和类似的短语：“and so forth”、“for example”、“namely”和“that is,”。
 
-| Recommended                                                                                                   | Not recommended                                                                                           |
+| 受到推崇的 | 不建议 |
 | :------------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------- |
-| Unity renders 3D objects by default, such as Cube, Cylinder\*\*,\*\* and Plane. (note comma after "Cylinder") | Unity renders 3D objects by default, such as Cube, Cylinder and Plane.                                    |
-| Finally, only groups that contain parameters appear in this list.                                             | Finally only groups that contain parameters appear in this list.                                          |
-| The libraries not only make feed creation easier, but they also ensure that only valid feeds are produced.    | The libraries not only make feed creation easier but they also ensure that only valid feeds are produced. |
+| Unity 默认渲染 3D 对象，如 Cube、Cylinder\*\*、\*\* 和 Plane。 （注意“圆柱体”后的逗号） | Unity 默认渲染 3D 对象，例如 Cube、Cylinder 和 Plane。 |
+| 最后，只有包含参数的组才会出现在此列表中。 | 最后只有包含参数的组出现在这个列表中。 |
+| 这些库不仅使提要创建更容易，而且还确保只生成有效的提要。 | 这些库不仅使提要创建更容易，而且还确保只生成有效的提要。 |
 
-### Ampersands
+### 符号
 
-Do not use ampersands ("&") unless they are part of a name, UI string, or in a piece of code.
+不要使用符号（“&”），除非它们是名称、UI 字符串或一段代码的一部分。
 
-### Exclamation marks
+### 感叹号
 
-Do not use exclamation marks unless they are part of a code example.
+不要使用感叹号，除非它们是代码示例的一部分。
 
-### Periods
+### 经期
 
-General rules to follow:
+遵循的一般规则：
 
-- Use a period to end a complete sentence.
-- Do not use a period at the end of a sentence fragment, such as an item in a list that is not a complete sentence, or in a heading title.
-- Do not use a period in a title or heading.
-- List items that are complete sentences end with a period.
-- List items that are incomplete sentences do not end with a period. However, when a list includes one item that requires a period, all the list items should have a period for consistency.
-- For table items, use complete sentences and end them with a period.
+- 使用句点来结束一个完整的句子。
+- 不要在句子片段的末尾使用句号，例如列表中不是完整句子的项目，或标题中的项目。
+- 不要在标题或标题中使用句号。
+- 列出以句号结尾的完整句子项目。
+- 不完整句子的列表项不以句号结尾。但是，当列表中包含一个需要句点的项目时，所有列表项都应该有一个句点以保持一致性。
+- 对于表格项目，使用完整的句子并以句号结尾。
 
-### Slashes
+### 斜杠
 
-Use a slash to separate the two functions that can be realized with one method, such as, "enable/disable". The capitalization of the two words should remain consistent.
+用斜杠分隔可以用一种方法实现的两个功能，例如“启用/禁用”。两个词的大小写应该保持一致。
 
-Do not use slashes to separate alternatives. For example use "audio or video calls" instead of "audio/video calls".
+不要使用斜线来分隔备选方案。例如使用“音频或视频通话”而不是“音频/视频通话”。
 
-:::{hint}
-"a and/or b" is only acceptable when the meaning is a or b or both.
+：：：{暗示}
+“a and/or b”只有当意思是 a 或 b 或两者时才可接受。
 :::
 
-### Hyphens
+### 连字符
 
-In appearance, a hyphen is shorter than both the em dash (“—”), and the en dash (“–”).
+从外观上看，连字符比长破折号（“—”）和短破折号（“–”）都短。
 
-- All words following a hyphen are in lowercase, even if the word is at the beginning of a sentence. For example, "32-bit" or "Open-source".
-- Use a hyphen to form a compound adjective which is an adjective made up of more than one word. Examples include, "A 25-minute interval", "16-bit color", "state-of-the-art technology", "a six-figure price".
-- Use a hyphen to indicate a common second element. For example, "a 10- to 11-digit number", "a six- or seven-hour delay", "a two-, three-, or fourfold increase".
-- Many common prefixes, such as "co", "de", "pre", "pro", "re", and "sub" do not need a hyphen.
-- Do not use a hyphen when forming a compound adjective with an adverb that ends in "ly".
+- 连字符后面的所有单词都是小写的，即使该单词位于句子的开头也是如此。例如，“32 位”或“开源”。
+- 使用连字符构成复合形容词，该形容词由多个词组成。示例包括“25 分钟的间隔”、“16 位颜色”、“最先进的技术”、“六位数的价格”。
+- 使用连字符表示共同的第二个元素。例如，“10 到 11 位数字”、“延迟六或七小时”、“增加两倍、三倍或四倍”。
+- 许多常见的前缀，例如“co”、“de”、“pre”、“pro”、“re”和“sub”不需要连字符。
+- 与以“ly”结尾的副词构成复合形容词时不要使用连字符。
 
-| Recommended               | Not recommended       |
+| 受到推崇的 | 不建议 |
 | :------------------------ | :-------------------- |
-| **A badly written book.** | A badly-written book. |
+| **一本写得很糟糕的书。** | 一本写得很糟糕的书。 |
 
-### Semicolons
+### 分号
 
-The semicolon has the following uses:
+分号有以下用途：
 
-- To unite sentences that are closely associated
+- 将密切相关的句子连在一起
 
-  :::{admonition} Example
-  The people on the fourth floor work with product development; those on the fifth work with deployment.
-  :::
+   :::{警告} 示例
+   四楼的人负责产品开发；第五宫的人负责部署。
+   :::
 
-- To create a stronger division in a sentence that already includes divisions using commas
+- 在已经包含使用逗号分隔的句子中创建更强的分隔
 
-  :::{admonition} Example
-  The people on the fourth floor, who work with product development, are to continue with the project until Friday; but the following Monday, when their equipment has been moved, they resume work on the sixth floor.
-  :::
+   :::{警告} 示例
+   四楼负责产品开发的人员将继续该项目直到周五；但下周一，当他们的设备搬走后，他们又在六楼继续工作。
+   :::
 
-- To create stronger divisions in a list
+- 在列表中创建更强的划分
 
-  :::{admonition} Example
-  The visitors are to be received by the managing director, Daphne Jones; the head of security, Fred Smith; and the union representative, Howard Brown.
-  :::
+   :::{警告} 示例
+   来访者将由总经理 Daphne Jones 接待；安全主管 Fred Smith；和工会代表霍华德·布朗。
+   :::
 
-:::{caution}
-The previous examples only demonstrate the semicolon usage and are not typical of technical writing style.
+：：：{警告}
+前面的示例仅演示了分号的用法，并不是典型的技术写作风格。
 :::
 
-### Spaces
+### 空间
 
-General rules to follow:
+遵循的一般规则：
 
-- Add a space before an opening parenthesis (. *Example: Basic Methods (RTCEngine)*
-- Use only one space after full stops. *Example: Add a space. One after the full stop.*
-- Use one space between numbers and units. *Example: 256 Kbps.*
-- Use spaces around mathematical symbols. *Example: V = off, width x height, x \< y*
-- Use spaces around dimensions. *Example: 3.2 x 3.6 x 0.6 mm.*
+- 在左括号 (.*示例：基本方法 (RTCEngine)*
+- 句号后仅使用一个空格。*示例：添加一个空格。一个在句号之后。*
+- 在数字和单位之间使用一个空格。*示例：256 Kbps。*
+- 在数学符号周围使用空格。*示例：V = 关闭，宽度 x 高度，x \< y*
+- 在维度周围使用空格。*示例：3.2 x 3.6 x 0.6 毫米。*
 
-:::{admonition} Exception
-There is no space before a parenthesis when writing a function call. For example:
+:::{警告} 异常
+编写函数调用时，括号前没有空格。例如：
 
-- `muteRemoteAudioStream`(true)
-- `enableLocalVideo`(false)
+- `静音远程音频流`（真）
+- `启用本地视频`（假）
 - `CHANNEL_PROFILE_COMMUNICATION`(0)
-:::
+   :::

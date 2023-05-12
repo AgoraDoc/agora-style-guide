@@ -1,416 +1,416 @@
-## Language and grammar
+## 语言和语法
 
-### Abbreviations, acronyms, and initialisms
+### 缩略词
 
-**Quick reference:**
-- Do not use abbreviations. Exceptions: Units of measure with numbers, and "Ltd." or "Inc."
-- Capitalize acronyms.
-- Do not use periods after the letters in acronyms. Exception: "U.S." when it is used as an adjective.
-- Spell out uncommon acronyms the first time they appear. Example: "A New Acronym (ANA)."
-- Do not use Latin abbreviations such as "e.g." or "etc."
+**快速参考：**
+- 不要使用缩略词。例外：带数字的计量单位和“Ltd.”或“公司”
+- 首字母大写。
+- 不要在首字母缩略词中的字母后使用句点。例外：“美国”当它用作形容词时。
+- 在第一次出现时拼出不常见的首字母缩略词。示例：“新首字母缩略词 (ANA)”。
+- 不要使用拉丁缩写，例如“e.g.”或“等”
 _________
 
-Abbreviations are a shortened version of a word used to represent the whole. Examples include "s" for "seconds" or "approx." for "approximately." 
+缩写是用于表示整体的单词的缩写形式。示例包括“秒”或“大约”的“s”。对于“大约”。
 
-As a general rule, only use abbreviations in technical documentation for units of measure, and then only when they are joined with a number. For example, "15 s" is acceptable, but "The interval is measured in s." is not. Do not use a period after an abbreviated unit of measure. For more information, see [Units of Measurement](formatting-and-organization.md#units-of-measurement). 
+作为一般规则，仅在技术文档中使用缩写来表示计量单位，并且仅当它们与数字连接时才使用。例如，“15 秒”是可以接受的，但“间隔以秒为单位”是可以接受的。不是。不要在缩写的计量单位后使用句号。有关更多信息，请参阅度量单位formatting-and-organization.md#units-of-measurement)。[](
 
-In most other cases (such as "approx."), spell out the word. The only obvious exceptions are "Ltd." or "Inc." in a company's name.
+在大多数其他情况下（例如“大约”），请拼出单词。唯一明显的例外是“有限公司”。或“公司”以公司的名义。
 
-Note that some short forms have entered common speech and are now accepted as words themselves, such as "app" or "demo." If you are unsure if a short form is in common use, you can check the dictionary or consult with other writers.
+请注意，一些缩写形式已经进入普通话，现在被接受为单词本身，例如“app”或“demo”。如果不确定缩写形式是否常用，可以查字典或咨询其他作者。
 
-Acronyms and initialisms are a type of abbreviation formed from the initial letters of other words. The difference between them is in pronunciation; acronyms are pronounced like words, whereas with initialisms each letter is pronounced individually. Examples of acronyms include "GIF" for "Graphics Interchange Format" and "RAM" for "random-access memory." Examples of initialisms include "SDK" for "Software Development Kit" and "API" for "Application Programming Interface."
+首字母缩略词和首字母缩略词是一种由其他单词的首字母组成的缩写。它们之间的区别在于发音；首字母缩略词像单词一样发音，而首字母缩略词则每个字母单独发音。首字母缩略词的示例包括“图形交换格式”的“GIF”和“随机存取存储器”的“RAM”。缩写的例子包括“软件开发工具包”的“SDK”和“应用程序编程接口”的“API”。
 
-The pronunciation is important when choosing which form of the indefinite article to use. For more information, see [Articles](language-and-grammar.md#articles-a-an-the). 
+选择使用哪种形式的不定冠词时，发音很重要。有关详细信息，请参阅 [Articleslanguage](-and-grammar.md#articles-a-an-the)。
 
-Some words can be considered either acronyms or initialisms depending on personal preference, such as "FAQ." In such cases, check the department's word list first for the preferred choice. If there is none, choose one and make sure you use it consistently afterwards. For example, Agora treats FAQ as an intialism, so you would write "an FAQ" (that is, "an eff-ay-cue") rather than "a FAQ" ("a fack").
+根据个人喜好，某些词可以被视为首字母缩略词或首字母缩略词，例如“FAQ”。在这种情况下，请先查看部门的单词表以了解首选。如果没有，请选择一个并确保以后始终使用它。例如，Agora 将 FAQ 视为一个 intialism，所以你会写“an FAQ”（即“an eff-ay-cue”）而不是“a FAQ”（“a fack”）。
 
-Always capitalize every letter in an acronym or initialism unless it is a company-specific spelling (for example, "macOS").
+始终将首字母缩写词或首字母缩写词中的每个字母大写，除非它是公司特定的拼写（例如，“macOS”）。
 
-Do not use periods after the letters of acronyms or initialisms. The only exception is "U.S." when used as an adjective (you should spell out the noun). 
+不要在首字母缩略词或缩写字母后使用句点。唯一的例外是“美国”当用作形容词时（你应该拼出名词）。
 
-:::{admonition} Example
-Servers located in the United States provide services to U.S. users.
+:::{警告} 示例
+位于美国的服务器为美国用户提供服务。
 :::
 
-Note that some acronyms have evolved into words (for example, "modem") and are now treated as words, meaning they are not capitalized.
+请注意，某些首字母缩略词已演变为单词（例如，“调制解调器”），现在被视为单词，这意味着它们没有大写。
 
-Many abbreviations and acronyms/initialisms can be considered understood by average readers and do not need to be spelled out. If a term is new or uncommon, however, spell out the first mention of it in the text, followed immediately by the abbreviation in parentheses. Use the abbreviated form for all subsequent references.
+许多缩写词和首字母缩略词/首字母缩写可以被普通读者理解，不需要拼写。但是，如果一个术语是新的或不常见的，请在文本中第一次提到它时拼写出来，紧随其后的是括号中的缩写。对所有后续引用使用缩写形式。
 
-:::{admonition} Example
-The communication between the user and the Agora server is protected by transmission protocols, such as the Agora private transmission protocol, Transport Layer Security (TLS), and Web Socket Secure (WSS). Consult the API guide for guidelines on implementing TLS and WSS on your project.
+:::{警告} 示例
+用户与 Agora 服务器之间的通信受到传输协议的保护，例如 Agora 私有传输协议、传输层安全协议 (TLS) 和 Web Socket Secure (WSS)。有关在您的项目中实施 TLS 和 WSS 的指南，请参阅 API 指南。
 :::
 
-#### Latin abbreviations
+#### 拉丁语缩写
 
-Do not use abbreviations derived from Latin. Always use their English equivalents. 
+不要使用源自拉丁语的缩写。始终使用他们的英语等价物。
 
-| Do this... | ...instead of this |
+| 做这个... | ...而不是这个 |
 | :---------| :------- |
-| For example | e.g. (for ""exempli gratia") | 
-| In other words   | i.e. (for "id est")   |
-| and so on   | etc. (for "et cetera")   |
+| 例如 | 例如（对于“”示例恩惠”） |
+| 换句话说 | 即（对于“id est”） |
+| 等等 | 等等（对于“等等”） |
 
-#### Abbreviations at the end of a sentence
+#### 句末缩写
 
-If a sentence ends with an abbreviation, the period used for the abbreviation also serves as the period for the sentence.
+如果句子以缩写结尾，缩写所用的句号也用作句子的句号。
 
-:::{admonition} Example
-For more information, contact Agora Inc.
+:::{警告} 示例
+如需更多信息，请联系声网公司。
 :::
 
-### Active voice
+### 主动语态
 
-**Quick reference:**
-- Favor the active voice where possible.
+**快速参考：**
+- 尽可能使用主动语态。
 _________
 
-Generally speaking, with the active voice the subject of a sentence performs the action, whereas with the passive voice the subject is acted upon by something else.
+一般而言，主动语态时句子的主语执行动作，而被动语态时主语受其他事物的影响。
 
-The active voice sounds immediate and clear. The passive voice usually sounds more wordy and can obscure the subject, making it difficult for readers to fully understand your meaning. 
+主动语态听起来直接而清晰。被动语态通常听起来比较罗嗦，会模糊主题，让读者很难完全理解你的意思。
 
-| Recommended                       | Not recommended                         |
+| 受到推崇的 | 不建议 |
 | :-------------------------------- | :-------------------------------------- |
-| This method gets the user ID. | This method is used to get the user ID. |
-| The callback provides troubleshooting information | Troubleshooting information is provided by the callback. |
+| 此方法获取用户 ID。 | 此方法用于获取用户 ID。 |
+| 回调提供故障排除信息 | 故障排除信息由回调提供。 |
 
-This is not a hard and fast rule. The passive voice can be used to emphasize the object of the action or the action itself. Also, it may not always be possible to phrase your sentence with an active voice, such as in status code explanations. For example, "This method is not implemented."
+这不是硬性规定。被动语态可用于强调动作的对象或动作本身。此外，可能并不总是可以用主动语态来表达你的句子，例如在状态代码解释中。例如，“此方法未实现”。
 
-### Anthropomorphism
+### 拟人化
 
-**Quick reference:**
-- Do not attribute human qualities to software, hardware, or companies/brands.
+**快速参考：**
+- 不要将人的品质归因于软件、硬件或公司/品牌。
 _________
 
-Anthropomorphism is the attribution of human traits or characteristics to non-human things. This is too metaphorical and informal in the context of technical writing.
+拟人化是将人类的特征或特征赋予非人类的事物。这在技术写作的上下文中过于隐喻和非正式。
 
-| Do this...                                               | ...instead of this                                              |
+| 做这个... | ...而不是这个 |
 | :-------------------------------------------------------- | :----------------------------------------------------------- |
-| A Delimiter object specifies where to split a string. | A Delimiter object tells the splitter where a string should be broken. |
-| The PC detects a new device.                          | The PC sees a new device.                                    |
+| Delimiter 对象指定拆分字符串的位置。 | Delimiter 对象告诉拆分器应该在何处断开字符串。 |
+| PC 检测到新设备。 | PC 看到一个新设备。 |
 
-:::{admonition} Example
-Combine the teacher's video with each of the students' videos.
+:::{警告} 示例
+将教师的视频与每个学生的视频结合起来。
 :::
 
-### Articles (a, an, the)
+### 冠词 (a, an, the)
 
-**Quick reference:**
-- Singular countable nouns must have an article or similar determiner.
-- Plural countable nouns can have a definite article or no article.
-- Do not use an article with proper nouns or uncountable (mass) nouns.
-- Use a definite article plus "method" or "callback" to specify its function unless it is obvious from context.
-- Do not normally use a leading article with "mode." Example: "Put the device into silent mode."
+**快速参考：**
+- 单数可数名词必须有冠词或类似的限定词。
+- 复数可数名词可以有定冠词或没有冠词。
+- 不要使用带有专有名词或不可数（质量）名词的冠词。
+- 使用定冠词加上“方法”或“回调”来指定其功能，除非从上下文中可以明显看出。
+- 通常不要使用带有“mode”的开头文章。示例：“将设备置于静音模式。”
 _________
 
-Articles are a type of word called a determiner. Determiners are parts of noun phrases that provide information about specificity, quantity, or possession. 
+冠词是一种称为限定词的词。限定词是名词短语的一部分，提供有关特异性、数量或所有的信息。
 
-"A" and "an" are indefinite articles. They are used before a singular countable noun when referring to any member of a group. For example, "Download a text editor." means any text editor will do.
+“A”和“an”是不定冠词。当指代组中的任何成员时，它们用在单数可数名词之前。例如，“下载文本编辑器”。意味着任何文本编辑器都可以。
 
-Note that "countable" nouns are called that because they can be separated from a group and counted. For example, "channels" or "users."
+请注意，“可数”名词之所以这样称呼，是因为它们可以从一个组中分离出来并被计数。例如，“频道”或“用户”。
 
-"The" is a definite article. It is used before a singular countable noun when referring to a particular member of a group. For example, "Download the text editor from the sample folder." means you need a specific text editor. 
+“the”是定冠词。当指的是一组的特定成员时，它用在单数可数名词之前。例如，“从示例文件夹下载文本编辑器”。意味着你需要一个特定的文本编辑器。
 
-A plural countable noun can also be specified with a definite article. For example, "Extract the script files to your project folder." points you to some specific files.
+复数可数名词也可以用定冠词指定。例如，“将脚本文件提取到您的项目文件夹中。”将您指向一些特定文件。
 
-Note that singular countable nouns *require* an article or some other type of determiner, such as "one," "your," or "this." They cannot exist on their own. 
+请注意，单数可数名词*需要*冠词或其他类型的限定词，例如“one”、“your”或“this”。它们不能单独存在。
 
-| Do this...                                           | ...instead of this                                    |
+| 做这个... | ...而不是这个 |
 | :--------------------------------------------------- | :---------------------------------------------------- |
-| You need a token (or *the* token, or *your* token) to access the channel. | You need token to access the channel. | 
+| 您需要一个令牌（或令牌，或*您的*令牌）才能访问该频道。** | 您需要令牌才能访问频道。 |
 
-Some types of nouns do not take articles. For example, non-specific plural nouns ("Script files can be useful."), proper nouns ("Agora is a wonderful company."), and uncountable or mass nouns ("Planning is crucial to success.").
+某些类型的名词不带冠词。例如，非特定的复数名词（“脚本文件很有用。”）、专有名词（“Agora 是一家很棒的公司。”）和不可数名词或集体名词（“计划对成功至关重要。”）。
 
-Note that many nouns can shift between "countable" and "uncountable" based on context, and they may therefore sometimes require an article and sometimes not. For example, "Information can be lost to user error. Be sure to back up the information in your project folder regularly."
+请注意，许多名词可以根据上下文在“可数”和“不可数”之间转换，因此它们有时可能需要冠词，有时则不需要。例如，“信息可能会因用户错误而丢失。请务必定期备份项目文件夹中的信息。”
 
-#### Choosing "a" or "an"
+#### 选择“一个”或“一个”
 
-When using an indefinite article, the sound of a word or acronym when it is spoken determines whether "a" or "an" precedes it. Use "a" before a word that starts with a consonant *sound*, and "an" for words that begin with a vowel *sound*. For example, "a URL" and "an SDK".
+使用不定冠词时，单词或首字母缩写词的发音决定了它前面是“a”还是“an”。在以辅音开头的单词前使用“a”，在以元*音*开头的单词前使用“an”。**例如，“一个 URL”和“一个 SDK”。
 
-(language/articles)=
-#### Articles and internal agreement
+（语言/文章）=
+#### 条款和内部协议
 
-Methods and callbacks must be specified, so when referring to a method or callback, use a leading "the" followed by "method" or "callback". For example "the SDK triggers the Client.on("disable-local-video") callback".
+必须指定方法和回调，因此在引用方法或回调时，使用前导的“the”后跟“method”或“callback”。例如“SDK 触发 Client.on("disable-local-video") 回调”。
 
 
-You can omit "the" and "method" or "callback" when the reader will understand what it is through context.
+当读者通过上下文理解它是什么时，您可以省略“the”和“method”或“callback”。
 
-:::{admonition} Example
-The CheckPermission method is used to request access to the microphone. You do not need to call CheckPermission for earlier versions.
+:::{警告} 示例
+CheckPermission 方法用于请求访问麦克风。您不需要为早期版本调用 CheckPermission。
 :::
 
 
-(the)=
+（的）=
 
-#### Use of "the" before a type of mode
+#### 在一种模式之前使用“the”
 
-In most cases, do not use a leading article for "modes." The exception to this is modes that have multiple options.
+在大多数情况下，不要为“模式”使用首冠词。例外情况是具有多个选项的模式。
 
-For example, the following modes do not require an article:
+例如，以下模式不需要文章：
 
-- silent mode
-- dual-stream mode
-- individual recording mode
-- render mode
-- video display mode
-- mirror mode
+- 静音模式
+- 双流模式
+- 个人录音模式
+- 渲染模式
+- 视频显示方式
+- 镜像模式
 
-The following are modes that have several options, so the article is needed: 
+以下是有几个选项的模式，所以需要这篇文章：
 
-- the recording mode
-- the rendering mode
+- 录音模式
+- 渲染模式
 
-### Capitalization
+### 大小写
 
-**Quick reference:**
-- Use title case for document titles.
-- Use sentence case for headings and captions. Exception: Also capitalize the first word after a colon.
-- Use sentence case for all table elements, including column headings.
-- Capitalize the first word after a colon in a sentence if it follows a label such as "Caution," "Note," or "Example."  
-- Use the official capitalization of products, companies, and so on.
-- Do not use all-caps for emphasis. Use italics instead.
-- Use sentence case for list items.
-- Capitalize only the first word in a hyphenated phrase. Example: "Random-access memory"
+**快速参考：**
+- 对文档标题使用标题大小写。
+- 标题和说明文字使用句子大小写。例外：也将冒号后的第一个单词大写。
+- 对所有表格元素（包括列标题）使用句子大小写。
+- 如果句子中冒号后的第一个单词跟在“警告”、“注意”或“示例”等标签后面，则将其大写。
+- 使用产品、公司等的正式大写。
+- 不要使用全部大写来强调。改用斜体。
+- 对列表项使用句子大小写。
+- 仅将带连字符的短语中的第一个单词大写。示例：“随机存取存储器”
 _________
 
-In document titles, use title case, where you capitalize the first word and then every word except for the verb "to be," short prepositions or conjunctions, and articles. Capitalize words after a colon, but only the first word in a hyphenated phrase.
+在文档标题中，使用标题大小写，其中第一个单词大写，然后每个单词都大写，除了动词“to be”、短介词或连词以及冠词。冒号后的单词大写，但只有带连字符的短语中的第一个单词。
 
-| Do this...                                           | ...instead of this                                    |
+| 做这个... | ...而不是这个 |
 | :--------------------------------------------------- | :---------------------------------------------------- |
-| Authenticate Your Users with Tokens | Authenticate your users with tokens | 
-| Real-time Messaging: A Beginner's Guide | Real-Time Messaging: a Beginner's Guide |
+| 使用令牌对您的用户进行身份验证 | 使用令牌对您的用户进行身份验证 |
+| 实时消息传递：新手指南 | 实时消息传递：新手指南 |
 
-In document headings, use sentence case, where you capitalize only the first word, plus any proper nouns (such as names, trademarks, keywords, and other terms that are normally capitalized). You should also capitalize the first word after a colon.
+在文档标题中，使用句子大小写，您只将第一个单词大写，再加上任何专有名词（例如名称、商标、关键字和其他通常大写的术语）。您还应该将冒号后的第一个单词大写。
 
-:::{admonition} Example
-Step one: Generate a builderToken for your users
+:::{警告} 示例
+第一步：为您的用户生成一个 builderToken
 :::
 
-Use the official capitalization for the names of brands, companies, software, products, services, and so on. When in doubt, visit the offical web site of the company.
+对品牌、公司、软件、产品、服务等名称使用官方大写。如有疑问，请访问该公司的官方网站。
 
-:::{admonition} Example
-Copy the Microsoft Word files to your iOS project folder.
+:::{警告} 示例
+将 Microsoft Word 文件复制到您的 iOS 项目文件夹。
 :::
 
-Do not use capitalization for emphasis, as this comes across as shouting to a native English reader. Use italics instead. Note: You should use emphasis sparingly.
+不要使用大写来强调，因为这会给母语为英语的读者大喊大叫。改用斜体。注意：您应该谨慎使用强调。
 
-| Do this...                                           | ...instead of this                                    |
+| 做这个... | ...而不是这个 |
 | :--------------------------------------------------- | :---------------------------------------------------- |
-| Do *not* share your token. | Do NOT share your token. | 
+| *不要*共享您的令牌。 | 不要共享您的令牌。 |
 
-Use sentence case for all of the following:
+对以下所有内容使用句子大小写：
 
-- Image and table captions
-- All other elements of a table, such as headings, labels, and cell contents
-- Items in all types of lists
+- 图像和表格标题
+- 表格的所有其他元素，例如标题、标签和单元格内容
+- 所有类型列表中的项目
 
-When a hyphenated word is capitalized (as the first word in a sentence or heading, for example), capitalize only the first element in the word.  
+当带连字符的单词大写时（例如，作为句子或标题中的第一个单词），仅将单词中的第一个元素大写。
 
-| Do this...                                           | ...instead of this                                    |
+| 做这个... | ...而不是这个 |
 | :--------------------------------------------------- | :---------------------------------------------------- |
-| Real-time multimedia streaming is optional. | Real-Time multimedia streaming is optional. | 
+| 实时多媒体流是可选的。 | 实时多媒体流是可选的。 |
 
-Note that proper nouns in hyphenated words are always capitalized.
+请注意，带连字符的单词中的专有名词始终大写。
 
-### Clause order
+### 条款顺序
 
-**Quick reference:**
-- Provide the context before you provide the information.
-- If a clause has a causal relationship, put the cause first, followed by the effect.
-- Use "that" with restrictive clauses and "which" with non-restrictive clauses.
+**快速参考：**
+- 在提供信息之前提供上下文。
+- 如果一个子句有因果关系，把原因放在第一位，然后是结果。
+- 限制性从句使用“that”，非限制性从句使用“which”。
 _________
 
-Generally speaking, it is helpful to put the most important information at the beginning of a sentence, followed by what the user can do with that information.
+一般来说，将最重要的信息放在句子的开头是有帮助的，然后是用户可以使用该信息做什么。
 
-Provide the context or objective before you provide the information. This allows someone skimming the document to skip that section if it does not apply to their needs.
+在提供信息之前提供背景或目标。这允许浏览文档的人在不适用于他们需要的情况下跳过该部分。
 
-If your sentence describes a cause-and-effect relationship, always put the cause first.
+如果您的句子描述的是因果关系，请始终将原因放在首位。
 
-| Do this...                                               | ...instead of this                                              |
+| 做这个... | ...而不是这个 |
 | :-------------------------------------------------------- | :----------------------------------------------------------- |
-| To obtain a user ID, use the following procedure: | Use the following procedure to obtain a user ID:    |
-| If the operation completes without errors, the system returns a status code of 200. | The system returns a status code of 200 if the operation completes without errors. |
+| 要获取用户 ID，请使用以下过程： | 使用以下过程获取用户 ID： |
+| 如果操作完成且没有错误，系统将返回状态代码 200。 | 如果操作完成且没有错误，系统将返回状态代码 200。 |
 
-#### That vs. which
+#### 那个与哪个
 
-"That" is used to introduce restrictive clauses. A restrictive clause provides information that is crucial to a sentence. For example, "Download the sample project that corresponds to your operating system." If you remove the clause "that corresponds to your operating system," the sentence lacks information that the reader needs (specifying which sample project to download vs. any others). Restrictive clauses are not set off with commas.
+“that”用于引入限制性从句。限制性从句提供对句子至关重要的信息。例如，“下载与您的操作系统对应的示例项目”。如果删除“对应于您的操作系统”的子句，则该句子缺少读者需要的信息（指定要下载的示例项目与任何其他项目）。限制性条款不用逗号隔开。
 
-"Which" is used to introduce non-restrictive clauses. A non-restrictive clause provides information that is useful, but not crucial to a sentence. For example, "Download the sample project, which you can find on GitHub." If you remove the clause "which you can find on GitHub," the sentence still conveys its main point (the directive to "Download the sample project"). Restrictive clauses are set off with commas.
+“Which”用于引入非限制性从句。非限制性从句提供有用但对句子不重要的信息。例如，“下载示例项目，您可以在 GitHub 上找到它。”如果你删除了“你可以在 GitHub 上找到”这个子句，这句话仍然传达了它的要点（“下载示例项目”的指令）。限制性条款以逗号分隔。
 
-### Contractions
+### 宫缩
 
-**Quick reference:**
-- Do not use contractions except in FAQ titles and headers.
+**快速参考：**
+- 除了 FAQ 标题和标题外，不要使用缩写。
 _________
 
-A contraction is a word or phrase that is shortened by dropping one or more letters. Examples include "let's" for "let us" and "can't" for "cannot." While native English readers understand them, they add unnecessary complexity for non-native readers. For example, contractions that end with the letter "s" can be mistaken for possessive nouns. In technical documentation, the use of contractions is discouraged because it sets an informal tone.
+缩写是通过删除一个或多个字母来缩短的单词或短语。示例包括“让我们”代表“让我们”，“不能”代表“不能”。虽然以英语为母语的读者理解它们，但它们为非母语读者增加了不必要的复杂性。例如，以字母“s”结尾的缩写可能会被误认为所有格名词。在技术文档中，不鼓励使用缩略语，因为它定下了一种非正式的语气。
 
-The more conversational nature of an FAQ allows for the use of contractions, but restrict them to titles and headers.
+FAQ 的对话性质允许使用缩写，但仅限于标题和标题。
 
-### Expletives
+### 脏话
 
-**Quick reference:**
-- Avoid using "filler" or unnecessary words or phrases. 
-- Avoid using "please" and "thank you."
+**快速参考：**
+- 避免使用“填充”或不必要的词或短语。
+- 避免使用“请”和“谢谢”。
 _________
 
-Expletives (also called "filler" words or "empty" words) are words or phrases that can add emphasis to a sentence but are normally unnecessary. If a word or phrase can be removed without changing the sentence's meaning, it is probably an expletive. They may creep into writing because they are often heard in conversation. Because technical documentation is more formal, expletives should be used sparingly or avoided altogether.
+咒骂（也称为“填充”词或“空词”）是可以强调句子但通常是不必要的词或短语。如果可以在不改变句子含义的情况下删除一个单词或短语，则它可能是咒骂语。他们可能会悄悄进入写作，因为他们经常在谈话中被听到。由于技术文档更为正式，因此应谨慎使用或完全避免使用脏话。
 
-The most common expletives are "there is/are" and "it is/they are". While these can be used intentionally for emphasis, avoiding them is better. Using them too often also results in boring writing.
+最常见的咒骂是“有/是”和“它是/他们是”。虽然可以有意地使用这些来强调，但最好避免使用它们。经常使用它们也会导致写作乏味。
 
-| Do this...                          | ...instead of this                       |
+| 做这个... | ...而不是这个 |
 | :----------------------------------- | :---------------------------------------- |
-| The live broadcast has 17 hosts. | There are 17 hosts in the live broadcast. |
-| Do not store the key in plaintext.  | It is important not to store the key in plaintext. |
+| 直播有17位主持人。 | 直播中有17位主持人。 |
+| 不要以明文形式存储密钥。 | 重要的是不要以明文形式存储密钥。 |
 
-The following are other expletives to watch out for:
+以下是其他需要注意的脏话：
 
-- Indeed
-- At this time
-- Most
-- Actually
-- Very
-- Perhaps
+- 的确
+- 此时
+- 最多
+- 实际上
+- 非常
+- 也许
 
-Words may become unnecessary in context. For example, you do not need to use "new" after "create," because "new" is implied.
+单词在上下文中可能变得不必要。例如，您不需要在“create”之后使用“new”，因为“new”是隐含的。
 
-| Do this...          | ...instead of this      |
+| 做这个... | ...而不是这个 |
 | :------------------- | :------------------- |
-| Create a folder. | Create a new folder. |
+| 创建一个文件夹。 | 新建一个文件夹。 |
 
-Note: The term "expletives" also commonly refers to swear words, which it could be argued also add unnecessary emphasis to sentences.
+注意：术语“咒骂”通常也指脏话，可以说这也给句子增加了不必要的强调。
 
-#### "Polite" words
+#### “客气”的话
 
-Avoid using the words "please" and "thank you" in technical documentation, because they do not set the proper tone.
+避免在技术文档中使用“请”和“谢谢”等词，因为它们没有设定正确的基调。
 
-| Do this...          | ...instead of this      |
+| 做这个... | ...而不是这个 |
 | :------------------- | :------------------- |
-| Download the sample code. | Please download the sample code. |
+| 下载示例代码。 | 请下载示例代码。 |
 
-### Present tense
+### 现在时
 
-**Quick reference:**
-- Use the present tense in most situations.
-- Use the past tense only for release dates, fixed issues in release notes, or events that were completed a significant period of time in the past.
-- Use the present perfect tense for actions that happened in past and continue into the present. 
-- Avoid the future tense. 
+**快速参考：**
+- 在大多数情况下使用现在时。
+- 仅对发布日期、发布说明中已修复的问题或过去很长一段时间内完成的事件使用过去时。
+- 对过去发生并持续到现在的动作使用现在完成时。
+- 避免将来时态。
 _________
 
-Use the present tense when writing your technical documentation, as it creates concise sentences and provides a tone of immediacy, as if things are occuring sequentially at the moment they are read (and always will). It also conveys a sense of truth or fact. 
+在编写技术文档时使用现在时，因为它可以创建简洁的句子并提供即时的语气，就好像事情在阅读时是按顺序发生的（而且总是如此）。它还传达了一种真实感或事实感。
 
-| Do this...          | ...instead of this      |
+| 做这个... | ...而不是这个 |
 | :------------------- | :------------------- |
-| Click on the Open button. A pop-up window opens. | Once you have clicked on the Open button, a pop-up window will open. |
+| 单击打开按钮。将打开一个弹出窗口。 | 单击“打开”按钮后，将打开一个弹出窗口。 |
 
-#### Exceptions to using the present tense
-The past tense is used for events that have happened definitively in the past and are unlikely to repeat. For Agora technical documenation, this is generally reserved for two situations: release dates and fixed issues.
+#### 使用现在时的例外情况
+过去时用于过去明确发生并且不太可能重复的事件。对于 Agora 技术文档，通常保留两种情况：发布日期和已修复的问题。
 
-Always frame a product's release date in the past tense, as the present tense is only correct on the day of release. 
+始终用过去时来构建产品的发布日期，因为现在时仅在发布当天是正确的。
 
-Fixed issues described in release notes should also be written in the past tense to emphasize that the issues have been addressed.
+发行说明中描述的已修复问题也应使用过去时来强调这些问题已得到解决。
 
-| Do this...          | ...instead of this      |
+| 做这个... | ...而不是这个 |
 | :------------------- | :------------------- |
-| v3.0.0 was released on Mar 4, 2020. | v3.0.0 is released on Mar 4, 2020. |
-| Fixed an issue where disconnecting the microphone caused the audio to freeze. | Fixed an issue where disconnecting the microphone causes the audio to freeze. |
+| v3.0.0 于 2020 年 3 月 4 日发布。 | v3.0.0 于 2020 年 3 月 4 日发布。 |
+| 修复了断开麦克风导致音频冻结的问题。 | 修复了断开麦克风导致音频冻结的问题。 |
 
-Avoid using the future tense if at all possible. In most cases, the present tense works equally well.
+尽可能避免使用将来时。在大多数情况下，现在时同样适用。
 
-| Do this...          | ...instead of this      |
+| 做这个... | ...而不是这个 |
 | :------------------- | :------------------- |
-| The token expires in 24 hours. | The token will expire in 24 hours. |
-| If the network connection is lost, the system attempts to reconnect automatically. | If the network connection is lost, the system will attempt to reconnect automatically. |
+| 令牌将在 24 小时后过期。 | 令牌将在 24 小时后过期。 |
+| 如果网络连接丢失，系统会尝试自动重新连接。 | 如果网络连接丢失，系统将尝试自动重新连接。 |
 
-The present prefect tense is used to emphasize a past event that has consequences that continue into the present. For example, "Before calling this method, ensure that you have integrated the `libagora_segmentation_extension.dll` dynamic library into the project folder." 
+现在完成时用于强调过去的事件，其后果会持续到现在。例如，“调用该方法之前，请确保您已经将`libagora_segmentation_extension.dll`动态库集成到项目文件夹中。”
 
-The corresponding Chinese is 已经. 
+对应的中文是已经。
 
-### Possessives
+### 所有格
 
-**Quick reference:**
-- Do not use possessives with company or product names.
+**快速参考：**
+- 不要在公司或产品名称中使用所有格。
 _________
 
-For singular nouns, add "'s" to the end of the word to form a possessive. 
+对于单数名词，在单词的末尾添加“'s”以形成所有格。
 
-For plural nouns that end in "s" (like most English plurals), add an apostrophe on the end without an additional "s". 
+对于以“s”结尾的复数名词（与大多数英语复数一样），在末尾添加一个撇号而无需额外的“s”。
 
-For plural nouns that do not end in "s", add "'s" to the end of the word. 
+不以“s”结尾的复数名词，在词尾加“'s”。
 
-:::{admonition} Example
-Combine the teacher's video with each of the students' videos on the children's channel.
+:::{警告} 示例
+将教师的视频与儿童频道中每个学生的视频结合起来。
 :::
 
-Do not use a possessive with a product or company name. This is due to matters of trademark, because the "'s" may be mistaken for a part of the name, and because trademarks are often considered adjectives rather than nouns. 
+不要对产品或公司名称使用所有格。这是由于商标问题，因为“'s”可能会被误认为是名称的一部分，而且商标通常被认为是形容词而不是名词。
 
-| Do this...                                           | ...instead of this                                    |
+| 做这个... | ...而不是这个 |
 | :--------------------------------------------------- | :---------------------------------------------------- |
-| The MP4 support of the Media Streaming Server SDK... | The Media Streaming Server SDK's MP4 support... | 
-| Install the latest version of iOS from Apple. (or "of Apple iOS") | Install Apple's latest iOS version   |
-| Output by the Agora server   | Output by Agora's server  |
+| Media Streaming Server SDK 的 MP4 支持... | 媒体流服务器 SDK 的 MP4 支持... |
+| 从 Apple 安装最新版本的 iOS。 （或“Apple iOS”） | 安装 Apple 最新的 iOS 版本 |
+| Agora 服务器输出 | Agora 服务器的输出 |
 
 
-### Second person
+### 第二人称
 
-**Quick reference:**
-- Use the second person when writing technical documentation.
-- If you need to use the third person, use gender-neutral language.
-- Use the imperative mood for task steps.
-- When writing references describing methods, use the third person (what it does) rather than the second person (what a developer would do with it).
-- Use the first person for FAQ questions.
+**快速参考：**
+- 编写技术文档时使用第二人称。
+- 如果您需要使用第三人称，请使用中性语言。
+- 在任务步骤中使用祈使语气。
+- 在编写描述方法的引用时，使用第三人称（它做什么）而不是第二人称（开发人员将用它做什么）。
+- 使用第一人称回答常见问题解答问题。
 
 _________
 
-Using the second person ("you") addresses your text to the reader, which is why it is also called direct address. Second person is more engaging to readers than third person. However, when using the second person you must make sure you are clear who your intended audience is.
+使用第二人称（“您”）向读者介绍您的文本，这就是它也被称为直接地址的原因。第二人称比第三人称更能吸引读者。但是，当使用第二人称时，您必须确保清楚您的目标受众是谁。
 
-Use the second person rather than including yourself by using the first person ("we"). Remember who your audience is and that you are in a different role. In Chinese documents, use "你" instead of "您". 
+使用第二人称而不是使用第一人称（“我们”）来包括你自己。记住你的听众是谁，你扮演的是不同的角色。在中文文件中，用“你”代替“您”。
 
-| Do this...                                          | ...instead of this                           |
+| 做这个... | ...而不是这个 |
 | :--------------------------------------------------- | :---------------------------------------- |
-| You can get an App ID using Agora Console.        | Developers can get an App ID using Agora Console.         |
-| Once in GitHub, you can download the sample project. | Once in GitHub, we can download a sample project. |
+| 你可以通过 Agora 控制台获取 App ID。 | 开发者可以通过 Agora 控制台获取 App ID。 |
+| 进入 GitHub 后，您可以下载示例项目。 | 进入 GitHub 后，我们可以下载示例项目。 |
 
-If you are describing something in the third person, avoid using "his," "her," or "he/she". You can rephrase the sentence, use the singular "they," or refer to the relevant role instead (in singular or plural form). 
+如果您以第三人称描述某事，请避免使用“他的”、“她的”或“他/她”。你可以改写句子，使用单数“they”，或者代之以指代相关角色（单数或复数形式）。
 
-| Do this...                                                  | ...instead of this                                              |
+| 做这个... | ...而不是这个 |
 | :----------------------------------------------------------- | :----------------------------------------------------------- |
-| A user joins a channel and receives the onChannelJoined callback. | Once a user joins a channel, he/she receives the onChannelJoined callback. |
-| When a user joins a channel, they receive the onChannelJoined callback. | Once a user joins a channel, he receives the onChannelJoined callback.  |
-| Users joining a channel receive the onChannelJoined callback.   | Once a user joins a channel, she receives the onChannelJoined callback.   |
+| 用户加入频道，收到 onChannelJoined 回调。 | 用户加入频道后，会收到 onChannelJoined 回调。 |
+| 当用户加入频道时，会收到 onChannelJoined 回调。 | 用户加入频道后，会收到 onChannelJoined 回调。 |
+| 加入频道的用户会收到 onChannelJoined 回调。 | 用户加入频道后，会收到 onChannelJoined 回调。 |
 
-When necessary, given the typical audience for Agora technical documentation, use "a developer" or "developers" to refer to readers in the third person. 
+必要时，考虑到 Agora 技术文档的典型读者，使用“a developer”或“developers”来称呼第三人称的读者。
 
-:::{admonition} Example
-To improve data security, developers can encrypt users' media streams during the real-time engagement.
+:::{警告} 示例
+为了提高数据安全性，开发人员可以在实时参与期间对用户的媒体流进行加密。
 :::
 
-For glossary terms, avoid using any person where possible; otherwise, use "developers."  
+对于词汇表术语，尽可能避免使用任何人；否则，使用“开发人员”。
 
-:::{admonition} Example
-Agora Console
-: Agora Console is a site for developers to manage Agora projects and services.
+:::{警告} 示例
+声网控制台
+: Agora Console 是开发者管理 Agora 项目和服务的站点。
 :::
 
-#### Imperative mood
+#### 祈使语气
 
-The imperative mood is an implied second-person voice that takes the form of a command or request. The imperative mood keeps the content concise and sounds like you are giving instructions. Use the imperative mood when describing steps in a task, as if you were walking someone through the procedure.
+祈使语气是隐含的第二人称语气，以命令或请求的形式出现。命令式语气使内容简洁明了，听起来像是在下达指令。在描述任务中的步骤时使用祈使语气，就好像您正在引导某人完成该过程一样。
 
-| Do this...                                          | ...instead of this                          |
+| 做这个... | ...而不是这个 |
 | :--------------------------------------------------- | :---------------------------------------- |
-| Download the Agora SDK. | The Agora SDK can be downloaded.          |
-| Define your variables in the header file. | You should define your variables in the header file. |
+| 下载声网 SDK。 | Agora SDK 可以下载。 |
+| 在头文件中定义变量。 | 您应该在头文件中定义变量。 |
 
-#### Third person with methods in reference documentation
+#### 参考文档中有方法的第三人称
 
-When writing reference documentation for a method, phrase the main method description in terms of what it does (for example, "gets" or "creates") rather than what a developer would use it to do ("get" or "create). The subject is the method. 
+在为一个方法编写参考文档时，用它做什么（例如，“获取”或“创建”）而不是开发人员将使用它做什么（“获取”或“创建”）来表达主要方法的描述。主题是方法。
 
-#### First person with FAQs
+#### 第一人称常见问题解答
 
-When writing the questions for FAQs (but *not* the answers), use first person, as if someone were asking you the question.
-
-
-:::{admonition} Example
+在写常见问题的问题（而不是答案）时，使用第一人称，就好像有人在问你问题一样。**
 
 
-How do I obtain a temporary token?
+:::{警告} 示例
+
+
+我如何获得临时令牌？
 :::
